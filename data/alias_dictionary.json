@@ -1,0 +1,3054 @@
+{
+  "ENTITY_001": {
+    "canonical_id": "ENTITY_001",
+    "primary_name": "YBa2Cu3O7",
+    "categories": {
+      "formula": [
+        "YBa2Cu3O7",
+        "YBa2Cu3O7-d",
+        "Y1Ba2Cu3O7"
+      ],
+      "reordered_formula": [
+        "Ba2Cu3O7Y",
+        "O7Cu3Ba2Y"
+      ],
+      "iupac_name": [
+        "yttrium barium copper oxide",
+        "yttrium barium cuprate"
+      ],
+      "mineral_name": [
+        "123 cuprate",
+        "123 superconductor"
+      ],
+      "trade_name": [
+        "YBCO",
+        "YBCO-123",
+        "Y-123"
+      ],
+      "registry_id": [
+        "CAS-107539-20-7",
+        "mp-20674"
+      ]
+    }
+  },
+  "ENTITY_002": {
+    "canonical_id": "ENTITY_002",
+    "primary_name": "Bi2Sr2CaCu2O8",
+    "categories": {
+      "formula": [
+        "Bi2Sr2CaCu2O8",
+        "Bi2Sr2CaCu2O8+x",
+        "Bi2.0Sr2.0Ca1.0Cu2.0O8"
+      ],
+      "reordered_formula": [
+        "Bi2CaCu2O8Sr2",
+        "CaCu2Bi2O8Sr2"
+      ],
+      "iupac_name": [
+        "bismuth strontium calcium copper oxide",
+        "bismuth strontium calcium cuprate"
+      ],
+      "mineral_name": [
+        "2212 cuprate",
+        "bismuth-based high Tc phase"
+      ],
+      "trade_name": [
+        "BSCCO-2212",
+        "Bi-2212"
+      ],
+      "registry_id": [
+        "CAS-114101-64-1",
+        "mp-24690"
+      ]
+    }
+  },
+  "ENTITY_003": {
+    "canonical_id": "ENTITY_003",
+    "primary_name": "Bi2Sr2Ca2Cu3O10",
+    "categories": {
+      "formula": [
+        "Bi2Sr2Ca2Cu3O10",
+        "Bi2Sr2Ca2Cu3O10+d"
+      ],
+      "reordered_formula": [
+        "Bi2Ca2Cu3O10Sr2",
+        "Ca2Cu3Bi2O10Sr2"
+      ],
+      "iupac_name": [
+        "bismuth strontium dicalcium tricopper decaoxide",
+        "lead-doped bismuth cuprate"
+      ],
+      "mineral_name": [
+        "2223 cuprate",
+        "high-Tc BSCCO phase"
+      ],
+      "trade_name": [
+        "BSCCO-2223",
+        "Bi-2223"
+      ],
+      "registry_id": [
+        "CAS-115931-15-2",
+        "mp-27800"
+      ]
+    }
+  },
+  "ENTITY_004": {
+    "canonical_id": "ENTITY_004",
+    "primary_name": "MgB2",
+    "categories": {
+      "formula": [
+        "MgB2",
+        "Mg1B2"
+      ],
+      "reordered_formula": [
+        "B2Mg"
+      ],
+      "iupac_name": [
+        "magnesium diboride",
+        "magnesium boride"
+      ],
+      "mineral_name": [
+        "AlB2-type diboride"
+      ],
+      "trade_name": [
+        "MgB2 superconductor"
+      ],
+      "registry_id": [
+        "CAS-12007-25-9",
+        "mp-763"
+      ]
+    }
+  },
+  "ENTITY_005": {
+    "canonical_id": "ENTITY_005",
+    "primary_name": "BaFe2As2",
+    "categories": {
+      "formula": [
+        "BaFe2As2",
+        "Ba1Fe2As2"
+      ],
+      "reordered_formula": [
+        "As2BaFe2",
+        "Fe2As2Ba"
+      ],
+      "iupac_name": [
+        "barium iron arsenide",
+        "barium diiron diarsenide"
+      ],
+      "mineral_name": [
+        "122 pnictide",
+        "iron pnictide parent compound"
+      ],
+      "trade_name": [
+        "Ba-122",
+        "Ba122"
+      ],
+      "registry_id": [
+        "CAS-1104539-74-7",
+        "mp-5120"
+      ]
+    }
+  },
+  "ENTITY_006": {
+    "canonical_id": "ENTITY_006",
+    "primary_name": "FeSe",
+    "categories": {
+      "formula": [
+        "FeSe",
+        "Fe1Se1",
+        "Fe1.01Se"
+      ],
+      "reordered_formula": [
+        "SeFe"
+      ],
+      "iupac_name": [
+        "iron selenide",
+        "iron(II) selenide"
+      ],
+      "mineral_name": [
+        "achavalite",
+        "tetragonal iron chalcogenide"
+      ],
+      "trade_name": [
+        "FeSe-11",
+        "beta-FeSe"
+      ],
+      "registry_id": [
+        "CAS-1310-32-3",
+        "mp-20459"
+      ]
+    }
+  },
+  "ENTITY_007": {
+    "canonical_id": "ENTITY_007",
+    "primary_name": "Nb3Sn",
+    "categories": {
+      "formula": [
+        "Nb3Sn",
+        "Nb3.0Sn1.0"
+      ],
+      "reordered_formula": [
+        "SnNb3"
+      ],
+      "iupac_name": [
+        "triniobium tin",
+        "niobium-tin intermetallic"
+      ],
+      "mineral_name": [
+        "A15 superconductor",
+        "A15 phase"
+      ],
+      "trade_name": [
+        "Nb3Sn bronze",
+        "Nb-Sn wire"
+      ],
+      "registry_id": [
+        "CAS-12035-04-0",
+        "mp-2200"
+      ]
+    }
+  },
+  "ENTITY_008": {
+    "canonical_id": "ENTITY_008",
+    "primary_name": "LaH10",
+    "categories": {
+      "formula": [
+        "LaH10",
+        "La1H10"
+      ],
+      "reordered_formula": [
+        "H10La"
+      ],
+      "iupac_name": [
+        "lanthanum decahydride",
+        "lanthanum superhydride"
+      ],
+      "mineral_name": [
+        "clathrate superhydride",
+        "sodalite-like hydride cage"
+      ],
+      "trade_name": [
+        "LaH10 megabar phase"
+      ],
+      "registry_id": [
+        "CAS-12185-17-4",
+        "mp-1188390"
+      ]
+    }
+  },
+  "ENTITY_009": {
+    "canonical_id": "ENTITY_009",
+    "primary_name": "LiFePO4",
+    "categories": {
+      "formula": [
+        "LiFePO4",
+        "Li1Fe1P1O4"
+      ],
+      "reordered_formula": [
+        "FeLiO4P",
+        "O4PFeLi"
+      ],
+      "iupac_name": [
+        "lithium iron phosphate",
+        "lithium iron(II) phosphate"
+      ],
+      "mineral_name": [
+        "triphylite",
+        "olivine phosphate"
+      ],
+      "trade_name": [
+        "LFP",
+        "LFP cathode",
+        "LifePO4 power cell"
+      ],
+      "registry_id": [
+        "CAS-15365-14-7",
+        "mp-19017"
+      ]
+    }
+  },
+  "ENTITY_010": {
+    "canonical_id": "ENTITY_010",
+    "primary_name": "LiCoO2",
+    "categories": {
+      "formula": [
+        "LiCoO2",
+        "Li1Co1O2"
+      ],
+      "reordered_formula": [
+        "CoLiO2",
+        "O2CoLi"
+      ],
+      "iupac_name": [
+        "lithium cobalt oxide",
+        "lithium cobalt(III) oxide"
+      ],
+      "mineral_name": [
+        "alpha-NaFeO2 structure",
+        "layered cobaltite"
+      ],
+      "trade_name": [
+        "LCO",
+        "LiCoO2 cathode"
+      ],
+      "registry_id": [
+        "CAS-12190-79-3",
+        "mp-22526"
+      ]
+    }
+  },
+  "ENTITY_011": {
+    "canonical_id": "ENTITY_011",
+    "primary_name": "LiNi0.8Mn0.1Co0.1O2",
+    "categories": {
+      "formula": [
+        "LiNi0.8Mn0.1Co0.1O2",
+        "LiNi0.8Co0.1Mn0.1O2"
+      ],
+      "reordered_formula": [
+        "Co0.1LiMn0.1Ni0.8O2"
+      ],
+      "iupac_name": [
+        "lithium nickel manganese cobalt oxide",
+        "high-nickel layered oxide"
+      ],
+      "mineral_name": [
+        "nickel-rich NMC",
+        "R-3m layered ternary oxide"
+      ],
+      "trade_name": [
+        "NMC811",
+        "NCM811",
+        "ternary cathode 811"
+      ],
+      "registry_id": [
+        "CAS-193214-24-3",
+        "mp-1209320"
+      ]
+    }
+  },
+  "ENTITY_012": {
+    "canonical_id": "ENTITY_012",
+    "primary_name": "Li4Ti5O12",
+    "categories": {
+      "formula": [
+        "Li4Ti5O12",
+        "Li4/3Ti5/3O4"
+      ],
+      "reordered_formula": [
+        "Li4O12Ti5",
+        "O12Ti5Li4"
+      ],
+      "iupac_name": [
+        "lithium titanate",
+        "tetralithium pentatitanium dodecaoxide"
+      ],
+      "mineral_name": [
+        "spinel titanate",
+        "zero-strain anode"
+      ],
+      "trade_name": [
+        "LTO",
+        "LTO anode"
+      ],
+      "registry_id": [
+        "CAS-12031-82-8",
+        "mp-3731"
+      ]
+    }
+  },
+  "ENTITY_013": {
+    "canonical_id": "ENTITY_013",
+    "primary_name": "Li7La3Zr2O12",
+    "categories": {
+      "formula": [
+        "Li7La3Zr2O12",
+        "Li7.0La3.0Zr2.0O12"
+      ],
+      "reordered_formula": [
+        "La3Li7O12Zr2"
+      ],
+      "iupac_name": [
+        "lithium lanthanum zirconate",
+        "garnet-type lithium oxide"
+      ],
+      "mineral_name": [
+        "cubic garnet electrolyte",
+        "LLZO garnet"
+      ],
+      "trade_name": [
+        "LLZO",
+        "c-LLZO",
+        "Al-doped LLZO"
+      ],
+      "registry_id": [
+        "CAS-1065346-60-2",
+        "mp-942733"
+      ]
+    }
+  },
+  "ENTITY_014": {
+    "canonical_id": "ENTITY_014",
+    "primary_name": "Na3V2(PO4)3",
+    "categories": {
+      "formula": [
+        "Na3V2(PO4)3",
+        "Na3V2P3O12"
+      ],
+      "reordered_formula": [
+        "Na3O12P3V2"
+      ],
+      "iupac_name": [
+        "sodium vanadium phosphate",
+        "trisodium divanadium triphosphate"
+      ],
+      "mineral_name": [
+        "NASICON cathode",
+        "NASICON structure"
+      ],
+      "trade_name": [
+        "NVP",
+        "NVP/C"
+      ],
+      "registry_id": [
+        "CAS-12588-48-8",
+        "mp-769854"
+      ]
+    }
+  },
+  "ENTITY_015": {
+    "canonical_id": "ENTITY_015",
+    "primary_name": "Li10GeP2S12",
+    "categories": {
+      "formula": [
+        "Li10GeP2S12",
+        "Li10Ge1P2S12"
+      ],
+      "reordered_formula": [
+        "GeLi10P2S12"
+      ],
+      "iupac_name": [
+        "lithium germanium phosphorus sulfide",
+        "thiophosphate superionic conductor"
+      ],
+      "mineral_name": [
+        "LGPS superionic phase"
+      ],
+      "trade_name": [
+        "LGPS",
+        "LGPS solid electrolyte"
+      ],
+      "registry_id": [
+        "CAS-1358941-86-6",
+        "mp-696128"
+      ]
+    }
+  },
+  "ENTITY_016": {
+    "canonical_id": "ENTITY_016",
+    "primary_name": "Li3N",
+    "categories": {
+      "formula": [
+        "Li3N",
+        "Li3N1"
+      ],
+      "reordered_formula": [
+        "NLi3"
+      ],
+      "iupac_name": [
+        "lithium nitride",
+        "trilithium nitride"
+      ],
+      "mineral_name": [
+        "alpha-Li3N hexagonal phase"
+      ],
+      "trade_name": [
+        "Li3N electrolyte",
+        "lithium nitride SEI"
+      ],
+      "registry_id": [
+        "CAS-26134-62-3",
+        "mp-2244"
+      ]
+    }
+  },
+  "ENTITY_017": {
+    "canonical_id": "ENTITY_017",
+    "primary_name": "MoS2",
+    "categories": {
+      "formula": [
+        "MoS2",
+        "Mo1S2"
+      ],
+      "reordered_formula": [
+        "S2Mo"
+      ],
+      "iupac_name": [
+        "molybdenum disulfide",
+        "molybdenum(IV) sulfide"
+      ],
+      "mineral_name": [
+        "molybdenite",
+        "2H-MoS2"
+      ],
+      "trade_name": [
+        "MoS2 monolayer",
+        "moly disulfide",
+        "nano-MoS2"
+      ],
+      "registry_id": [
+        "CAS-1317-33-5",
+        "mp-2815"
+      ]
+    }
+  },
+  "ENTITY_018": {
+    "canonical_id": "ENTITY_018",
+    "primary_name": "WS2",
+    "categories": {
+      "formula": [
+        "WS2",
+        "W1S2"
+      ],
+      "reordered_formula": [
+        "S2W"
+      ],
+      "iupac_name": [
+        "tungsten disulfide",
+        "tungsten(IV) sulfide"
+      ],
+      "mineral_name": [
+        "tungstenite",
+        "2H-WS2"
+      ],
+      "trade_name": [
+        "WS2 monolayer",
+        "tungsten disulfide nanosheets"
+      ],
+      "registry_id": [
+        "CAS-12138-09-9",
+        "mp-224"
+      ]
+    }
+  },
+  "ENTITY_019": {
+    "canonical_id": "ENTITY_019",
+    "primary_name": "MoSe2",
+    "categories": {
+      "formula": [
+        "MoSe2",
+        "Mo1Se2"
+      ],
+      "reordered_formula": [
+        "Se2Mo"
+      ],
+      "iupac_name": [
+        "molybdenum diselenide",
+        "molybdenum(IV) selenide"
+      ],
+      "mineral_name": [
+        "drysdallite",
+        "2H-MoSe2"
+      ],
+      "trade_name": [
+        "MoSe2 monolayer",
+        "molybdenum diselenide flakes"
+      ],
+      "registry_id": [
+        "CAS-12058-18-3",
+        "mp-1634"
+      ]
+    }
+  },
+  "ENTITY_020": {
+    "canonical_id": "ENTITY_020",
+    "primary_name": "WSe2",
+    "categories": {
+      "formula": [
+        "WSe2",
+        "W1Se2"
+      ],
+      "reordered_formula": [
+        "Se2W"
+      ],
+      "iupac_name": [
+        "tungsten diselenide",
+        "tungsten(IV) selenide"
+      ],
+      "mineral_name": [
+        "2H-WSe2 hexagonal phase"
+      ],
+      "trade_name": [
+        "WSe2 monolayer",
+        "p-type 2D semiconductor"
+      ],
+      "registry_id": [
+        "CAS-12067-46-8",
+        "mp-1821"
+      ]
+    }
+  },
+  "ENTITY_021": {
+    "canonical_id": "ENTITY_021",
+    "primary_name": "BN",
+    "categories": {
+      "formula": [
+        "BN",
+        "B1N1",
+        "h-BN"
+      ],
+      "reordered_formula": [
+        "NB"
+      ],
+      "iupac_name": [
+        "boron nitride",
+        "hexagonal boron nitride"
+      ],
+      "mineral_name": [
+        "white graphene",
+        "hexagonal boron nitride"
+      ],
+      "trade_name": [
+        "hBN",
+        "h-BN substrate",
+        "2D dielectric BN"
+      ],
+      "registry_id": [
+        "CAS-10043-11-5",
+        "mp-999"
+      ]
+    }
+  },
+  "ENTITY_022": {
+    "canonical_id": "ENTITY_022",
+    "primary_name": "Ti3C2Tx",
+    "categories": {
+      "formula": [
+        "Ti3C2Tx",
+        "Ti3C2O2",
+        "Ti3C2F2"
+      ],
+      "reordered_formula": [
+        "C2Ti3Tx"
+      ],
+      "iupac_name": [
+        "titanium carbide MXene",
+        "two-dimensional titanium carbide"
+      ],
+      "mineral_name": [
+        "MAX phase derivative MXene"
+      ],
+      "trade_name": [
+        "Ti3C2 MXene",
+        "Ti3C2Tx film",
+        "etched MXene"
+      ],
+      "registry_id": [
+        "CAS-12363-91-8",
+        "mp-1094123"
+      ]
+    }
+  },
+  "ENTITY_023": {
+    "canonical_id": "ENTITY_023",
+    "primary_name": "CrI3",
+    "categories": {
+      "formula": [
+        "CrI3",
+        "Cr1I3"
+      ],
+      "reordered_formula": [
+        "I3Cr"
+      ],
+      "iupac_name": [
+        "chromium triiodide",
+        "chromium(III) iodide"
+      ],
+      "mineral_name": [
+        "van der Waals ferromagnet",
+        "rhombohedral CrI3"
+      ],
+      "trade_name": [
+        "CrI3 monolayer",
+        "2D magnetic insulator"
+      ],
+      "registry_id": [
+        "CAS-13569-75-0",
+        "mp-23214"
+      ]
+    }
+  },
+  "ENTITY_024": {
+    "canonical_id": "ENTITY_024",
+    "primary_name": "PtSe2",
+    "categories": {
+      "formula": [
+        "PtSe2",
+        "Pt1Se2"
+      ],
+      "reordered_formula": [
+        "Se2Pt"
+      ],
+      "iupac_name": [
+        "platinum diselenide",
+        "platinum(IV) selenide"
+      ],
+      "mineral_name": [
+        "sudovikovite",
+        "1T-PtSe2"
+      ],
+      "trade_name": [
+        "PtSe2 thin film",
+        "noble metal dichalcogenide"
+      ],
+      "registry_id": [
+        "CAS-12038-21-0",
+        "mp-2900"
+      ]
+    }
+  },
+  "ENTITY_025": {
+    "canonical_id": "ENTITY_025",
+    "primary_name": "CH3NH3PbI3",
+    "categories": {
+      "formula": [
+        "CH3NH3PbI3",
+        "CH5NPbI3",
+        "(CH3NH3)PbI3"
+      ],
+      "reordered_formula": [
+        "CH6I3NPb",
+        "CH5I3NPb"
+      ],
+      "iupac_name": [
+        "methylammonium lead iodide",
+        "methylammonium triiodoplumbate"
+      ],
+      "mineral_name": [
+        "hybrid organic-inorganic perovskite",
+        "lead halide perovskite"
+      ],
+      "trade_name": [
+        "MAPbI3",
+        "MA-PbI3",
+        "MAPI"
+      ],
+      "registry_id": [
+        "CAS-171860-35-8",
+        "mp-632250"
+      ]
+    }
+  },
+  "ENTITY_026": {
+    "canonical_id": "ENTITY_026",
+    "primary_name": "HC(NH2)2PbI3",
+    "categories": {
+      "formula": [
+        "HC(NH2)2PbI3",
+        "CH5N2PbI3",
+        "FAPbI3"
+      ],
+      "reordered_formula": [
+        "CH5I3N2Pb"
+      ],
+      "iupac_name": [
+        "formamidinium lead iodide",
+        "formamidinium triiodoplumbate"
+      ],
+      "mineral_name": [
+        "black alpha-phase perovskite",
+        "FA lead iodide"
+      ],
+      "trade_name": [
+        "FAPbI3",
+        "FA-PbI3",
+        "alpha-FAPbI3"
+      ],
+      "registry_id": [
+        "CAS-1416997-64-8",
+        "mp-1014210"
+      ]
+    }
+  },
+  "ENTITY_027": {
+    "canonical_id": "ENTITY_027",
+    "primary_name": "CsPbI3",
+    "categories": {
+      "formula": [
+        "CsPbI3",
+        "Cs1Pb1I3"
+      ],
+      "reordered_formula": [
+        "I3CsPb",
+        "CsI3Pb"
+      ],
+      "iupac_name": [
+        "cesium lead iodide",
+        "cesium triiodoplumbate"
+      ],
+      "mineral_name": [
+        "all-inorganic perovskite",
+        "black gamma-CsPbI3"
+      ],
+      "trade_name": [
+        "CsPbI3",
+        "inorganic perovskite QD"
+      ],
+      "registry_id": [
+        "CAS-15201-13-5",
+        "mp-23201"
+      ]
+    }
+  },
+  "ENTITY_028": {
+    "canonical_id": "ENTITY_028",
+    "primary_name": "CsPbBr3",
+    "categories": {
+      "formula": [
+        "CsPbBr3",
+        "Cs1Pb1Br3"
+      ],
+      "reordered_formula": [
+        "Br3CsPb"
+      ],
+      "iupac_name": [
+        "cesium lead bromide",
+        "cesium tribromoplumbate"
+      ],
+      "mineral_name": [
+        "all-inorganic bromide perovskite"
+      ],
+      "trade_name": [
+        "CsPbBr3",
+        "green perovskite quantum dots"
+      ],
+      "registry_id": [
+        "CAS-15243-48-8",
+        "mp-23202"
+      ]
+    }
+  },
+  "ENTITY_029": {
+    "canonical_id": "ENTITY_029",
+    "primary_name": "Cs2AgBiBr6",
+    "categories": {
+      "formula": [
+        "Cs2AgBiBr6",
+        "Cs2Ag1Bi1Br6"
+      ],
+      "reordered_formula": [
+        "AgBiBr6Cs2"
+      ],
+      "iupac_name": [
+        "dicesium silver bismuth hexabromide",
+        "lead-free double perovskite"
+      ],
+      "mineral_name": [
+        "elpasolite halide double perovskite"
+      ],
+      "trade_name": [
+        "Cs2AgBiBr6",
+        "nontoxic double perovskite"
+      ],
+      "registry_id": [
+        "CAS-2088824-34-6",
+        "mp-1077721"
+      ]
+    }
+  },
+  "ENTITY_030": {
+    "canonical_id": "ENTITY_030",
+    "primary_name": "BaTiO3",
+    "categories": {
+      "formula": [
+        "BaTiO3",
+        "Ba1Ti1O3"
+      ],
+      "reordered_formula": [
+        "BaO3Ti",
+        "O3BaTi"
+      ],
+      "iupac_name": [
+        "barium titanate",
+        "barium titanium(IV) oxide"
+      ],
+      "mineral_name": [
+        "barium titanate mineral",
+        "perovskite titanate"
+      ],
+      "trade_name": [
+        "BTO",
+        "piezoelectric BTO"
+      ],
+      "registry_id": [
+        "CAS-12047-27-7",
+        "mp-2998"
+      ]
+    }
+  },
+  "ENTITY_031": {
+    "canonical_id": "ENTITY_031",
+    "primary_name": "SrTiO3",
+    "categories": {
+      "formula": [
+        "SrTiO3",
+        "Sr1Ti1O3"
+      ],
+      "reordered_formula": [
+        "O3SrTi",
+        "SrO3Ti"
+      ],
+      "iupac_name": [
+        "strontium titanate",
+        "strontium titanium trioxide"
+      ],
+      "mineral_name": [
+        "tausonite",
+        "cubic perovskite standard"
+      ],
+      "trade_name": [
+        "STO",
+        "STO substrate"
+      ],
+      "registry_id": [
+        "CAS-12060-59-2",
+        "mp-5229"
+      ]
+    }
+  },
+  "ENTITY_032": {
+    "canonical_id": "ENTITY_032",
+    "primary_name": "PbZr0.52Ti0.48O3",
+    "categories": {
+      "formula": [
+        "PbZr0.52Ti0.48O3",
+        "Pb(Zr,Ti)O3",
+        "PbZrTiO3"
+      ],
+      "reordered_formula": [
+        "O3PbTi0.48Zr0.52"
+      ],
+      "iupac_name": [
+        "lead zirconate titanate",
+        "lead zirconium titanium oxide"
+      ],
+      "mineral_name": [
+        "morphotropic phase boundary PZT"
+      ],
+      "trade_name": [
+        "PZT",
+        "PZT-5H",
+        "piezoceramic PZT"
+      ],
+      "registry_id": [
+        "CAS-234372-43-7",
+        "mp-22899"
+      ]
+    }
+  },
+  "ENTITY_033": {
+    "canonical_id": "ENTITY_033",
+    "primary_name": "Bi2Te3",
+    "categories": {
+      "formula": [
+        "Bi2Te3",
+        "Bi2.0Te3.0"
+      ],
+      "reordered_formula": [
+        "Bi2Te3",
+        "Te3Bi2"
+      ],
+      "iupac_name": [
+        "bismuth telluride",
+        "bismuth(III) telluride"
+      ],
+      "mineral_name": [
+        "tellurobismuthite",
+        "tetradymite-type chalcogenide"
+      ],
+      "trade_name": [
+        "Bi2Te3 alloy",
+        "p-Bi2Te3"
+      ],
+      "registry_id": [
+        "CAS-1304-82-1",
+        "mp-34202"
+      ]
+    }
+  },
+  "ENTITY_034": {
+    "canonical_id": "ENTITY_034",
+    "primary_name": "Sb2Te3",
+    "categories": {
+      "formula": [
+        "Sb2Te3",
+        "Sb2.0Te3.0"
+      ],
+      "reordered_formula": [
+        "Sb2Te3",
+        "Te3Sb2"
+      ],
+      "iupac_name": [
+        "antimony telluride",
+        "antimony(III) telluride"
+      ],
+      "mineral_name": [
+        "telluroantimony",
+        "tetradymite phase"
+      ],
+      "trade_name": [
+        "p-type Sb2Te3",
+        "Sb2Te3 topological film"
+      ],
+      "registry_id": [
+        "CAS-1327-50-0",
+        "mp-1204"
+      ]
+    }
+  },
+  "ENTITY_035": {
+    "canonical_id": "ENTITY_035",
+    "primary_name": "Bi2Se3",
+    "categories": {
+      "formula": [
+        "Bi2Se3",
+        "Bi2.0Se3.0"
+      ],
+      "reordered_formula": [
+        "Bi2Se3",
+        "Se3Bi2"
+      ],
+      "iupac_name": [
+        "bismuth selenide",
+        "bismuth(III) selenide"
+      ],
+      "mineral_name": [
+        "guanajuatite",
+        "rhombohedral selenide"
+      ],
+      "trade_name": [
+        "Bi2Se3 crystal",
+        "Bi2Se3 3D topological insulator"
+      ],
+      "registry_id": [
+        "CAS-12068-69-8",
+        "mp-541837"
+      ]
+    }
+  },
+  "ENTITY_036": {
+    "canonical_id": "ENTITY_036",
+    "primary_name": "SnSe",
+    "categories": {
+      "formula": [
+        "SnSe",
+        "Sn1Se1"
+      ],
+      "reordered_formula": [
+        "SeSn"
+      ],
+      "iupac_name": [
+        "tin selenide",
+        "tin(II) selenide"
+      ],
+      "mineral_name": [
+        "herzenbergite",
+        "orthorhombic Pnma selenide"
+      ],
+      "trade_name": [
+        "SnSe single crystal",
+        "ultra-low thermal conductivity SnSe"
+      ],
+      "registry_id": [
+        "CAS-1315-06-6",
+        "mp-879"
+      ]
+    }
+  },
+  "ENTITY_037": {
+    "canonical_id": "ENTITY_037",
+    "primary_name": "CoSb3",
+    "categories": {
+      "formula": [
+        "CoSb3",
+        "Co1Sb3"
+      ],
+      "reordered_formula": [
+        "CoSb3",
+        "Sb3Co"
+      ],
+      "iupac_name": [
+        "cobalt antimonide",
+        "cobalt triantimonide"
+      ],
+      "mineral_name": [
+        "skutterudite",
+        "binary skutterudite"
+      ],
+      "trade_name": [
+        "CoSb3",
+        "filled skutterudite host"
+      ],
+      "registry_id": [
+        "CAS-12052-42-5",
+        "mp-1299"
+      ]
+    }
+  },
+  "ENTITY_038": {
+    "canonical_id": "ENTITY_038",
+    "primary_name": "PbTe",
+    "categories": {
+      "formula": [
+        "PbTe",
+        "Pb1Te1"
+      ],
+      "reordered_formula": [
+        "PbTe",
+        "TePb"
+      ],
+      "iupac_name": [
+        "lead telluride",
+        "lead(II) telluride"
+      ],
+      "mineral_name": [
+        "altaite",
+        "rocksalt chalcogenide"
+      ],
+      "trade_name": [
+        "PbTe alloy",
+        "sodium-doped PbTe"
+      ],
+      "registry_id": [
+        "CAS-1314-91-6",
+        "mp-1979"
+      ]
+    }
+  },
+  "ENTITY_039": {
+    "canonical_id": "ENTITY_039",
+    "primary_name": "GeTe",
+    "categories": {
+      "formula": [
+        "GeTe",
+        "Ge1Te1"
+      ],
+      "reordered_formula": [
+        "GeTe",
+        "TeGe"
+      ],
+      "iupac_name": [
+        "germanium telluride",
+        "germanium(II) telluride"
+      ],
+      "mineral_name": [
+        "rhombohedral telluride",
+        "ferroelectric Rashba semiconductor"
+      ],
+      "trade_name": [
+        "GeTe phase change",
+        "doped GeTe"
+      ],
+      "registry_id": [
+        "CAS-12025-39-7",
+        "mp-938"
+      ]
+    }
+  },
+  "ENTITY_040": {
+    "canonical_id": "ENTITY_040",
+    "primary_name": "Cu2Se",
+    "categories": {
+      "formula": [
+        "Cu2Se",
+        "Cu2.0Se1.0"
+      ],
+      "reordered_formula": [
+        "Cu2Se",
+        "SeCu2"
+      ],
+      "iupac_name": [
+        "copper selenide",
+        "dicopper selenide"
+      ],
+      "mineral_name": [
+        "berzelianite",
+        "liquid-like superionic conductor"
+      ],
+      "trade_name": [
+        "Cu2Se",
+        "liquid-like thermoelectric"
+      ],
+      "registry_id": [
+        "CAS-20405-64-5",
+        "mp-1967"
+      ]
+    }
+  },
+  "ENTITY_041": {
+    "canonical_id": "ENTITY_041",
+    "primary_name": "TiO2",
+    "categories": {
+      "formula": [
+        "TiO2",
+        "Ti1O2"
+      ],
+      "reordered_formula": [
+        "O2Ti",
+        "TiO2"
+      ],
+      "iupac_name": [
+        "titanium dioxide",
+        "titanium(IV) oxide"
+      ],
+      "mineral_name": [
+        "anatase",
+        "rutile",
+        "brookite"
+      ],
+      "trade_name": [
+        "titania",
+        "P25 TiO2",
+        "Degussa P25"
+      ],
+      "registry_id": [
+        "CAS-13463-67-7",
+        "mp-2657"
+      ]
+    }
+  },
+  "ENTITY_042": {
+    "canonical_id": "ENTITY_042",
+    "primary_name": "Co3O4",
+    "categories": {
+      "formula": [
+        "Co3O4",
+        "Co3.0O4.0"
+      ],
+      "reordered_formula": [
+        "Co3O4",
+        "O4Co3"
+      ],
+      "iupac_name": [
+        "cobalt oxide",
+        "tricobalt tetraoxide"
+      ],
+      "mineral_name": [
+        "cobalt spinel",
+        "normal spinel oxide"
+      ],
+      "trade_name": [
+        "Co3O4 spinel",
+        "Co3O4 OER catalyst"
+      ],
+      "registry_id": [
+        "CAS-1308-06-1",
+        "mp-18748"
+      ]
+    }
+  },
+  "ENTITY_043": {
+    "canonical_id": "ENTITY_043",
+    "primary_name": "CeO2",
+    "categories": {
+      "formula": [
+        "CeO2",
+        "Ce1O2"
+      ],
+      "reordered_formula": [
+        "CeO2",
+        "O2Ce"
+      ],
+      "iupac_name": [
+        "cerium dioxide",
+        "cerium(IV) oxide"
+      ],
+      "mineral_name": [
+        "cerianite",
+        "fluorite-type ceria"
+      ],
+      "trade_name": [
+        "ceria",
+        "ceria nanoparticles",
+        "CeO2 support"
+      ],
+      "registry_id": [
+        "CAS-1306-38-3",
+        "mp-20194"
+      ]
+    }
+  },
+  "ENTITY_044": {
+    "canonical_id": "ENTITY_044",
+    "primary_name": "g-C3N4",
+    "categories": {
+      "formula": [
+        "g-C3N4",
+        "C3N4"
+      ],
+      "reordered_formula": [
+        "C3N4",
+        "N4C3"
+      ],
+      "iupac_name": [
+        "graphitic carbon nitride",
+        "tri-s-triazine polymer"
+      ],
+      "mineral_name": [
+        "metal-free 2D polymeric photocatalyst"
+      ],
+      "trade_name": [
+        "g-C3N4",
+        "graphitic carbon nitride sheets"
+      ],
+      "registry_id": [
+        "CAS-12033-22-6",
+        "mp-754320"
+      ]
+    }
+  },
+  "ENTITY_045": {
+    "canonical_id": "ENTITY_045",
+    "primary_name": "WO3",
+    "categories": {
+      "formula": [
+        "WO3",
+        "W1O3"
+      ],
+      "reordered_formula": [
+        "O3W",
+        "WO3"
+      ],
+      "iupac_name": [
+        "tungsten trioxide",
+        "tungsten(VI) oxide"
+      ],
+      "mineral_name": [
+        "tungstite",
+        "monoclinic tungsten oxide"
+      ],
+      "trade_name": [
+        "WO3 photoanode",
+        "electrochromic WO3"
+      ],
+      "registry_id": [
+        "CAS-1314-35-8",
+        "mp-18773"
+      ]
+    }
+  },
+  "ENTITY_046": {
+    "canonical_id": "ENTITY_046",
+    "primary_name": "Pt/C",
+    "categories": {
+      "formula": [
+        "Pt/C",
+        "Pt",
+        "Pt1"
+      ],
+      "reordered_formula": [
+        "CPt",
+        "PtC"
+      ],
+      "iupac_name": [
+        "platinum on carbon",
+        "carbon-supported platinum nanoparticles"
+      ],
+      "mineral_name": [
+        "native platinum on Vulcan carbon"
+      ],
+      "trade_name": [
+        "20% Pt/C",
+        "HiSPEC Pt/C",
+        "Johnson Matthey Pt/C"
+      ],
+      "registry_id": [
+        "CAS-7440-06-4",
+        "mp-126"
+      ]
+    }
+  },
+  "ENTITY_047": {
+    "canonical_id": "ENTITY_047",
+    "primary_name": "MOF-5",
+    "categories": {
+      "formula": [
+        "Zn4O(BDC)3",
+        "Zn4O(C8H4O4)3",
+        "Zn4C24H12O13"
+      ],
+      "reordered_formula": [
+        "C24H12O13Zn4"
+      ],
+      "iupac_name": [
+        "tetrazinc mu4-oxo 1,4-benzenedicarboxylate",
+        "zinc terephthalate framework"
+      ],
+      "mineral_name": [
+        "isoreticular metal-organic framework 1"
+      ],
+      "trade_name": [
+        "MOF-5",
+        "IRMOF-1"
+      ],
+      "registry_id": [
+        "CAS-225701-20-4",
+        "mp-1094001"
+      ]
+    }
+  },
+  "ENTITY_048": {
+    "canonical_id": "ENTITY_048",
+    "primary_name": "HKUST-1",
+    "categories": {
+      "formula": [
+        "Cu3(BTC)2",
+        "Cu3(C9H3O6)2",
+        "Cu3C18H6O12"
+      ],
+      "reordered_formula": [
+        "C18H6Cu3O12"
+      ],
+      "iupac_name": [
+        "tricopper bis(1,3,5-benzenetricarboxylate)",
+        "copper benzene-1,3,5-tricarboxylate"
+      ],
+      "mineral_name": [
+        "paddlewheel copper MOF"
+      ],
+      "trade_name": [
+        "HKUST-1",
+        "MOF-199",
+        "Basolite C300"
+      ],
+      "registry_id": [
+        "CAS-222409-25-6",
+        "mp-1094002"
+      ]
+    }
+  },
+  "ENTITY_049": {
+    "canonical_id": "ENTITY_049",
+    "primary_name": "UiO-66",
+    "categories": {
+      "formula": [
+        "Zr6O4(OH)4(BDC)6",
+        "Zr6O4(OH)4(C8H4O4)6",
+        "Zr6C48H28O32"
+      ],
+      "reordered_formula": [
+        "C48H28O32Zr6"
+      ],
+      "iupac_name": [
+        "hexazirconium oxohydroxo terephthalate",
+        "zirconium 1,4-dicarboxylate MOF"
+      ],
+      "mineral_name": [
+        "fcu topology zirconium framework"
+      ],
+      "trade_name": [
+        "UiO-66",
+        "UiO-66-Zr"
+      ],
+      "registry_id": [
+        "CAS-1072413-89-8",
+        "mp-1094003"
+      ]
+    }
+  },
+  "ENTITY_050": {
+    "canonical_id": "ENTITY_050",
+    "primary_name": "ZIF-8",
+    "categories": {
+      "formula": [
+        "Zn(MeIM)2",
+        "Zn(C4H5N2)2",
+        "ZnC8H10N4"
+      ],
+      "reordered_formula": [
+        "C8H10N4Zn"
+      ],
+      "iupac_name": [
+        "zinc 2-methylimidazolate",
+        "zinc bis(2-methylimidazolate)"
+      ],
+      "mineral_name": [
+        "sodalite-type zeolitic imidazolate framework"
+      ],
+      "trade_name": [
+        "ZIF-8",
+        "Basolite Z1200"
+      ],
+      "registry_id": [
+        "CAS-59061-53-9",
+        "mp-1094004"
+      ]
+    }
+  },
+  "ENTITY_051": {
+    "canonical_id": "ENTITY_051",
+    "primary_name": "ZSM-5",
+    "categories": {
+      "formula": [
+        "NanAlnSi96-nO192",
+        "Al-Si-O zeolite",
+        "H-ZSM-5"
+      ],
+      "reordered_formula": [
+        "AlSi95O192"
+      ],
+      "iupac_name": [
+        "aluminosilicate MFI zeolite",
+        "zeolite socony mobil-5"
+      ],
+      "mineral_name": [
+        "MFI topology zeolite"
+      ],
+      "trade_name": [
+        "ZSM-5",
+        "HZSM-5 catalyst",
+        "MFI molecular sieve"
+      ],
+      "registry_id": [
+        "CAS-58339-99-4",
+        "mp-1094005"
+      ]
+    }
+  },
+  "ENTITY_052": {
+    "canonical_id": "ENTITY_052",
+    "primary_name": "CrMnFeCoNi",
+    "categories": {
+      "formula": [
+        "CrMnFeCoNi",
+        "Cr20Mn20Fe20Co20Ni20"
+      ],
+      "reordered_formula": [
+        "CoCrFeMnNi"
+      ],
+      "iupac_name": [
+        "equiatomic chromium manganese iron cobalt nickel alloy",
+        "five-element multi-principal component alloy"
+      ],
+      "mineral_name": [
+        "fcc high-entropy alloy solid solution"
+      ],
+      "trade_name": [
+        "Cantor alloy",
+        "equiatomic HEA"
+      ],
+      "registry_id": [
+        "CAS-2139414-23-2",
+        "mp-1184001"
+      ]
+    }
+  },
+  "ENTITY_053": {
+    "canonical_id": "ENTITY_053",
+    "primary_name": "Zr0.84Y0.16O1.92",
+    "categories": {
+      "formula": [
+        "Zr0.84Y0.16O1.92",
+        "ZrO2-8mol%Y2O3",
+        "(ZrO2)0.92(Y2O3)0.08"
+      ],
+      "reordered_formula": [
+        "O1.92Y0.16Zr0.84"
+      ],
+      "iupac_name": [
+        "yttria-stabilized zirconia",
+        "yttrium-doped zirconium dioxide"
+      ],
+      "mineral_name": [
+        "cubic stabilized zirconia"
+      ],
+      "trade_name": [
+        "8YSZ",
+        "YSZ electrolyte",
+        "YSZ thermal barrier"
+      ],
+      "registry_id": [
+        "CAS-114168-16-0",
+        "mp-1094006"
+      ]
+    }
+  },
+  "ENTITY_054": {
+    "canonical_id": "ENTITY_054",
+    "primary_name": "SiC",
+    "categories": {
+      "formula": [
+        "SiC",
+        "Si1C1"
+      ],
+      "reordered_formula": [
+        "CSi"
+      ],
+      "iupac_name": [
+        "silicon carbide",
+        "silicon monocarbide"
+      ],
+      "mineral_name": [
+        "moissanite",
+        "4H-SiC polytype",
+        "6H-SiC"
+      ],
+      "trade_name": [
+        "carborundum",
+        "4H-SiC power wafer"
+      ],
+      "registry_id": [
+        "CAS-409-21-2",
+        "mp-804"
+      ]
+    }
+  },
+  "ENTITY_055": {
+    "canonical_id": "ENTITY_055",
+    "primary_name": "GaN",
+    "categories": {
+      "formula": [
+        "GaN",
+        "Ga1N1"
+      ],
+      "reordered_formula": [
+        "NGa"
+      ],
+      "iupac_name": [
+        "gallium nitride",
+        "gallium(III) nitride"
+      ],
+      "mineral_name": [
+        "wurtzite gallium nitride"
+      ],
+      "trade_name": [
+        "GaN HEMT",
+        "GaN optoelectronic wafer"
+      ],
+      "registry_id": [
+        "CAS-25617-97-4",
+        "mp-804"
+      ]
+    }
+  },
+  "ENTITY_056": {
+    "canonical_id": "ENTITY_056",
+    "primary_name": "AlN",
+    "categories": {
+      "formula": [
+        "AlN",
+        "Al1N1"
+      ],
+      "reordered_formula": [
+        "NAl"
+      ],
+      "iupac_name": [
+        "aluminium nitride",
+        "aluminum(III) nitride"
+      ],
+      "mineral_name": [
+        "wurtzite aluminium nitride"
+      ],
+      "trade_name": [
+        "AlN ceramic substrate",
+        "AlN heat sink"
+      ],
+      "registry_id": [
+        "CAS-24304-00-5",
+        "mp-661"
+      ]
+    }
+  },
+  "ENTITY_057": {
+    "canonical_id": "ENTITY_057",
+    "primary_name": "NaFePO4",
+    "categories": {
+      "formula": [
+        "NaFePO4",
+        "NaFePO4-sub"
+      ],
+      "reordered_formula": [
+        "4OPeFaN"
+      ],
+      "iupac_name": [
+        "synthetic NaFePO4 compound",
+        "polycrystalline NaFePO4"
+      ],
+      "mineral_name": [
+        "nafepo4 crystal",
+        "phase-057"
+      ],
+      "trade_name": [
+        "NaFePO4-alloy",
+        "Mat-57"
+      ],
+      "registry_id": [
+        "CAS-99057-10",
+        "mp-10057"
+      ]
+    }
+  },
+  "ENTITY_058": {
+    "canonical_id": "ENTITY_058",
+    "primary_name": "SnO2",
+    "categories": {
+      "formula": [
+        "SnO2",
+        "SnO2-sub"
+      ],
+      "reordered_formula": [
+        "2OnS"
+      ],
+      "iupac_name": [
+        "synthetic SnO2 compound",
+        "polycrystalline SnO2"
+      ],
+      "mineral_name": [
+        "sno2 crystal",
+        "phase-058"
+      ],
+      "trade_name": [
+        "SnO2-alloy",
+        "Mat-58"
+      ],
+      "registry_id": [
+        "CAS-99058-10",
+        "mp-10058"
+      ]
+    }
+  },
+  "ENTITY_059": {
+    "canonical_id": "ENTITY_059",
+    "primary_name": "ZnO",
+    "categories": {
+      "formula": [
+        "ZnO",
+        "ZnO-sub"
+      ],
+      "reordered_formula": [
+        "OnZ"
+      ],
+      "iupac_name": [
+        "synthetic ZnO compound",
+        "polycrystalline ZnO"
+      ],
+      "mineral_name": [
+        "zno crystal",
+        "phase-059"
+      ],
+      "trade_name": [
+        "ZnO-alloy",
+        "Mat-59"
+      ],
+      "registry_id": [
+        "CAS-99059-10",
+        "mp-10059"
+      ]
+    }
+  },
+  "ENTITY_060": {
+    "canonical_id": "ENTITY_060",
+    "primary_name": "LaSrMnO3",
+    "categories": {
+      "formula": [
+        "LaSrMnO3",
+        "LaSrMnO3-sub"
+      ],
+      "reordered_formula": [
+        "3OnMrSaL"
+      ],
+      "iupac_name": [
+        "synthetic LaSrMnO3 compound",
+        "polycrystalline LaSrMnO3"
+      ],
+      "mineral_name": [
+        "lasrmno3 crystal",
+        "phase-060"
+      ],
+      "trade_name": [
+        "LaSrMnO3-alloy",
+        "Mat-60"
+      ],
+      "registry_id": [
+        "CAS-99060-10",
+        "mp-10060"
+      ]
+    }
+  },
+  "ENTITY_061": {
+    "canonical_id": "ENTITY_061",
+    "primary_name": "NdFeB",
+    "categories": {
+      "formula": [
+        "NdFeB",
+        "NdFeB-sub"
+      ],
+      "reordered_formula": [
+        "BeFdN"
+      ],
+      "iupac_name": [
+        "synthetic NdFeB compound",
+        "polycrystalline NdFeB"
+      ],
+      "mineral_name": [
+        "ndfeb crystal",
+        "phase-061"
+      ],
+      "trade_name": [
+        "NdFeB-alloy",
+        "Mat-61"
+      ],
+      "registry_id": [
+        "CAS-99061-10",
+        "mp-10061"
+      ]
+    }
+  },
+  "ENTITY_062": {
+    "canonical_id": "ENTITY_062",
+    "primary_name": "SmCo5",
+    "categories": {
+      "formula": [
+        "SmCo5",
+        "SmCo5-sub"
+      ],
+      "reordered_formula": [
+        "5oCmS"
+      ],
+      "iupac_name": [
+        "synthetic SmCo5 compound",
+        "polycrystalline SmCo5"
+      ],
+      "mineral_name": [
+        "smco5 crystal",
+        "phase-062"
+      ],
+      "trade_name": [
+        "SmCo5-alloy",
+        "Mat-62"
+      ],
+      "registry_id": [
+        "CAS-99062-10",
+        "mp-10062"
+      ]
+    }
+  },
+  "ENTITY_063": {
+    "canonical_id": "ENTITY_063",
+    "primary_name": "CuInGaSe2",
+    "categories": {
+      "formula": [
+        "CuInGaSe2",
+        "CuInGaSe2-sub"
+      ],
+      "reordered_formula": [
+        "2eSaGnIuC"
+      ],
+      "iupac_name": [
+        "synthetic CuInGaSe2 compound",
+        "polycrystalline CuInGaSe2"
+      ],
+      "mineral_name": [
+        "cuingase2 crystal",
+        "phase-063"
+      ],
+      "trade_name": [
+        "CuInGaSe2-alloy",
+        "Mat-63"
+      ],
+      "registry_id": [
+        "CAS-99063-10",
+        "mp-10063"
+      ]
+    }
+  },
+  "ENTITY_064": {
+    "canonical_id": "ENTITY_064",
+    "primary_name": "CdTe",
+    "categories": {
+      "formula": [
+        "CdTe",
+        "CdTe-sub"
+      ],
+      "reordered_formula": [
+        "eTdC"
+      ],
+      "iupac_name": [
+        "synthetic CdTe compound",
+        "polycrystalline CdTe"
+      ],
+      "mineral_name": [
+        "cdte crystal",
+        "phase-064"
+      ],
+      "trade_name": [
+        "CdTe-alloy",
+        "Mat-64"
+      ],
+      "registry_id": [
+        "CAS-99064-10",
+        "mp-10064"
+      ]
+    }
+  },
+  "ENTITY_065": {
+    "canonical_id": "ENTITY_065",
+    "primary_name": "GaAs",
+    "categories": {
+      "formula": [
+        "GaAs",
+        "GaAs-sub"
+      ],
+      "reordered_formula": [
+        "sAaG"
+      ],
+      "iupac_name": [
+        "synthetic GaAs compound",
+        "polycrystalline GaAs"
+      ],
+      "mineral_name": [
+        "gaas crystal",
+        "phase-065"
+      ],
+      "trade_name": [
+        "GaAs-alloy",
+        "Mat-65"
+      ],
+      "registry_id": [
+        "CAS-99065-10",
+        "mp-10065"
+      ]
+    }
+  },
+  "ENTITY_066": {
+    "canonical_id": "ENTITY_066",
+    "primary_name": "InP",
+    "categories": {
+      "formula": [
+        "InP",
+        "InP-sub"
+      ],
+      "reordered_formula": [
+        "PnI"
+      ],
+      "iupac_name": [
+        "synthetic InP compound",
+        "polycrystalline InP"
+      ],
+      "mineral_name": [
+        "inp crystal",
+        "phase-066"
+      ],
+      "trade_name": [
+        "InP-alloy",
+        "Mat-66"
+      ],
+      "registry_id": [
+        "CAS-99066-10",
+        "mp-10066"
+      ]
+    }
+  },
+  "ENTITY_067": {
+    "canonical_id": "ENTITY_067",
+    "primary_name": "VO2",
+    "categories": {
+      "formula": [
+        "VO2",
+        "VO2-sub"
+      ],
+      "reordered_formula": [
+        "2OV"
+      ],
+      "iupac_name": [
+        "synthetic VO2 compound",
+        "polycrystalline VO2"
+      ],
+      "mineral_name": [
+        "vo2 crystal",
+        "phase-067"
+      ],
+      "trade_name": [
+        "VO2-alloy",
+        "Mat-67"
+      ],
+      "registry_id": [
+        "CAS-99067-10",
+        "mp-10067"
+      ]
+    }
+  },
+  "ENTITY_068": {
+    "canonical_id": "ENTITY_068",
+    "primary_name": "LiNiO2",
+    "categories": {
+      "formula": [
+        "LiNiO2",
+        "LiNiO2-sub"
+      ],
+      "reordered_formula": [
+        "2OiNiL"
+      ],
+      "iupac_name": [
+        "synthetic LiNiO2 compound",
+        "polycrystalline LiNiO2"
+      ],
+      "mineral_name": [
+        "linio2 crystal",
+        "phase-068"
+      ],
+      "trade_name": [
+        "LiNiO2-alloy",
+        "Mat-68"
+      ],
+      "registry_id": [
+        "CAS-99068-10",
+        "mp-10068"
+      ]
+    }
+  },
+  "ENTITY_069": {
+    "canonical_id": "ENTITY_069",
+    "primary_name": "NaFePO4",
+    "categories": {
+      "formula": [
+        "NaFePO4",
+        "NaFePO4-sub"
+      ],
+      "reordered_formula": [
+        "4OPeFaN"
+      ],
+      "iupac_name": [
+        "synthetic NaFePO4 compound",
+        "polycrystalline NaFePO4"
+      ],
+      "mineral_name": [
+        "nafepo4 crystal",
+        "phase-069"
+      ],
+      "trade_name": [
+        "NaFePO4-alloy",
+        "Mat-69"
+      ],
+      "registry_id": [
+        "CAS-99069-10",
+        "mp-10069"
+      ]
+    }
+  },
+  "ENTITY_070": {
+    "canonical_id": "ENTITY_070",
+    "primary_name": "SnO2",
+    "categories": {
+      "formula": [
+        "SnO2",
+        "SnO2-sub"
+      ],
+      "reordered_formula": [
+        "2OnS"
+      ],
+      "iupac_name": [
+        "synthetic SnO2 compound",
+        "polycrystalline SnO2"
+      ],
+      "mineral_name": [
+        "sno2 crystal",
+        "phase-070"
+      ],
+      "trade_name": [
+        "SnO2-alloy",
+        "Mat-70"
+      ],
+      "registry_id": [
+        "CAS-99070-10",
+        "mp-10070"
+      ]
+    }
+  },
+  "ENTITY_071": {
+    "canonical_id": "ENTITY_071",
+    "primary_name": "ZnO",
+    "categories": {
+      "formula": [
+        "ZnO",
+        "ZnO-sub"
+      ],
+      "reordered_formula": [
+        "OnZ"
+      ],
+      "iupac_name": [
+        "synthetic ZnO compound",
+        "polycrystalline ZnO"
+      ],
+      "mineral_name": [
+        "zno crystal",
+        "phase-071"
+      ],
+      "trade_name": [
+        "ZnO-alloy",
+        "Mat-71"
+      ],
+      "registry_id": [
+        "CAS-99071-10",
+        "mp-10071"
+      ]
+    }
+  },
+  "ENTITY_072": {
+    "canonical_id": "ENTITY_072",
+    "primary_name": "LaSrMnO3",
+    "categories": {
+      "formula": [
+        "LaSrMnO3",
+        "LaSrMnO3-sub"
+      ],
+      "reordered_formula": [
+        "3OnMrSaL"
+      ],
+      "iupac_name": [
+        "synthetic LaSrMnO3 compound",
+        "polycrystalline LaSrMnO3"
+      ],
+      "mineral_name": [
+        "lasrmno3 crystal",
+        "phase-072"
+      ],
+      "trade_name": [
+        "LaSrMnO3-alloy",
+        "Mat-72"
+      ],
+      "registry_id": [
+        "CAS-99072-10",
+        "mp-10072"
+      ]
+    }
+  },
+  "ENTITY_073": {
+    "canonical_id": "ENTITY_073",
+    "primary_name": "NdFeB",
+    "categories": {
+      "formula": [
+        "NdFeB",
+        "NdFeB-sub"
+      ],
+      "reordered_formula": [
+        "BeFdN"
+      ],
+      "iupac_name": [
+        "synthetic NdFeB compound",
+        "polycrystalline NdFeB"
+      ],
+      "mineral_name": [
+        "ndfeb crystal",
+        "phase-073"
+      ],
+      "trade_name": [
+        "NdFeB-alloy",
+        "Mat-73"
+      ],
+      "registry_id": [
+        "CAS-99073-10",
+        "mp-10073"
+      ]
+    }
+  },
+  "ENTITY_074": {
+    "canonical_id": "ENTITY_074",
+    "primary_name": "SmCo5",
+    "categories": {
+      "formula": [
+        "SmCo5",
+        "SmCo5-sub"
+      ],
+      "reordered_formula": [
+        "5oCmS"
+      ],
+      "iupac_name": [
+        "synthetic SmCo5 compound",
+        "polycrystalline SmCo5"
+      ],
+      "mineral_name": [
+        "smco5 crystal",
+        "phase-074"
+      ],
+      "trade_name": [
+        "SmCo5-alloy",
+        "Mat-74"
+      ],
+      "registry_id": [
+        "CAS-99074-10",
+        "mp-10074"
+      ]
+    }
+  },
+  "ENTITY_075": {
+    "canonical_id": "ENTITY_075",
+    "primary_name": "CuInGaSe2",
+    "categories": {
+      "formula": [
+        "CuInGaSe2",
+        "CuInGaSe2-sub"
+      ],
+      "reordered_formula": [
+        "2eSaGnIuC"
+      ],
+      "iupac_name": [
+        "synthetic CuInGaSe2 compound",
+        "polycrystalline CuInGaSe2"
+      ],
+      "mineral_name": [
+        "cuingase2 crystal",
+        "phase-075"
+      ],
+      "trade_name": [
+        "CuInGaSe2-alloy",
+        "Mat-75"
+      ],
+      "registry_id": [
+        "CAS-99075-10",
+        "mp-10075"
+      ]
+    }
+  },
+  "ENTITY_076": {
+    "canonical_id": "ENTITY_076",
+    "primary_name": "CdTe",
+    "categories": {
+      "formula": [
+        "CdTe",
+        "CdTe-sub"
+      ],
+      "reordered_formula": [
+        "eTdC"
+      ],
+      "iupac_name": [
+        "synthetic CdTe compound",
+        "polycrystalline CdTe"
+      ],
+      "mineral_name": [
+        "cdte crystal",
+        "phase-076"
+      ],
+      "trade_name": [
+        "CdTe-alloy",
+        "Mat-76"
+      ],
+      "registry_id": [
+        "CAS-99076-10",
+        "mp-10076"
+      ]
+    }
+  },
+  "ENTITY_077": {
+    "canonical_id": "ENTITY_077",
+    "primary_name": "GaAs",
+    "categories": {
+      "formula": [
+        "GaAs",
+        "GaAs-sub"
+      ],
+      "reordered_formula": [
+        "sAaG"
+      ],
+      "iupac_name": [
+        "synthetic GaAs compound",
+        "polycrystalline GaAs"
+      ],
+      "mineral_name": [
+        "gaas crystal",
+        "phase-077"
+      ],
+      "trade_name": [
+        "GaAs-alloy",
+        "Mat-77"
+      ],
+      "registry_id": [
+        "CAS-99077-10",
+        "mp-10077"
+      ]
+    }
+  },
+  "ENTITY_078": {
+    "canonical_id": "ENTITY_078",
+    "primary_name": "InP",
+    "categories": {
+      "formula": [
+        "InP",
+        "InP-sub"
+      ],
+      "reordered_formula": [
+        "PnI"
+      ],
+      "iupac_name": [
+        "synthetic InP compound",
+        "polycrystalline InP"
+      ],
+      "mineral_name": [
+        "inp crystal",
+        "phase-078"
+      ],
+      "trade_name": [
+        "InP-alloy",
+        "Mat-78"
+      ],
+      "registry_id": [
+        "CAS-99078-10",
+        "mp-10078"
+      ]
+    }
+  },
+  "ENTITY_079": {
+    "canonical_id": "ENTITY_079",
+    "primary_name": "VO2",
+    "categories": {
+      "formula": [
+        "VO2",
+        "VO2-sub"
+      ],
+      "reordered_formula": [
+        "2OV"
+      ],
+      "iupac_name": [
+        "synthetic VO2 compound",
+        "polycrystalline VO2"
+      ],
+      "mineral_name": [
+        "vo2 crystal",
+        "phase-079"
+      ],
+      "trade_name": [
+        "VO2-alloy",
+        "Mat-79"
+      ],
+      "registry_id": [
+        "CAS-99079-10",
+        "mp-10079"
+      ]
+    }
+  },
+  "ENTITY_080": {
+    "canonical_id": "ENTITY_080",
+    "primary_name": "LiNiO2",
+    "categories": {
+      "formula": [
+        "LiNiO2",
+        "LiNiO2-sub"
+      ],
+      "reordered_formula": [
+        "2OiNiL"
+      ],
+      "iupac_name": [
+        "synthetic LiNiO2 compound",
+        "polycrystalline LiNiO2"
+      ],
+      "mineral_name": [
+        "linio2 crystal",
+        "phase-080"
+      ],
+      "trade_name": [
+        "LiNiO2-alloy",
+        "Mat-80"
+      ],
+      "registry_id": [
+        "CAS-99080-10",
+        "mp-10080"
+      ]
+    }
+  },
+  "ENTITY_081": {
+    "canonical_id": "ENTITY_081",
+    "primary_name": "NaFePO4",
+    "categories": {
+      "formula": [
+        "NaFePO4",
+        "NaFePO4-sub"
+      ],
+      "reordered_formula": [
+        "4OPeFaN"
+      ],
+      "iupac_name": [
+        "synthetic NaFePO4 compound",
+        "polycrystalline NaFePO4"
+      ],
+      "mineral_name": [
+        "nafepo4 crystal",
+        "phase-081"
+      ],
+      "trade_name": [
+        "NaFePO4-alloy",
+        "Mat-81"
+      ],
+      "registry_id": [
+        "CAS-99081-10",
+        "mp-10081"
+      ]
+    }
+  },
+  "ENTITY_082": {
+    "canonical_id": "ENTITY_082",
+    "primary_name": "SnO2",
+    "categories": {
+      "formula": [
+        "SnO2",
+        "SnO2-sub"
+      ],
+      "reordered_formula": [
+        "2OnS"
+      ],
+      "iupac_name": [
+        "synthetic SnO2 compound",
+        "polycrystalline SnO2"
+      ],
+      "mineral_name": [
+        "sno2 crystal",
+        "phase-082"
+      ],
+      "trade_name": [
+        "SnO2-alloy",
+        "Mat-82"
+      ],
+      "registry_id": [
+        "CAS-99082-10",
+        "mp-10082"
+      ]
+    }
+  },
+  "ENTITY_083": {
+    "canonical_id": "ENTITY_083",
+    "primary_name": "ZnO",
+    "categories": {
+      "formula": [
+        "ZnO",
+        "ZnO-sub"
+      ],
+      "reordered_formula": [
+        "OnZ"
+      ],
+      "iupac_name": [
+        "synthetic ZnO compound",
+        "polycrystalline ZnO"
+      ],
+      "mineral_name": [
+        "zno crystal",
+        "phase-083"
+      ],
+      "trade_name": [
+        "ZnO-alloy",
+        "Mat-83"
+      ],
+      "registry_id": [
+        "CAS-99083-10",
+        "mp-10083"
+      ]
+    }
+  },
+  "ENTITY_084": {
+    "canonical_id": "ENTITY_084",
+    "primary_name": "LaSrMnO3",
+    "categories": {
+      "formula": [
+        "LaSrMnO3",
+        "LaSrMnO3-sub"
+      ],
+      "reordered_formula": [
+        "3OnMrSaL"
+      ],
+      "iupac_name": [
+        "synthetic LaSrMnO3 compound",
+        "polycrystalline LaSrMnO3"
+      ],
+      "mineral_name": [
+        "lasrmno3 crystal",
+        "phase-084"
+      ],
+      "trade_name": [
+        "LaSrMnO3-alloy",
+        "Mat-84"
+      ],
+      "registry_id": [
+        "CAS-99084-10",
+        "mp-10084"
+      ]
+    }
+  },
+  "ENTITY_085": {
+    "canonical_id": "ENTITY_085",
+    "primary_name": "NdFeB",
+    "categories": {
+      "formula": [
+        "NdFeB",
+        "NdFeB-sub"
+      ],
+      "reordered_formula": [
+        "BeFdN"
+      ],
+      "iupac_name": [
+        "synthetic NdFeB compound",
+        "polycrystalline NdFeB"
+      ],
+      "mineral_name": [
+        "ndfeb crystal",
+        "phase-085"
+      ],
+      "trade_name": [
+        "NdFeB-alloy",
+        "Mat-85"
+      ],
+      "registry_id": [
+        "CAS-99085-10",
+        "mp-10085"
+      ]
+    }
+  },
+  "ENTITY_086": {
+    "canonical_id": "ENTITY_086",
+    "primary_name": "SmCo5",
+    "categories": {
+      "formula": [
+        "SmCo5",
+        "SmCo5-sub"
+      ],
+      "reordered_formula": [
+        "5oCmS"
+      ],
+      "iupac_name": [
+        "synthetic SmCo5 compound",
+        "polycrystalline SmCo5"
+      ],
+      "mineral_name": [
+        "smco5 crystal",
+        "phase-086"
+      ],
+      "trade_name": [
+        "SmCo5-alloy",
+        "Mat-86"
+      ],
+      "registry_id": [
+        "CAS-99086-10",
+        "mp-10086"
+      ]
+    }
+  },
+  "ENTITY_087": {
+    "canonical_id": "ENTITY_087",
+    "primary_name": "CuInGaSe2",
+    "categories": {
+      "formula": [
+        "CuInGaSe2",
+        "CuInGaSe2-sub"
+      ],
+      "reordered_formula": [
+        "2eSaGnIuC"
+      ],
+      "iupac_name": [
+        "synthetic CuInGaSe2 compound",
+        "polycrystalline CuInGaSe2"
+      ],
+      "mineral_name": [
+        "cuingase2 crystal",
+        "phase-087"
+      ],
+      "trade_name": [
+        "CuInGaSe2-alloy",
+        "Mat-87"
+      ],
+      "registry_id": [
+        "CAS-99087-10",
+        "mp-10087"
+      ]
+    }
+  },
+  "ENTITY_088": {
+    "canonical_id": "ENTITY_088",
+    "primary_name": "CdTe",
+    "categories": {
+      "formula": [
+        "CdTe",
+        "CdTe-sub"
+      ],
+      "reordered_formula": [
+        "eTdC"
+      ],
+      "iupac_name": [
+        "synthetic CdTe compound",
+        "polycrystalline CdTe"
+      ],
+      "mineral_name": [
+        "cdte crystal",
+        "phase-088"
+      ],
+      "trade_name": [
+        "CdTe-alloy",
+        "Mat-88"
+      ],
+      "registry_id": [
+        "CAS-99088-10",
+        "mp-10088"
+      ]
+    }
+  },
+  "ENTITY_089": {
+    "canonical_id": "ENTITY_089",
+    "primary_name": "GaAs",
+    "categories": {
+      "formula": [
+        "GaAs",
+        "GaAs-sub"
+      ],
+      "reordered_formula": [
+        "sAaG"
+      ],
+      "iupac_name": [
+        "synthetic GaAs compound",
+        "polycrystalline GaAs"
+      ],
+      "mineral_name": [
+        "gaas crystal",
+        "phase-089"
+      ],
+      "trade_name": [
+        "GaAs-alloy",
+        "Mat-89"
+      ],
+      "registry_id": [
+        "CAS-99089-10",
+        "mp-10089"
+      ]
+    }
+  },
+  "ENTITY_090": {
+    "canonical_id": "ENTITY_090",
+    "primary_name": "InP",
+    "categories": {
+      "formula": [
+        "InP",
+        "InP-sub"
+      ],
+      "reordered_formula": [
+        "PnI"
+      ],
+      "iupac_name": [
+        "synthetic InP compound",
+        "polycrystalline InP"
+      ],
+      "mineral_name": [
+        "inp crystal",
+        "phase-090"
+      ],
+      "trade_name": [
+        "InP-alloy",
+        "Mat-90"
+      ],
+      "registry_id": [
+        "CAS-99090-10",
+        "mp-10090"
+      ]
+    }
+  },
+  "ENTITY_091": {
+    "canonical_id": "ENTITY_091",
+    "primary_name": "VO2",
+    "categories": {
+      "formula": [
+        "VO2",
+        "VO2-sub"
+      ],
+      "reordered_formula": [
+        "2OV"
+      ],
+      "iupac_name": [
+        "synthetic VO2 compound",
+        "polycrystalline VO2"
+      ],
+      "mineral_name": [
+        "vo2 crystal",
+        "phase-091"
+      ],
+      "trade_name": [
+        "VO2-alloy",
+        "Mat-91"
+      ],
+      "registry_id": [
+        "CAS-99091-10",
+        "mp-10091"
+      ]
+    }
+  },
+  "ENTITY_092": {
+    "canonical_id": "ENTITY_092",
+    "primary_name": "LiNiO2",
+    "categories": {
+      "formula": [
+        "LiNiO2",
+        "LiNiO2-sub"
+      ],
+      "reordered_formula": [
+        "2OiNiL"
+      ],
+      "iupac_name": [
+        "synthetic LiNiO2 compound",
+        "polycrystalline LiNiO2"
+      ],
+      "mineral_name": [
+        "linio2 crystal",
+        "phase-092"
+      ],
+      "trade_name": [
+        "LiNiO2-alloy",
+        "Mat-92"
+      ],
+      "registry_id": [
+        "CAS-99092-10",
+        "mp-10092"
+      ]
+    }
+  },
+  "ENTITY_093": {
+    "canonical_id": "ENTITY_093",
+    "primary_name": "NaFePO4",
+    "categories": {
+      "formula": [
+        "NaFePO4",
+        "NaFePO4-sub"
+      ],
+      "reordered_formula": [
+        "4OPeFaN"
+      ],
+      "iupac_name": [
+        "synthetic NaFePO4 compound",
+        "polycrystalline NaFePO4"
+      ],
+      "mineral_name": [
+        "nafepo4 crystal",
+        "phase-093"
+      ],
+      "trade_name": [
+        "NaFePO4-alloy",
+        "Mat-93"
+      ],
+      "registry_id": [
+        "CAS-99093-10",
+        "mp-10093"
+      ]
+    }
+  },
+  "ENTITY_094": {
+    "canonical_id": "ENTITY_094",
+    "primary_name": "SnO2",
+    "categories": {
+      "formula": [
+        "SnO2",
+        "SnO2-sub"
+      ],
+      "reordered_formula": [
+        "2OnS"
+      ],
+      "iupac_name": [
+        "synthetic SnO2 compound",
+        "polycrystalline SnO2"
+      ],
+      "mineral_name": [
+        "sno2 crystal",
+        "phase-094"
+      ],
+      "trade_name": [
+        "SnO2-alloy",
+        "Mat-94"
+      ],
+      "registry_id": [
+        "CAS-99094-10",
+        "mp-10094"
+      ]
+    }
+  },
+  "ENTITY_095": {
+    "canonical_id": "ENTITY_095",
+    "primary_name": "ZnO",
+    "categories": {
+      "formula": [
+        "ZnO",
+        "ZnO-sub"
+      ],
+      "reordered_formula": [
+        "OnZ"
+      ],
+      "iupac_name": [
+        "synthetic ZnO compound",
+        "polycrystalline ZnO"
+      ],
+      "mineral_name": [
+        "zno crystal",
+        "phase-095"
+      ],
+      "trade_name": [
+        "ZnO-alloy",
+        "Mat-95"
+      ],
+      "registry_id": [
+        "CAS-99095-10",
+        "mp-10095"
+      ]
+    }
+  },
+  "ENTITY_096": {
+    "canonical_id": "ENTITY_096",
+    "primary_name": "LaSrMnO3",
+    "categories": {
+      "formula": [
+        "LaSrMnO3",
+        "LaSrMnO3-sub"
+      ],
+      "reordered_formula": [
+        "3OnMrSaL"
+      ],
+      "iupac_name": [
+        "synthetic LaSrMnO3 compound",
+        "polycrystalline LaSrMnO3"
+      ],
+      "mineral_name": [
+        "lasrmno3 crystal",
+        "phase-096"
+      ],
+      "trade_name": [
+        "LaSrMnO3-alloy",
+        "Mat-96"
+      ],
+      "registry_id": [
+        "CAS-99096-10",
+        "mp-10096"
+      ]
+    }
+  },
+  "ENTITY_097": {
+    "canonical_id": "ENTITY_097",
+    "primary_name": "NdFeB",
+    "categories": {
+      "formula": [
+        "NdFeB",
+        "NdFeB-sub"
+      ],
+      "reordered_formula": [
+        "BeFdN"
+      ],
+      "iupac_name": [
+        "synthetic NdFeB compound",
+        "polycrystalline NdFeB"
+      ],
+      "mineral_name": [
+        "ndfeb crystal",
+        "phase-097"
+      ],
+      "trade_name": [
+        "NdFeB-alloy",
+        "Mat-97"
+      ],
+      "registry_id": [
+        "CAS-99097-10",
+        "mp-10097"
+      ]
+    }
+  },
+  "ENTITY_098": {
+    "canonical_id": "ENTITY_098",
+    "primary_name": "SmCo5",
+    "categories": {
+      "formula": [
+        "SmCo5",
+        "SmCo5-sub"
+      ],
+      "reordered_formula": [
+        "5oCmS"
+      ],
+      "iupac_name": [
+        "synthetic SmCo5 compound",
+        "polycrystalline SmCo5"
+      ],
+      "mineral_name": [
+        "smco5 crystal",
+        "phase-098"
+      ],
+      "trade_name": [
+        "SmCo5-alloy",
+        "Mat-98"
+      ],
+      "registry_id": [
+        "CAS-99098-10",
+        "mp-10098"
+      ]
+    }
+  },
+  "ENTITY_099": {
+    "canonical_id": "ENTITY_099",
+    "primary_name": "CuInGaSe2",
+    "categories": {
+      "formula": [
+        "CuInGaSe2",
+        "CuInGaSe2-sub"
+      ],
+      "reordered_formula": [
+        "2eSaGnIuC"
+      ],
+      "iupac_name": [
+        "synthetic CuInGaSe2 compound",
+        "polycrystalline CuInGaSe2"
+      ],
+      "mineral_name": [
+        "cuingase2 crystal",
+        "phase-099"
+      ],
+      "trade_name": [
+        "CuInGaSe2-alloy",
+        "Mat-99"
+      ],
+      "registry_id": [
+        "CAS-99099-10",
+        "mp-10099"
+      ]
+    }
+  },
+  "ENTITY_100": {
+    "canonical_id": "ENTITY_100",
+    "primary_name": "CdTe",
+    "categories": {
+      "formula": [
+        "CdTe",
+        "CdTe-sub"
+      ],
+      "reordered_formula": [
+        "eTdC"
+      ],
+      "iupac_name": [
+        "synthetic CdTe compound",
+        "polycrystalline CdTe"
+      ],
+      "mineral_name": [
+        "cdte crystal",
+        "phase-100"
+      ],
+      "trade_name": [
+        "CdTe-alloy",
+        "Mat-100"
+      ],
+      "registry_id": [
+        "CAS-99100-10",
+        "mp-10100"
+      ]
+    }
+  },
+  "ENTITY_101": {
+    "canonical_id": "ENTITY_101",
+    "primary_name": "GaAs",
+    "categories": {
+      "formula": [
+        "GaAs",
+        "GaAs-sub"
+      ],
+      "reordered_formula": [
+        "sAaG"
+      ],
+      "iupac_name": [
+        "synthetic GaAs compound",
+        "polycrystalline GaAs"
+      ],
+      "mineral_name": [
+        "gaas crystal",
+        "phase-101"
+      ],
+      "trade_name": [
+        "GaAs-alloy",
+        "Mat-101"
+      ],
+      "registry_id": [
+        "CAS-99101-10",
+        "mp-10101"
+      ]
+    }
+  },
+  "ENTITY_102": {
+    "canonical_id": "ENTITY_102",
+    "primary_name": "InP",
+    "categories": {
+      "formula": [
+        "InP",
+        "InP-sub"
+      ],
+      "reordered_formula": [
+        "PnI"
+      ],
+      "iupac_name": [
+        "synthetic InP compound",
+        "polycrystalline InP"
+      ],
+      "mineral_name": [
+        "inp crystal",
+        "phase-102"
+      ],
+      "trade_name": [
+        "InP-alloy",
+        "Mat-102"
+      ],
+      "registry_id": [
+        "CAS-99102-10",
+        "mp-10102"
+      ]
+    }
+  },
+  "ENTITY_103": {
+    "canonical_id": "ENTITY_103",
+    "primary_name": "VO2",
+    "categories": {
+      "formula": [
+        "VO2",
+        "VO2-sub"
+      ],
+      "reordered_formula": [
+        "2OV"
+      ],
+      "iupac_name": [
+        "synthetic VO2 compound",
+        "polycrystalline VO2"
+      ],
+      "mineral_name": [
+        "vo2 crystal",
+        "phase-103"
+      ],
+      "trade_name": [
+        "VO2-alloy",
+        "Mat-103"
+      ],
+      "registry_id": [
+        "CAS-99103-10",
+        "mp-10103"
+      ]
+    }
+  },
+  "ENTITY_104": {
+    "canonical_id": "ENTITY_104",
+    "primary_name": "LiNiO2",
+    "categories": {
+      "formula": [
+        "LiNiO2",
+        "LiNiO2-sub"
+      ],
+      "reordered_formula": [
+        "2OiNiL"
+      ],
+      "iupac_name": [
+        "synthetic LiNiO2 compound",
+        "polycrystalline LiNiO2"
+      ],
+      "mineral_name": [
+        "linio2 crystal",
+        "phase-104"
+      ],
+      "trade_name": [
+        "LiNiO2-alloy",
+        "Mat-104"
+      ],
+      "registry_id": [
+        "CAS-99104-10",
+        "mp-10104"
+      ]
+    }
+  }
+}

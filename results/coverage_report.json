@@ -1,0 +1,10 @@
+{
+  "cohens_kappa": 0.9644549763033176,
+  "total_dev_pairs": 600,
+  "true_alias_pairs": 300,
+  "auto_hill_canonicalized": 26,
+  "dictionary_matched": 274,
+  "cooccurrence_matched": 0,
+  "missed_nil": 0,
+  "coverage_rate": 1.0
+}

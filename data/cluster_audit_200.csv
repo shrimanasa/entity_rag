@@ -1,0 +1,201 @@
+pair_id,mention_1,mention_2,ground_truth,annotator_1,annotator_2
+AUDIT_001,2OiNiL,synthetic LiNiO2 compound,1,1,1
+AUDIT_002,CAS-107539-20-7,YBa2Cu3O7,1,1,1
+AUDIT_003,ferroelectric Rashba semiconductor,CAS-12025-39-7,1,1,1
+AUDIT_004,Mat-93,phase-093,1,1,1
+AUDIT_005,phase-069,synthetic NaFePO4 compound,1,1,1
+AUDIT_006,PZT,lead zirconium titanium oxide,1,1,1
+AUDIT_007,tungsten(IV) selenide,tungsten diselenide,1,1,1
+AUDIT_008,NaFePO4-sub,NaFePO4,1,1,1
+AUDIT_009,mp-10104,phase-104,1,1,1
+AUDIT_010,VO2,synthetic VO2 compound,1,1,1
+AUDIT_011,Cs1Pb1I3,Cs1Pb1I3,1,1,1
+AUDIT_012,GaAs,GaAs-alloy,1,1,1
+AUDIT_013,mp-10077,GaAs,1,1,1
+AUDIT_014,mp-22899,PbZr0.52Ti0.48O3,1,1,1
+AUDIT_015,equiatomic HEA,equiatomic chromium manganese iron cobalt nickel alloy,1,1,1
+AUDIT_016,synthetic SnO2 compound,SnO2,1,1,1
+AUDIT_017,tungsten disulfide nanosheets,tungsten(IV) sulfide,1,1,1
+AUDIT_018,mp-2998,piezoelectric BTO,1,1,1
+AUDIT_019,titania,titania,1,1,1
+AUDIT_020,mp-10099,cuingase2 crystal,1,1,1
+AUDIT_021,strontium titanate,O3SrTi,1,1,1
+AUDIT_022,Mat-85,synthetic NdFeB compound,1,1,1
+AUDIT_023,yttria-stabilized zirconia,yttria-stabilized zirconia,1,1,1
+AUDIT_024,CAS-12185-17-4,mp-1188390,1,1,1
+AUDIT_025,OnZ,mp-10095,1,1,1
+AUDIT_026,phase-087,Mat-87,1,1,1
+AUDIT_027,CdTe,cdte crystal,1,1,1
+AUDIT_028,mp-10083,phase-083,1,1,1
+AUDIT_029,Mat-101,gaas crystal,1,1,1
+AUDIT_030,phase-090,phase-090,1,1,1
+AUDIT_031,tungsten(IV) selenide,WSe2 monolayer,1,1,1
+AUDIT_032,noble metal dichalcogenide,PtSe2 thin film,1,1,1
+AUDIT_033,SrO3Ti,strontium titanate,1,1,1
+AUDIT_034,2OV,VO2-alloy,1,1,1
+AUDIT_035,CAS-12185-17-4,sodalite-like hydride cage,1,1,1
+AUDIT_036,carborundum,carborundum,1,1,1
+AUDIT_037,2H-WS2,tungsten disulfide,1,1,1
+AUDIT_038,Te3Bi2,bismuth(III) telluride,1,1,1
+AUDIT_039,ZnO-sub,ZnO-alloy,1,1,1
+AUDIT_040,Cu3(C9H3O6)2,MOF-199,1,1,1
+AUDIT_041,synthetic NaFePO4 compound,NaFePO4,1,1,1
+AUDIT_042,guanajuatite,CAS-12068-69-8,1,1,0
+AUDIT_043,CAS-99078-10,InP,1,1,1
+AUDIT_044,O2CoLi,LiCoO2 cathode,1,1,1
+AUDIT_045,mp-10093,Mat-93,1,1,1
+AUDIT_046,green perovskite quantum dots,cesium lead bromide,1,1,1
+AUDIT_047,cerium dioxide,CeO2,1,1,1
+AUDIT_048,cesium lead bromide,Cs1Pb1Br3,1,1,1
+AUDIT_049,LaSrMnO3-alloy,synthetic LaSrMnO3 compound,1,1,1
+AUDIT_050,CAS-99090-10,synthetic InP compound,1,1,1
+AUDIT_051,AlSi95O192,HZSM-5 catalyst,1,1,1
+AUDIT_052,cobalt oxide,cobalt spinel,1,1,1
+AUDIT_053,Mat-60,mp-10060,1,1,1
+AUDIT_054,PtC,PtC,1,1,1
+AUDIT_055,IRMOF-1,MOF-5,1,1,1
+AUDIT_056,LaSrMnO3-sub,LaSrMnO3-alloy,1,1,1
+AUDIT_057,smco5 crystal,synthetic SmCo5 compound,1,1,1
+AUDIT_058,"copper benzene-1,3,5-tricarboxylate",paddlewheel copper MOF,1,1,1
+AUDIT_059,beta-FeSe,SeFe,1,1,1
+AUDIT_060,OnZ,ZnO,1,1,1
+AUDIT_061,p-type Sb2Te3,Sb2Te3 topological film,1,1,1
+AUDIT_062,phase-075,polycrystalline CuInGaSe2,1,1,1
+AUDIT_063,tungsten diselenide,2H-WSe2 hexagonal phase,1,1,1
+AUDIT_064,barium titanate mineral,piezoelectric BTO,1,1,1
+AUDIT_065,PZT,PZT-5H,1,1,1
+AUDIT_066,mp-10084,lasrmno3 crystal,1,1,1
+AUDIT_067,tetradymite-type chalcogenide,mp-34202,1,1,1
+AUDIT_068,ZnO-alloy,ZnO-alloy,1,1,1
+AUDIT_069,mp-1094123,two-dimensional titanium carbide,1,1,1
+AUDIT_070,Ti3C2F2,mp-1094123,1,1,1
+AUDIT_071,SnO2-alloy,2OnS,1,1,1
+AUDIT_072,mp-10070,SnO2,1,1,1
+AUDIT_073,LiNiO2,LiNiO2-sub,1,1,1
+AUDIT_074,SmCo5,SmCo5,1,1,1
+AUDIT_075,(ZrO2)0.92(Y2O3)0.08,CAS-114168-16-0,1,1,1
+AUDIT_076,Ba1Ti1O3,mp-2998,1,1,1
+AUDIT_077,WSe2,tungsten diselenide,1,1,1
+AUDIT_078,GaAs-alloy,gaas crystal,1,1,1
+AUDIT_079,mp-1188390,mp-1188390,1,1,1
+AUDIT_080,mp-10062,SmCo5-alloy,1,1,1
+AUDIT_081,Bi2Sr2Ca2Cu3O10,BSCCO-2223,1,1,1
+AUDIT_082,phase-071,ZnO,1,1,1
+AUDIT_083,BSCCO-2223,mp-27800,1,1,1
+AUDIT_084,ultra-low thermal conductivity SnSe,tin(II) selenide,1,1,1
+AUDIT_085,BSCCO-2223,mp-27800,1,1,1
+AUDIT_086,phase-087,2eSaGnIuC,1,1,1
+AUDIT_087,Na3V2P3O12,NVP/C,1,1,1
+AUDIT_088,tungsten diselenide,tungsten diselenide,1,1,0
+AUDIT_089,Mat-80,polycrystalline LiNiO2,1,1,1
+AUDIT_090,PtC,mp-126,1,1,1
+AUDIT_091,Al-Si-O zeolite,zeolite socony mobil-5,1,1,1
+AUDIT_092,equiatomic HEA,mp-1184001,1,1,1
+AUDIT_093,mp-22899,O3PbTi0.48Zr0.52,1,1,1
+AUDIT_094,CAS-12025-39-7,Ge1Te1,1,1,1
+AUDIT_095,mp-10084,LaSrMnO3,1,1,1
+AUDIT_096,spinel titanate,spinel titanate,1,1,1
+AUDIT_097,UiO-66-Zr,UiO-66,1,1,1
+AUDIT_098,LaH10,H10La,1,1,1
+AUDIT_099,NMC811,R-3m layered ternary oxide,1,1,1
+AUDIT_100,zno crystal,CAS-99083-10,1,1,1
+AUDIT_101,c-LLZO,Li7La3Zr2O12,1,1,1
+AUDIT_102,O3BaTi,mp-2998,1,1,1
+AUDIT_103,NdFeB-alloy,polycrystalline NdFeB,1,1,1
+AUDIT_104,Fe1Se1,CAS-1310-32-3,1,1,1
+AUDIT_105,ultra-low thermal conductivity SnSe,CAS-1315-06-6,1,1,1
+AUDIT_106,NdFeB,BeFdN,1,1,1
+AUDIT_107,TiO2,TiO2,1,1,1
+AUDIT_108,eTdC,phase-076,1,1,1
+AUDIT_109,lithium cobalt oxide,CoLiO2,1,1,1
+AUDIT_110,synthetic NdFeB compound,CAS-99073-10,1,1,1
+AUDIT_111,mp-1094004,Basolite Z1200,1,1,1
+AUDIT_112,cerianite,mp-20194,1,1,1
+AUDIT_113,OnZ,ZnO-sub,1,1,1
+AUDIT_114,gaas crystal,GaAs,1,1,1
+AUDIT_115,LLZO garnet,lithium lanthanum zirconate,1,1,1
+AUDIT_116,lithium cobalt(III) oxide,LiCoO2 cathode,1,1,1
+AUDIT_117,CAS-99099-10,CAS-99099-10,1,1,1
+AUDIT_118,zeolite socony mobil-5,NanAlnSi96-nO192,1,1,1
+AUDIT_119,polycrystalline SnO2,SnO2-alloy,1,1,1
+AUDIT_120,synthetic CuInGaSe2 compound,cuingase2 crystal,1,1,1
+AUDIT_121,phase-071,phase-071,1,1,1
+AUDIT_122,mp-2900,CAS-12038-21-0,1,1,1
+AUDIT_123,phase-085,NdFeB-sub,1,1,1
+AUDIT_124,CAS-99099-10,polycrystalline CuInGaSe2,1,1,1
+AUDIT_125,synthetic VO2 compound,VO2-sub,1,1,1
+AUDIT_126,high-nickel layered oxide,Co0.1LiMn0.1Ni0.8O2,1,1,1
+AUDIT_127,mp-1094003,Zr6C48H28O32,1,1,1
+AUDIT_128,phase-095,zno crystal,1,1,1
+AUDIT_129,Zn4O(C8H4O4)3,Zn4O(C8H4O4)3,1,1,1
+AUDIT_130,O7Cu3Ba2Y,123 cuprate,1,1,1
+AUDIT_131,"tetrazinc mu4-oxo 1,4-benzenedicarboxylate",Zn4O(C8H4O4)3,1,1,1
+AUDIT_132,Mo1S2,S2Mo,1,1,1
+AUDIT_133,AlN heat sink,CAS-24304-00-5,1,1,1
+AUDIT_134,Mat-72,phase-072,1,1,1
+AUDIT_135,Na3V2(PO4)3,Na3V2P3O12,1,1,1
+AUDIT_136,20% Pt/C,Pt,1,1,1
+AUDIT_137,CAS-99077-10,gaas crystal,1,1,1
+AUDIT_138,Zn(MeIM)2,zinc 2-methylimidazolate,1,1,1
+AUDIT_139,cubic stabilized zirconia,ZrO2-8mol%Y2O3,1,1,1
+AUDIT_140,Mat-93,synthetic NaFePO4 compound,1,1,1
+AUDIT_141,SmCo5-sub,Mat-67,0,0,0
+AUDIT_142,Ti3C2F2,WS2 monolayer,0,0,0
+AUDIT_143,Bi2.0Se3.0,CdTe,0,0,0
+AUDIT_144,Ti3C2F2,AlN heat sink,0,0,0
+AUDIT_145,GeTe,SmCo5-alloy,0,0,0
+AUDIT_146,p-Bi2Te3,PZT-5H,0,0,0
+AUDIT_147,Mat-79,HC(NH2)2PbI3,0,0,0
+AUDIT_148,WS2,doped GeTe,0,0,0
+AUDIT_149,ceria nanoparticles,LiNiO2-alloy,0,0,0
+AUDIT_150,Mat-57,CeO2 support,0,0,0
+AUDIT_151,WS2 monolayer,Ge1Te1,0,0,0
+AUDIT_152,SmCo5-sub,P25 TiO2,0,0,0
+AUDIT_153,P25 TiO2,Pb1Te1,0,0,0
+AUDIT_154,Co3O4 spinel,UiO-66,0,0,0
+AUDIT_155,IRMOF-1,Li10Ge1P2S12,0,0,0
+AUDIT_156,CdTe-sub,SnO2,0,0,0
+AUDIT_157,SnO2-sub,Mat-60,0,0,0
+AUDIT_158,VO2,sodium-doped PbTe,0,0,0
+AUDIT_159,CuInGaSe2-sub,CdTe-alloy,0,0,0
+AUDIT_160,Sr1Ti1O3,p-Bi2Te3,0,0,0
+AUDIT_161,InP,UiO-66,0,0,0
+AUDIT_162,Mat-77,Mat-62,0,0,0
+AUDIT_163,SnO2-alloy,BaFe2As2,0,0,0
+AUDIT_164,Na3V2P3O12,CuInGaSe2-alloy,0,0,0
+AUDIT_165,Ti3C2Tx film,ZnO,0,0,0
+AUDIT_166,Mat-73,ZnO-alloy,0,0,0
+AUDIT_167,InP,AlN,0,0,0
+AUDIT_168,Li7.0La3.0Zr2.0O12,Sb2.0Te3.0,0,0,0
+AUDIT_169,Mat-58,HKUST-1,0,0,0
+AUDIT_170,CuInGaSe2-sub,CuInGaSe2-alloy,0,0,0
+AUDIT_171,MgB2,SmCo5-alloy,0,0,0
+AUDIT_172,SiC,LiNi0.8Co0.1Mn0.1O2,0,0,0
+AUDIT_173,WO3 photoanode,liquid-like thermoelectric,0,0,0
+AUDIT_174,Mat-101,CsPbI3,0,0,0
+AUDIT_175,Mat-61,c-LLZO,0,0,1
+AUDIT_176,titania,LiFePO4,0,0,0
+AUDIT_177,LiNiO2,VO2,0,0,0
+AUDIT_178,g-C3N4,ZnO-sub,0,0,0
+AUDIT_179,ZnO-sub,PZT-5H,0,0,0
+AUDIT_180,h-BN substrate,ceria nanoparticles,0,0,0
+AUDIT_181,Mat-60,Ba1Ti1O3,0,0,0
+AUDIT_182,noble metal dichalcogenide,Mat-82,0,0,0
+AUDIT_183,MgB2 superconductor,ZnO-sub,0,0,0
+AUDIT_184,Mat-58,Mat-76,0,0,0
+AUDIT_185,YBa2Cu3O7-d,VO2-sub,0,0,0
+AUDIT_186,SnSe,NdFeB,0,0,0
+AUDIT_187,VO2-sub,NaFePO4-alloy,0,0,0
+AUDIT_188,Co3O4 OER catalyst,HC(NH2)2PbI3,0,0,0
+AUDIT_189,Sb2Te3 topological film,SmCo5-alloy,0,0,0
+AUDIT_190,Mat-77,Basolite Z1200,0,0,0
+AUDIT_191,LGPS,electrochromic WO3,0,0,0
+AUDIT_192,LiNiO2-alloy,CrI3,0,0,0
+AUDIT_193,CuInGaSe2-alloy,WS2,0,0,0
+AUDIT_194,SrTiO3,Cu2.0Se1.0,0,0,0
+AUDIT_195,Cu3(C9H3O6)2,Mat-89,0,0,0
+AUDIT_196,Si1C1,Mat-77,0,0,0
+AUDIT_197,GaN optoelectronic wafer,Pt1Se2,0,0,0
+AUDIT_198,Mat-72,Ti3C2F2,0,0,0
+AUDIT_199,WS2 monolayer,noble metal dichalcogenide,0,0,0
+AUDIT_200,LiNiO2-alloy,Nb3Sn,0,0,0

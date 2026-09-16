@@ -1,0 +1,3502 @@
+[
+  {
+    "query_id": "Q_001",
+    "query": "Characterization and functional analysis of YBCO under operational testing.",
+    "evidence_passage_id": "P_001",
+    "canonical_entity": "ENTITY_001",
+    "ground_truth_answer": "YBa2Cu3O7 exhibits critical transition temperature Tc of 92 K, orthorhombic perovskite-like structure, Pmmm space group, strong flux pinning and high critical current density Jc."
+  },
+  {
+    "query_id": "Q_002",
+    "query": "Novel experimental methodology regarding 2212 cuprate.",
+    "evidence_passage_id": "P_002",
+    "canonical_entity": "ENTITY_002",
+    "ground_truth_answer": "Bi2Sr2CaCu2O8 exhibits superconducting transition at 85 K, highly anisotropic layered structure, pancake vortices in c-axis transport."
+  },
+  {
+    "query_id": "Q_003",
+    "query": "Electrochemical and Optoelectronic Performance of Bi2Sr2Ca2Cu3O10 Bi2Sr2Ca2Cu3O10 Bi2Sr2Ca2Cu3O10",
+    "evidence_passage_id": "P_003",
+    "canonical_entity": "ENTITY_003",
+    "ground_truth_answer": "Bi2Sr2Ca2Cu3O10 exhibits Tc of 110 K, multi-filamentary tape fabrication, powder-in-tube processing for high-field superconducting magnets."
+  },
+  {
+    "query_id": "Q_004",
+    "query": "Characterization and functional analysis of MgB2 superconductor under operational testing.",
+    "evidence_passage_id": "P_004",
+    "canonical_entity": "ENTITY_004",
+    "ground_truth_answer": "MgB2 exhibits BCS-type phonon-mediated superconductivity with Tc of 39 K, two-band superconducting gap structure in sigma and pi bands."
+  },
+  {
+    "query_id": "Q_005",
+    "query": "Novel experimental methodology regarding 122 pnictide.",
+    "evidence_passage_id": "P_005",
+    "canonical_entity": "ENTITY_005",
+    "ground_truth_answer": "BaFe2As2 exhibits spin density wave transition at 140 K, potassium or cobalt doping suppresses magnetic order inducing superconductivity up to 38 K."
+  },
+  {
+    "query_id": "Q_006",
+    "query": "Microstructural and Functional Evolution of FeSe FeSe FeSe",
+    "evidence_passage_id": "P_006",
+    "canonical_entity": "ENTITY_006",
+    "ground_truth_answer": "FeSe exhibits nematic electronic phase transition at 90 K, bulk Tc of 8 K rising above 65 K in monolayer films on SrTiO3 substrates."
+  },
+  {
+    "query_id": "Q_007",
+    "query": "Characterization and functional analysis of Nb3Sn bronze under operational testing.",
+    "evidence_passage_id": "P_007",
+    "canonical_entity": "ENTITY_007",
+    "ground_truth_answer": "Nb3Sn exhibits A15 crystal structure, critical temperature Tc of 18.3 K, upper critical field Hc2 exceeding 30 T at 4.2 K."
+  },
+  {
+    "query_id": "Q_008",
+    "query": "Novel experimental methodology regarding clathrate superhydride.",
+    "evidence_passage_id": "P_008",
+    "canonical_entity": "ENTITY_008",
+    "ground_truth_answer": "LaH10 exhibits near-room-temperature superconductivity with Tc of 250-260 K under megabar pressures of 170-200 GPa in diamond anvil cells."
+  },
+  {
+    "query_id": "Q_009",
+    "query": "Synthesis and Physical Properties of LiFePO4 LiFePO4 LiFePO4",
+    "evidence_passage_id": "P_009",
+    "canonical_entity": "ENTITY_009",
+    "ground_truth_answer": "LiFePO4 exhibits theoretical specific capacity of 170 mAh/g, flat discharge plateau at 3.45 V vs Li/Li+, exceptional thermal stability and long cycle life."
+  },
+  {
+    "query_id": "Q_010",
+    "query": "Characterization and functional analysis of LCO under operational testing.",
+    "evidence_passage_id": "P_010",
+    "canonical_entity": "ENTITY_010",
+    "ground_truth_answer": "LiCoO2 exhibits high volumetric energy density, working voltage of 3.9 V vs Li/Li+, practical reversible capacity of 140-160 mAh/g at 4.2 V cut-off."
+  },
+  {
+    "query_id": "Q_011",
+    "query": "Novel experimental methodology regarding nickel-rich NMC.",
+    "evidence_passage_id": "P_011",
+    "canonical_entity": "ENTITY_011",
+    "ground_truth_answer": "LiNi0.8Mn0.1Co0.1O2 exhibits specific discharge capacity exceeding 200 mAh/g at 4.3 V, high energy density for electric vehicles, requires surface coating against microcracking."
+  },
+  {
+    "query_id": "Q_012",
+    "query": "Advanced Characterization and Defect Engineering in Li4Ti5O12 Li4Ti5O12 Li4Ti5O12",
+    "evidence_passage_id": "P_012",
+    "canonical_entity": "ENTITY_012",
+    "ground_truth_answer": "Li4Ti5O12 exhibits zero-strain insertion mechanism with flat voltage plateau at 1.55 V vs Li/Li+, eliminates lithium dendrite formation, ultra-fast charging."
+  },
+  {
+    "query_id": "Q_013",
+    "query": "Characterization and functional analysis of LLZO under operational testing.",
+    "evidence_passage_id": "P_013",
+    "canonical_entity": "ENTITY_013",
+    "ground_truth_answer": "Li7La3Zr2O12 exhibits solid-state lithium ion conductor with room temperature bulk conductivity exceeding 1 mS/cm, wide electrochemical stability window up to 6 V."
+  },
+  {
+    "query_id": "Q_014",
+    "query": "Novel experimental methodology regarding NASICON cathode.",
+    "evidence_passage_id": "P_014",
+    "canonical_entity": "ENTITY_014",
+    "ground_truth_answer": "Na3V2(PO4)3 exhibits sodium superionic conductor framework for sodium-ion batteries, theoretical capacity of 117.6 mAh/g with high rate capability at 3.4 V vs Na/Na+."
+  },
+  {
+    "query_id": "Q_015",
+    "query": "Electrochemical and Optoelectronic Performance of Li10GeP2S12 Li10GeP2S12 Li10GeP2S12",
+    "evidence_passage_id": "P_015",
+    "canonical_entity": "ENTITY_015",
+    "ground_truth_answer": "Li10GeP2S12 exhibits record ionic conductivity of 12 mS/cm at room temperature, one-dimensional lithium diffusion channels, solid-state battery electrolyte."
+  },
+  {
+    "query_id": "Q_016",
+    "query": "Characterization and functional analysis of Li3N electrolyte under operational testing.",
+    "evidence_passage_id": "P_016",
+    "canonical_entity": "ENTITY_016",
+    "ground_truth_answer": "Li3N exhibits hexagonal crystal structure with anisotropic fast Li+ conduction parallel to Li2N layers, used as artificial SEI layer on lithium metal anodes."
+  },
+  {
+    "query_id": "Q_017",
+    "query": "Novel experimental methodology regarding molybdenite.",
+    "evidence_passage_id": "P_017",
+    "canonical_entity": "ENTITY_017",
+    "ground_truth_answer": "MoS2 exhibits direct bandgap of 1.85 eV in monolayer compared to 1.2 eV indirect in bulk, high ON/OFF ratio exceeding 10^8 in field-effect transistors."
+  },
+  {
+    "query_id": "Q_018",
+    "query": "Microstructural and Functional Evolution of WS2 WS2 WS2",
+    "evidence_passage_id": "P_018",
+    "canonical_entity": "ENTITY_018",
+    "ground_truth_answer": "WS2 exhibits direct optical bandgap of 2.0 eV in monolayer, large spin-orbit splitting of 430 meV in valence band, valleytronic and optoelectronic applications."
+  },
+  {
+    "query_id": "Q_019",
+    "query": "Characterization and functional analysis of MoSe2 monolayer under operational testing.",
+    "evidence_passage_id": "P_019",
+    "canonical_entity": "ENTITY_019",
+    "ground_truth_answer": "MoSe2 exhibits direct bandgap of 1.57 eV in monolayer, close match to the solar spectrum, high photoluminescence quantum yield."
+  },
+  {
+    "query_id": "Q_020",
+    "query": "Novel experimental methodology regarding 2H-WSe2 hexagonal phase.",
+    "evidence_passage_id": "P_020",
+    "canonical_entity": "ENTITY_020",
+    "ground_truth_answer": "WSe2 exhibits ambipolar charge transport, direct bandgap of 1.65 eV in single-layer, ideal for p-n heterojunction photovoltaic cells."
+  },
+  {
+    "query_id": "Q_021",
+    "query": "Synthesis and Physical Properties of BN BN BN",
+    "evidence_passage_id": "P_021",
+    "canonical_entity": "ENTITY_021",
+    "ground_truth_answer": "BN exhibits wide bandgap of ~5.9 eV, atomic flatness, absence of dangling bonds, premier dielectric substrate for graphene and TMD heterostructures."
+  },
+  {
+    "query_id": "Q_022",
+    "query": "Characterization and functional analysis of Ti3C2 MXene under operational testing.",
+    "evidence_passage_id": "P_022",
+    "canonical_entity": "ENTITY_022",
+    "ground_truth_answer": "Ti3C2Tx exhibits metallic electrical conductivity over 10000 S/cm, hydrophilic surface functional groups, volumetric capacitance exceeding 1500 F/cm3."
+  },
+  {
+    "query_id": "Q_023",
+    "query": "Novel experimental methodology regarding van der Waals ferromagnet.",
+    "evidence_passage_id": "P_023",
+    "canonical_entity": "ENTITY_023",
+    "ground_truth_answer": "CrI3 exhibits 2D Ising ferromagnet with Curie temperature Tc of 45 K in monolayer, layer-dependent antiferromagnetic coupling in bilayer CrI3."
+  },
+  {
+    "query_id": "Q_024",
+    "query": "Advanced Characterization and Defect Engineering in PtSe2 PtSe2 PtSe2",
+    "evidence_passage_id": "P_024",
+    "canonical_entity": "ENTITY_024",
+    "ground_truth_answer": "PtSe2 exhibits semiconductor-to-semimetal transition with thickness, high carrier mobility, room-temperature mid-infrared photodetector response."
+  },
+  {
+    "query_id": "Q_025",
+    "query": "Characterization and functional analysis of MAPbI3 under operational testing.",
+    "evidence_passage_id": "P_025",
+    "canonical_entity": "ENTITY_025",
+    "ground_truth_answer": "CH3NH3PbI3 exhibits optical bandgap of 1.55 eV, carrier diffusion lengths exceeding 1 micrometer, certified solar cell power conversion efficiency over 25%."
+  },
+  {
+    "query_id": "Q_026",
+    "query": "Novel experimental methodology regarding black alpha-phase perovskite.",
+    "evidence_passage_id": "P_026",
+    "canonical_entity": "ENTITY_026",
+    "ground_truth_answer": "HC(NH2)2PbI3 exhibits ideal bandgap of 1.48 eV closer to Shockley-Queisser limit, enhanced thermal tolerance compared to MAPbI3, stabilized by cation mixing."
+  },
+  {
+    "query_id": "Q_027",
+    "query": "Electrochemical and Optoelectronic Performance of CsPbI3 CsPbI3 CsPbI3",
+    "evidence_passage_id": "P_027",
+    "canonical_entity": "ENTITY_027",
+    "ground_truth_answer": "CsPbI3 exhibits all-inorganic composition eliminating volatile organics, bandgap of 1.73 eV, tandem solar cell top-cell candidate."
+  },
+  {
+    "query_id": "Q_028",
+    "query": "Characterization and functional analysis of CsPbBr3 under operational testing.",
+    "evidence_passage_id": "P_028",
+    "canonical_entity": "ENTITY_028",
+    "ground_truth_answer": "CsPbBr3 exhibits bandgap of 2.3 eV, ultra-pure green emission (FWHM < 20 nm) with photoluminescence quantum yield approaching 100% in colloidal nanocrystals."
+  },
+  {
+    "query_id": "Q_029",
+    "query": "Novel experimental methodology regarding elpasolite halide double perovskite.",
+    "evidence_passage_id": "P_029",
+    "canonical_entity": "ENTITY_029",
+    "ground_truth_answer": "Cs2AgBiBr6 exhibits lead-free environmentally benign double perovskite, indirect bandgap of 2.05 eV, long carrier recombination lifetime, high moisture stability."
+  },
+  {
+    "query_id": "Q_030",
+    "query": "Microstructural and Functional Evolution of BaTiO3 BaTiO3 BaTiO3",
+    "evidence_passage_id": "P_030",
+    "canonical_entity": "ENTITY_030",
+    "ground_truth_answer": "BaTiO3 exhibits ferroelectric Curie temperature at 120 C, dielectric constant over 5000, lead-free piezoelectric and multilayer ceramic capacitor dielectric."
+  },
+  {
+    "query_id": "Q_031",
+    "query": "Characterization and functional analysis of STO under operational testing.",
+    "evidence_passage_id": "P_031",
+    "canonical_entity": "ENTITY_031",
+    "ground_truth_answer": "SrTiO3 exhibits quantum paraelectric, lattice constant 3.905 A, forms 2D electron gas (2DEG) at LaAlO3/SrTiO3 interface with high electron mobility."
+  },
+  {
+    "query_id": "Q_032",
+    "query": "Novel experimental methodology regarding morphotropic phase boundary PZT.",
+    "evidence_passage_id": "P_032",
+    "canonical_entity": "ENTITY_032",
+    "ground_truth_answer": "PbZr0.52Ti0.48O3 exhibits high piezoelectric coefficient d33 exceeding 600 pC/N at morphotropic phase boundary (MPB), actuator and transducer applications."
+  },
+  {
+    "query_id": "Q_033",
+    "query": "Synthesis and Physical Properties of Bi2Te3 Bi2Te3 Bi2Te3",
+    "evidence_passage_id": "P_033",
+    "canonical_entity": "ENTITY_033",
+    "ground_truth_answer": "Bi2Te3 exhibits room temperature thermoelectric figure of merit ZT ~ 1.0, 3D topological insulator with gapless Dirac surface states in quintuple layers."
+  },
+  {
+    "query_id": "Q_034",
+    "query": "Characterization and functional analysis of p-type Sb2Te3 under operational testing.",
+    "evidence_passage_id": "P_034",
+    "canonical_entity": "ENTITY_034",
+    "ground_truth_answer": "Sb2Te3 exhibits p-type thermoelectric with large Seebeck coefficient, topological insulator with single Dirac cone at the Gamma point."
+  },
+  {
+    "query_id": "Q_035",
+    "query": "Novel experimental methodology regarding guanajuatite.",
+    "evidence_passage_id": "P_035",
+    "canonical_entity": "ENTITY_035",
+    "ground_truth_answer": "Bi2Se3 exhibits prototypical 3D topological insulator with large bulk bandgap of 0.3 eV and robust spin-polarized Dirac cone surface states."
+  },
+  {
+    "query_id": "Q_036",
+    "query": "Advanced Characterization and Defect Engineering in SnSe SnSe SnSe",
+    "evidence_passage_id": "P_036",
+    "canonical_entity": "ENTITY_036",
+    "ground_truth_answer": "SnSe exhibits ultra-low lattice thermal conductivity due to strong lattice anharmonicity, record thermoelectric figure of merit ZT of 2.6 at 923 K."
+  },
+  {
+    "query_id": "Q_037",
+    "query": "Characterization and functional analysis of CoSb3 under operational testing.",
+    "evidence_passage_id": "P_037",
+    "canonical_entity": "ENTITY_037",
+    "ground_truth_answer": "CoSb3 exhibits skutterudite cage crystal structure, filling with rare-earth atoms (Ba, La, Ce) dramatically scatters phonons, achieving ZT > 1.5 at mid-temperatures."
+  },
+  {
+    "query_id": "Q_038",
+    "query": "Novel experimental methodology regarding altaite.",
+    "evidence_passage_id": "P_038",
+    "canonical_entity": "ENTITY_038",
+    "ground_truth_answer": "PbTe exhibits narrow bandgap semiconductor (0.3 eV), valence band convergence and endotaxial nanostructuring yield ZT up to 2.2 for space power generation."
+  },
+  {
+    "query_id": "Q_039",
+    "query": "Electrochemical and Optoelectronic Performance of GeTe GeTe GeTe",
+    "evidence_passage_id": "P_039",
+    "canonical_entity": "ENTITY_039",
+    "ground_truth_answer": "GeTe exhibits giant Rashba spin splitting, non-centrosymmetric ferroelectric phase, ZT exceeding 2.0 via vacancy engineering and bismuth/indium doping."
+  },
+  {
+    "query_id": "Q_040",
+    "query": "Characterization and functional analysis of Cu2Se under operational testing.",
+    "evidence_passage_id": "P_040",
+    "canonical_entity": "ENTITY_040",
+    "ground_truth_answer": "Cu2Se exhibits electron-crystal phonon-liquid concept, superionic copper ion hopping creates extreme phonon scattering, ZT > 1.5 at high temperature."
+  },
+  {
+    "query_id": "Q_041",
+    "query": "Novel experimental methodology regarding anatase.",
+    "evidence_passage_id": "P_041",
+    "canonical_entity": "ENTITY_041",
+    "ground_truth_answer": "TiO2 exhibits bandgap of 3.2 eV (anatase) / 3.0 eV (rutile), benchmark solar photocatalyst for overall water splitting and organic pollutant degradation."
+  },
+  {
+    "query_id": "Q_042",
+    "query": "Microstructural and Functional Evolution of Co3O4 Co3O4 Co3O4",
+    "evidence_passage_id": "P_042",
+    "canonical_entity": "ENTITY_042",
+    "ground_truth_answer": "Co3O4 exhibits efficient earth-abundant electrocatalyst for oxygen evolution reaction (OER) in alkaline water electrolyzers, mixed Co2+/Co3+ active sites."
+  },
+  {
+    "query_id": "Q_043",
+    "query": "Characterization and functional analysis of ceria under operational testing.",
+    "evidence_passage_id": "P_043",
+    "canonical_entity": "ENTITY_043",
+    "ground_truth_answer": "CeO2 exhibits high oxygen storage capacity via reversible Ce4+/Ce3+ redox cycling and oxygen vacancies, three-way catalytic converters and SOFC anodes."
+  },
+  {
+    "query_id": "Q_044",
+    "query": "Novel experimental methodology regarding metal-free 2D polymeric photocatalyst.",
+    "evidence_passage_id": "P_044",
+    "canonical_entity": "ENTITY_044",
+    "ground_truth_answer": "g-C3N4 exhibits metal-free semiconductor with 2.7 eV bandgap, tri-s-triazine ring building blocks, active for visible-light photocatalytic hydrogen production."
+  },
+  {
+    "query_id": "Q_045",
+    "query": "Synthesis and Physical Properties of WO3 WO3 WO3",
+    "evidence_passage_id": "P_045",
+    "canonical_entity": "ENTITY_045",
+    "ground_truth_answer": "WO3 exhibits n-type semiconductor with moderate bandgap of 2.6 eV, excellent hole mobility, widely used in photoelectrochemical water oxidation."
+  },
+  {
+    "query_id": "Q_046",
+    "query": "Characterization and functional analysis of 20% Pt/C under operational testing.",
+    "evidence_passage_id": "P_046",
+    "canonical_entity": "ENTITY_046",
+    "ground_truth_answer": "Pt/C exhibits benchmark electrocatalyst for hydrogen evolution reaction (HER) and oxygen reduction reaction (ORR) in proton-exchange membrane fuel cells."
+  },
+  {
+    "query_id": "Q_047",
+    "query": "Novel experimental methodology regarding isoreticular metal-organic framework 1.",
+    "evidence_passage_id": "P_047",
+    "canonical_entity": "ENTITY_047",
+    "ground_truth_answer": "MOF-5 exhibits BET surface area exceeding 3800 m2/g, cubic topology with pore diameter of 1.2 nm, hydrogen and methane gas storage."
+  },
+  {
+    "query_id": "Q_048",
+    "query": "Advanced Characterization and Defect Engineering in HKUST-1 HKUST-1 Cu3(BTC)2",
+    "evidence_passage_id": "P_048",
+    "canonical_entity": "ENTITY_048",
+    "ground_truth_answer": "HKUST-1 exhibits open Cu2+ Lewis acid sites in paddlewheel secondary building units, high methane uptake capacity and CO2/N2 separation selectivity."
+  },
+  {
+    "query_id": "Q_049",
+    "query": "Characterization and functional analysis of UiO-66 under operational testing.",
+    "evidence_passage_id": "P_049",
+    "canonical_entity": "ENTITY_049",
+    "ground_truth_answer": "UiO-66 exhibits exceptional hydrothermal, chemical, and acid stability due to strong Zr(IV)-O coordination bonds, used in toxic gas adsorption and water remediation."
+  },
+  {
+    "query_id": "Q_050",
+    "query": "Novel experimental methodology regarding sodalite-type zeolitic imidazolate framework.",
+    "evidence_passage_id": "P_050",
+    "canonical_entity": "ENTITY_050",
+    "ground_truth_answer": "ZIF-8 exhibits zeolitic sodalite framework with 3.4 A pore aperture and 11.6 A cavity, gate-opening flexibility, high propane/propylene kinetic separation."
+  },
+  {
+    "query_id": "Q_051",
+    "query": "Electrochemical and Optoelectronic Performance of ZSM-5 ZSM-5 NanAlnSi96-nO192",
+    "evidence_passage_id": "P_051",
+    "canonical_entity": "ENTITY_051",
+    "ground_truth_answer": "ZSM-5 exhibits 10-membered ring intersecting 3D pore channels (5.5 A), strong Bronsted acid sites for methanol-to-gasoline (MTG) conversion and hydrocarbon cracking."
+  },
+  {
+    "query_id": "Q_052",
+    "query": "Characterization and functional analysis of Cantor alloy under operational testing.",
+    "evidence_passage_id": "P_052",
+    "canonical_entity": "ENTITY_052",
+    "ground_truth_answer": "CrMnFeCoNi exhibits single-phase FCC solid solution exhibiting remarkable cryogenic damage tolerance and fracture toughness exceeding 200 MPa m^(1/2) at 77 K."
+  },
+  {
+    "query_id": "Q_053",
+    "query": "Novel experimental methodology regarding cubic stabilized zirconia.",
+    "evidence_passage_id": "P_053",
+    "canonical_entity": "ENTITY_053",
+    "ground_truth_answer": "Zr0.84Y0.16O1.92 exhibits oxygen-vacancy-mediated O2- conduction at 700-1000 C for solid oxide fuel cells (SOFCs), high fracture toughness and thermal barrier coating in jet engines."
+  },
+  {
+    "query_id": "Q_054",
+    "query": "Microstructural and Functional Evolution of SiC SiC SiC",
+    "evidence_passage_id": "P_054",
+    "canonical_entity": "ENTITY_054",
+    "ground_truth_answer": "SiC exhibits wide bandgap of 3.26 eV (4H-SiC), critical electric breakdown field 10x higher than silicon, high thermal conductivity (4.9 W/cm K) for power electronics."
+  },
+  {
+    "query_id": "Q_055",
+    "query": "Characterization and functional analysis of GaN HEMT under operational testing.",
+    "evidence_passage_id": "P_055",
+    "canonical_entity": "ENTITY_055",
+    "ground_truth_answer": "GaN exhibits direct bandgap of 3.4 eV, high electron saturation velocity, foundation of blue/UV LEDs and high-frequency high-power RF transistors."
+  },
+  {
+    "query_id": "Q_056",
+    "query": "Novel experimental methodology regarding wurtzite aluminium nitride.",
+    "evidence_passage_id": "P_056",
+    "canonical_entity": "ENTITY_056",
+    "ground_truth_answer": "AlN exhibits ultra-wide direct bandgap of 6.2 eV, exceptionally high thermal conductivity (up to 320 W/m K), excellent dielectric breakdown strength."
+  },
+  {
+    "query_id": "Q_057",
+    "query": "Synthesis and Physical Properties of NaFePO4 NaFePO4 NaFePO4",
+    "evidence_passage_id": "P_057",
+    "canonical_entity": "ENTITY_057",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_058",
+    "query": "Characterization and functional analysis of SnO2-alloy under operational testing.",
+    "evidence_passage_id": "P_058",
+    "canonical_entity": "ENTITY_058",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_059",
+    "query": "Novel experimental methodology regarding zno crystal.",
+    "evidence_passage_id": "P_059",
+    "canonical_entity": "ENTITY_059",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_060",
+    "query": "Advanced Characterization and Defect Engineering in LaSrMnO3 LaSrMnO3 LaSrMnO3",
+    "evidence_passage_id": "P_060",
+    "canonical_entity": "ENTITY_060",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_061",
+    "query": "Characterization and functional analysis of NdFeB-alloy under operational testing.",
+    "evidence_passage_id": "P_061",
+    "canonical_entity": "ENTITY_061",
+    "ground_truth_answer": "NdFeB exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_062",
+    "query": "Novel experimental methodology regarding smco5 crystal.",
+    "evidence_passage_id": "P_062",
+    "canonical_entity": "ENTITY_062",
+    "ground_truth_answer": "SmCo5 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_063",
+    "query": "Electrochemical and Optoelectronic Performance of CuInGaSe2 CuInGaSe2 CuInGaSe2",
+    "evidence_passage_id": "P_063",
+    "canonical_entity": "ENTITY_063",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_064",
+    "query": "Characterization and functional analysis of CdTe-alloy under operational testing.",
+    "evidence_passage_id": "P_064",
+    "canonical_entity": "ENTITY_064",
+    "ground_truth_answer": "CdTe exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_065",
+    "query": "Novel experimental methodology regarding gaas crystal.",
+    "evidence_passage_id": "P_065",
+    "canonical_entity": "ENTITY_065",
+    "ground_truth_answer": "GaAs exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_066",
+    "query": "Microstructural and Functional Evolution of InP InP InP",
+    "evidence_passage_id": "P_066",
+    "canonical_entity": "ENTITY_066",
+    "ground_truth_answer": "InP exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_067",
+    "query": "Characterization and functional analysis of VO2-alloy under operational testing.",
+    "evidence_passage_id": "P_067",
+    "canonical_entity": "ENTITY_067",
+    "ground_truth_answer": "VO2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_068",
+    "query": "Novel experimental methodology regarding linio2 crystal.",
+    "evidence_passage_id": "P_068",
+    "canonical_entity": "ENTITY_068",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_069",
+    "query": "Synthesis and Physical Properties of NaFePO4 NaFePO4 NaFePO4",
+    "evidence_passage_id": "P_069",
+    "canonical_entity": "ENTITY_069",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_070",
+    "query": "Characterization and functional analysis of SnO2-alloy under operational testing.",
+    "evidence_passage_id": "P_070",
+    "canonical_entity": "ENTITY_070",
+    "ground_truth_answer": "SnO2 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_071",
+    "query": "Novel experimental methodology regarding zno crystal.",
+    "evidence_passage_id": "P_071",
+    "canonical_entity": "ENTITY_071",
+    "ground_truth_answer": "ZnO exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_072",
+    "query": "Advanced Characterization and Defect Engineering in LaSrMnO3 LaSrMnO3 LaSrMnO3",
+    "evidence_passage_id": "P_072",
+    "canonical_entity": "ENTITY_072",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_073",
+    "query": "Characterization and functional analysis of NdFeB-alloy under operational testing.",
+    "evidence_passage_id": "P_073",
+    "canonical_entity": "ENTITY_073",
+    "ground_truth_answer": "NdFeB exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_074",
+    "query": "Novel experimental methodology regarding smco5 crystal.",
+    "evidence_passage_id": "P_074",
+    "canonical_entity": "ENTITY_074",
+    "ground_truth_answer": "SmCo5 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_075",
+    "query": "Electrochemical and Optoelectronic Performance of CuInGaSe2 CuInGaSe2 CuInGaSe2",
+    "evidence_passage_id": "P_075",
+    "canonical_entity": "ENTITY_075",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_076",
+    "query": "Characterization and functional analysis of CdTe-alloy under operational testing.",
+    "evidence_passage_id": "P_076",
+    "canonical_entity": "ENTITY_076",
+    "ground_truth_answer": "CdTe exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_077",
+    "query": "Novel experimental methodology regarding gaas crystal.",
+    "evidence_passage_id": "P_077",
+    "canonical_entity": "ENTITY_077",
+    "ground_truth_answer": "GaAs exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_078",
+    "query": "Microstructural and Functional Evolution of InP InP InP",
+    "evidence_passage_id": "P_078",
+    "canonical_entity": "ENTITY_078",
+    "ground_truth_answer": "InP exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_079",
+    "query": "Characterization and functional analysis of VO2-alloy under operational testing.",
+    "evidence_passage_id": "P_079",
+    "canonical_entity": "ENTITY_079",
+    "ground_truth_answer": "VO2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_080",
+    "query": "Novel experimental methodology regarding linio2 crystal.",
+    "evidence_passage_id": "P_080",
+    "canonical_entity": "ENTITY_080",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_081",
+    "query": "Synthesis and Physical Properties of NaFePO4 NaFePO4 NaFePO4",
+    "evidence_passage_id": "P_081",
+    "canonical_entity": "ENTITY_081",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_082",
+    "query": "Characterization and functional analysis of SnO2-alloy under operational testing.",
+    "evidence_passage_id": "P_082",
+    "canonical_entity": "ENTITY_082",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_083",
+    "query": "Novel experimental methodology regarding zno crystal.",
+    "evidence_passage_id": "P_083",
+    "canonical_entity": "ENTITY_083",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_084",
+    "query": "Advanced Characterization and Defect Engineering in LaSrMnO3 LaSrMnO3 LaSrMnO3",
+    "evidence_passage_id": "P_084",
+    "canonical_entity": "ENTITY_084",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_085",
+    "query": "Characterization and functional analysis of NdFeB-alloy under operational testing.",
+    "evidence_passage_id": "P_085",
+    "canonical_entity": "ENTITY_085",
+    "ground_truth_answer": "NdFeB exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_086",
+    "query": "Novel experimental methodology regarding smco5 crystal.",
+    "evidence_passage_id": "P_086",
+    "canonical_entity": "ENTITY_086",
+    "ground_truth_answer": "SmCo5 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_087",
+    "query": "Electrochemical and Optoelectronic Performance of CuInGaSe2 CuInGaSe2 CuInGaSe2",
+    "evidence_passage_id": "P_087",
+    "canonical_entity": "ENTITY_087",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_088",
+    "query": "Characterization and functional analysis of CdTe-alloy under operational testing.",
+    "evidence_passage_id": "P_088",
+    "canonical_entity": "ENTITY_088",
+    "ground_truth_answer": "CdTe exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_089",
+    "query": "Novel experimental methodology regarding gaas crystal.",
+    "evidence_passage_id": "P_089",
+    "canonical_entity": "ENTITY_089",
+    "ground_truth_answer": "GaAs exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_090",
+    "query": "Microstructural and Functional Evolution of InP InP InP",
+    "evidence_passage_id": "P_090",
+    "canonical_entity": "ENTITY_090",
+    "ground_truth_answer": "InP exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_091",
+    "query": "Characterization and functional analysis of VO2-alloy under operational testing.",
+    "evidence_passage_id": "P_091",
+    "canonical_entity": "ENTITY_091",
+    "ground_truth_answer": "VO2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_092",
+    "query": "Novel experimental methodology regarding linio2 crystal.",
+    "evidence_passage_id": "P_092",
+    "canonical_entity": "ENTITY_092",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_093",
+    "query": "Synthesis and Physical Properties of NaFePO4 NaFePO4 NaFePO4",
+    "evidence_passage_id": "P_093",
+    "canonical_entity": "ENTITY_093",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_094",
+    "query": "Characterization and functional analysis of SnO2-alloy under operational testing.",
+    "evidence_passage_id": "P_094",
+    "canonical_entity": "ENTITY_094",
+    "ground_truth_answer": "SnO2 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_095",
+    "query": "Novel experimental methodology regarding zno crystal.",
+    "evidence_passage_id": "P_095",
+    "canonical_entity": "ENTITY_095",
+    "ground_truth_answer": "ZnO exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_096",
+    "query": "Advanced Characterization and Defect Engineering in LaSrMnO3 LaSrMnO3 LaSrMnO3",
+    "evidence_passage_id": "P_096",
+    "canonical_entity": "ENTITY_096",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_097",
+    "query": "Characterization and functional analysis of NdFeB-alloy under operational testing.",
+    "evidence_passage_id": "P_097",
+    "canonical_entity": "ENTITY_097",
+    "ground_truth_answer": "NdFeB exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_098",
+    "query": "Novel experimental methodology regarding smco5 crystal.",
+    "evidence_passage_id": "P_098",
+    "canonical_entity": "ENTITY_098",
+    "ground_truth_answer": "SmCo5 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_099",
+    "query": "Electrochemical and Optoelectronic Performance of CuInGaSe2 CuInGaSe2 CuInGaSe2",
+    "evidence_passage_id": "P_099",
+    "canonical_entity": "ENTITY_099",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_100",
+    "query": "Characterization and functional analysis of CdTe-alloy under operational testing.",
+    "evidence_passage_id": "P_100",
+    "canonical_entity": "ENTITY_100",
+    "ground_truth_answer": "CdTe exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_101",
+    "query": "Novel experimental methodology regarding gaas crystal.",
+    "evidence_passage_id": "P_101",
+    "canonical_entity": "ENTITY_101",
+    "ground_truth_answer": "GaAs exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_102",
+    "query": "Microstructural and Functional Evolution of InP InP InP",
+    "evidence_passage_id": "P_102",
+    "canonical_entity": "ENTITY_102",
+    "ground_truth_answer": "InP exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_103",
+    "query": "Characterization and functional analysis of VO2-alloy under operational testing.",
+    "evidence_passage_id": "P_103",
+    "canonical_entity": "ENTITY_103",
+    "ground_truth_answer": "VO2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_104",
+    "query": "Novel experimental methodology regarding linio2 crystal.",
+    "evidence_passage_id": "P_104",
+    "canonical_entity": "ENTITY_104",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_105",
+    "query": "Synthesis and Physical Properties of YBa2Cu3O7 YBa2Cu3O7 YBa2Cu3O7",
+    "evidence_passage_id": "P_105",
+    "canonical_entity": "ENTITY_001",
+    "ground_truth_answer": "YBa2Cu3O7 exhibits critical transition temperature Tc of 92 K, orthorhombic perovskite-like structure, Pmmm space group, strong flux pinning and high critical current density Jc."
+  },
+  {
+    "query_id": "Q_106",
+    "query": "Characterization and functional analysis of BSCCO-2212 under operational testing.",
+    "evidence_passage_id": "P_106",
+    "canonical_entity": "ENTITY_002",
+    "ground_truth_answer": "Bi2Sr2CaCu2O8 exhibits superconducting transition at 85 K, highly anisotropic layered structure, pancake vortices in c-axis transport."
+  },
+  {
+    "query_id": "Q_107",
+    "query": "Novel experimental methodology regarding 2223 cuprate.",
+    "evidence_passage_id": "P_107",
+    "canonical_entity": "ENTITY_003",
+    "ground_truth_answer": "Bi2Sr2Ca2Cu3O10 exhibits Tc of 110 K, multi-filamentary tape fabrication, powder-in-tube processing for high-field superconducting magnets."
+  },
+  {
+    "query_id": "Q_108",
+    "query": "Advanced Characterization and Defect Engineering in MgB2 MgB2 MgB2",
+    "evidence_passage_id": "P_108",
+    "canonical_entity": "ENTITY_004",
+    "ground_truth_answer": "MgB2 exhibits BCS-type phonon-mediated superconductivity with Tc of 39 K, two-band superconducting gap structure in sigma and pi bands."
+  },
+  {
+    "query_id": "Q_109",
+    "query": "Characterization and functional analysis of Ba-122 under operational testing.",
+    "evidence_passage_id": "P_109",
+    "canonical_entity": "ENTITY_005",
+    "ground_truth_answer": "BaFe2As2 exhibits spin density wave transition at 140 K, potassium or cobalt doping suppresses magnetic order inducing superconductivity up to 38 K."
+  },
+  {
+    "query_id": "Q_110",
+    "query": "Novel experimental methodology regarding achavalite.",
+    "evidence_passage_id": "P_110",
+    "canonical_entity": "ENTITY_006",
+    "ground_truth_answer": "FeSe exhibits nematic electronic phase transition at 90 K, bulk Tc of 8 K rising above 65 K in monolayer films on SrTiO3 substrates."
+  },
+  {
+    "query_id": "Q_111",
+    "query": "Electrochemical and Optoelectronic Performance of Nb3Sn Nb3Sn Nb3Sn",
+    "evidence_passage_id": "P_111",
+    "canonical_entity": "ENTITY_007",
+    "ground_truth_answer": "Nb3Sn exhibits A15 crystal structure, critical temperature Tc of 18.3 K, upper critical field Hc2 exceeding 30 T at 4.2 K."
+  },
+  {
+    "query_id": "Q_112",
+    "query": "Characterization and functional analysis of LaH10 megabar phase under operational testing.",
+    "evidence_passage_id": "P_112",
+    "canonical_entity": "ENTITY_008",
+    "ground_truth_answer": "LaH10 exhibits near-room-temperature superconductivity with Tc of 250-260 K under megabar pressures of 170-200 GPa in diamond anvil cells."
+  },
+  {
+    "query_id": "Q_113",
+    "query": "Novel experimental methodology regarding triphylite.",
+    "evidence_passage_id": "P_113",
+    "canonical_entity": "ENTITY_009",
+    "ground_truth_answer": "LiFePO4 exhibits theoretical specific capacity of 170 mAh/g, flat discharge plateau at 3.45 V vs Li/Li+, exceptional thermal stability and long cycle life."
+  },
+  {
+    "query_id": "Q_114",
+    "query": "Microstructural and Functional Evolution of LiCoO2 LiCoO2 LiCoO2",
+    "evidence_passage_id": "P_114",
+    "canonical_entity": "ENTITY_010",
+    "ground_truth_answer": "LiCoO2 exhibits high volumetric energy density, working voltage of 3.9 V vs Li/Li+, practical reversible capacity of 140-160 mAh/g at 4.2 V cut-off."
+  },
+  {
+    "query_id": "Q_115",
+    "query": "Characterization and functional analysis of NMC811 under operational testing.",
+    "evidence_passage_id": "P_115",
+    "canonical_entity": "ENTITY_011",
+    "ground_truth_answer": "LiNi0.8Mn0.1Co0.1O2 exhibits specific discharge capacity exceeding 200 mAh/g at 4.3 V, high energy density for electric vehicles, requires surface coating against microcracking."
+  },
+  {
+    "query_id": "Q_116",
+    "query": "Novel experimental methodology regarding spinel titanate.",
+    "evidence_passage_id": "P_116",
+    "canonical_entity": "ENTITY_012",
+    "ground_truth_answer": "Li4Ti5O12 exhibits zero-strain insertion mechanism with flat voltage plateau at 1.55 V vs Li/Li+, eliminates lithium dendrite formation, ultra-fast charging."
+  },
+  {
+    "query_id": "Q_117",
+    "query": "Synthesis and Physical Properties of Li7La3Zr2O12 Li7La3Zr2O12 Li7La3Zr2O12",
+    "evidence_passage_id": "P_117",
+    "canonical_entity": "ENTITY_013",
+    "ground_truth_answer": "Li7La3Zr2O12 exhibits solid-state lithium ion conductor with room temperature bulk conductivity exceeding 1 mS/cm, wide electrochemical stability window up to 6 V."
+  },
+  {
+    "query_id": "Q_118",
+    "query": "Characterization and functional analysis of NVP under operational testing.",
+    "evidence_passage_id": "P_118",
+    "canonical_entity": "ENTITY_014",
+    "ground_truth_answer": "Na3V2(PO4)3 exhibits sodium superionic conductor framework for sodium-ion batteries, theoretical capacity of 117.6 mAh/g with high rate capability at 3.4 V vs Na/Na+."
+  },
+  {
+    "query_id": "Q_119",
+    "query": "Novel experimental methodology regarding LGPS superionic phase.",
+    "evidence_passage_id": "P_119",
+    "canonical_entity": "ENTITY_015",
+    "ground_truth_answer": "Li10GeP2S12 exhibits record ionic conductivity of 12 mS/cm at room temperature, one-dimensional lithium diffusion channels, solid-state battery electrolyte."
+  },
+  {
+    "query_id": "Q_120",
+    "query": "Advanced Characterization and Defect Engineering in Li3N Li3N Li3N",
+    "evidence_passage_id": "P_120",
+    "canonical_entity": "ENTITY_016",
+    "ground_truth_answer": "Li3N exhibits hexagonal crystal structure with anisotropic fast Li+ conduction parallel to Li2N layers, used as artificial SEI layer on lithium metal anodes."
+  },
+  {
+    "query_id": "Q_121",
+    "query": "Characterization and functional analysis of MoS2 monolayer under operational testing.",
+    "evidence_passage_id": "P_121",
+    "canonical_entity": "ENTITY_017",
+    "ground_truth_answer": "MoS2 exhibits direct bandgap of 1.85 eV in monolayer compared to 1.2 eV indirect in bulk, high ON/OFF ratio exceeding 10^8 in field-effect transistors."
+  },
+  {
+    "query_id": "Q_122",
+    "query": "Novel experimental methodology regarding tungstenite.",
+    "evidence_passage_id": "P_122",
+    "canonical_entity": "ENTITY_018",
+    "ground_truth_answer": "WS2 exhibits direct optical bandgap of 2.0 eV in monolayer, large spin-orbit splitting of 430 meV in valence band, valleytronic and optoelectronic applications."
+  },
+  {
+    "query_id": "Q_123",
+    "query": "Electrochemical and Optoelectronic Performance of MoSe2 MoSe2 MoSe2",
+    "evidence_passage_id": "P_123",
+    "canonical_entity": "ENTITY_019",
+    "ground_truth_answer": "MoSe2 exhibits direct bandgap of 1.57 eV in monolayer, close match to the solar spectrum, high photoluminescence quantum yield."
+  },
+  {
+    "query_id": "Q_124",
+    "query": "Characterization and functional analysis of WSe2 monolayer under operational testing.",
+    "evidence_passage_id": "P_124",
+    "canonical_entity": "ENTITY_020",
+    "ground_truth_answer": "WSe2 exhibits ambipolar charge transport, direct bandgap of 1.65 eV in single-layer, ideal for p-n heterojunction photovoltaic cells."
+  },
+  {
+    "query_id": "Q_125",
+    "query": "Novel experimental methodology regarding white graphene.",
+    "evidence_passage_id": "P_125",
+    "canonical_entity": "ENTITY_021",
+    "ground_truth_answer": "BN exhibits wide bandgap of ~5.9 eV, atomic flatness, absence of dangling bonds, premier dielectric substrate for graphene and TMD heterostructures."
+  },
+  {
+    "query_id": "Q_126",
+    "query": "Microstructural and Functional Evolution of Ti3C2Tx Ti3C2Tx Ti3C2Tx",
+    "evidence_passage_id": "P_126",
+    "canonical_entity": "ENTITY_022",
+    "ground_truth_answer": "Ti3C2Tx exhibits metallic electrical conductivity over 10000 S/cm, hydrophilic surface functional groups, volumetric capacitance exceeding 1500 F/cm3."
+  },
+  {
+    "query_id": "Q_127",
+    "query": "Characterization and functional analysis of CrI3 monolayer under operational testing.",
+    "evidence_passage_id": "P_127",
+    "canonical_entity": "ENTITY_023",
+    "ground_truth_answer": "CrI3 exhibits 2D Ising ferromagnet with Curie temperature Tc of 45 K in monolayer, layer-dependent antiferromagnetic coupling in bilayer CrI3."
+  },
+  {
+    "query_id": "Q_128",
+    "query": "Novel experimental methodology regarding sudovikovite.",
+    "evidence_passage_id": "P_128",
+    "canonical_entity": "ENTITY_024",
+    "ground_truth_answer": "PtSe2 exhibits semiconductor-to-semimetal transition with thickness, high carrier mobility, room-temperature mid-infrared photodetector response."
+  },
+  {
+    "query_id": "Q_129",
+    "query": "Synthesis and Physical Properties of CH3NH3PbI3 CH3NH3PbI3 CH3NH3PbI3",
+    "evidence_passage_id": "P_129",
+    "canonical_entity": "ENTITY_025",
+    "ground_truth_answer": "CH3NH3PbI3 exhibits optical bandgap of 1.55 eV, carrier diffusion lengths exceeding 1 micrometer, certified solar cell power conversion efficiency over 25%."
+  },
+  {
+    "query_id": "Q_130",
+    "query": "Characterization and functional analysis of FAPbI3 under operational testing.",
+    "evidence_passage_id": "P_130",
+    "canonical_entity": "ENTITY_026",
+    "ground_truth_answer": "HC(NH2)2PbI3 exhibits ideal bandgap of 1.48 eV closer to Shockley-Queisser limit, enhanced thermal tolerance compared to MAPbI3, stabilized by cation mixing."
+  },
+  {
+    "query_id": "Q_131",
+    "query": "Novel experimental methodology regarding all-inorganic perovskite.",
+    "evidence_passage_id": "P_131",
+    "canonical_entity": "ENTITY_027",
+    "ground_truth_answer": "CsPbI3 exhibits all-inorganic composition eliminating volatile organics, bandgap of 1.73 eV, tandem solar cell top-cell candidate."
+  },
+  {
+    "query_id": "Q_132",
+    "query": "Advanced Characterization and Defect Engineering in CsPbBr3 CsPbBr3 CsPbBr3",
+    "evidence_passage_id": "P_132",
+    "canonical_entity": "ENTITY_028",
+    "ground_truth_answer": "CsPbBr3 exhibits bandgap of 2.3 eV, ultra-pure green emission (FWHM < 20 nm) with photoluminescence quantum yield approaching 100% in colloidal nanocrystals."
+  },
+  {
+    "query_id": "Q_133",
+    "query": "Characterization and functional analysis of Cs2AgBiBr6 under operational testing.",
+    "evidence_passage_id": "P_133",
+    "canonical_entity": "ENTITY_029",
+    "ground_truth_answer": "Cs2AgBiBr6 exhibits lead-free environmentally benign double perovskite, indirect bandgap of 2.05 eV, long carrier recombination lifetime, high moisture stability."
+  },
+  {
+    "query_id": "Q_134",
+    "query": "Novel experimental methodology regarding barium titanate mineral.",
+    "evidence_passage_id": "P_134",
+    "canonical_entity": "ENTITY_030",
+    "ground_truth_answer": "BaTiO3 exhibits ferroelectric Curie temperature at 120 C, dielectric constant over 5000, lead-free piezoelectric and multilayer ceramic capacitor dielectric."
+  },
+  {
+    "query_id": "Q_135",
+    "query": "Electrochemical and Optoelectronic Performance of SrTiO3 SrTiO3 SrTiO3",
+    "evidence_passage_id": "P_135",
+    "canonical_entity": "ENTITY_031",
+    "ground_truth_answer": "SrTiO3 exhibits quantum paraelectric, lattice constant 3.905 A, forms 2D electron gas (2DEG) at LaAlO3/SrTiO3 interface with high electron mobility."
+  },
+  {
+    "query_id": "Q_136",
+    "query": "Characterization and functional analysis of PZT under operational testing.",
+    "evidence_passage_id": "P_136",
+    "canonical_entity": "ENTITY_032",
+    "ground_truth_answer": "PbZr0.52Ti0.48O3 exhibits high piezoelectric coefficient d33 exceeding 600 pC/N at morphotropic phase boundary (MPB), actuator and transducer applications."
+  },
+  {
+    "query_id": "Q_137",
+    "query": "Novel experimental methodology regarding tellurobismuthite.",
+    "evidence_passage_id": "P_137",
+    "canonical_entity": "ENTITY_033",
+    "ground_truth_answer": "Bi2Te3 exhibits room temperature thermoelectric figure of merit ZT ~ 1.0, 3D topological insulator with gapless Dirac surface states in quintuple layers."
+  },
+  {
+    "query_id": "Q_138",
+    "query": "Microstructural and Functional Evolution of Sb2Te3 Sb2Te3 Sb2Te3",
+    "evidence_passage_id": "P_138",
+    "canonical_entity": "ENTITY_034",
+    "ground_truth_answer": "Sb2Te3 exhibits p-type thermoelectric with large Seebeck coefficient, topological insulator with single Dirac cone at the Gamma point."
+  },
+  {
+    "query_id": "Q_139",
+    "query": "Characterization and functional analysis of Bi2Se3 crystal under operational testing.",
+    "evidence_passage_id": "P_139",
+    "canonical_entity": "ENTITY_035",
+    "ground_truth_answer": "Bi2Se3 exhibits prototypical 3D topological insulator with large bulk bandgap of 0.3 eV and robust spin-polarized Dirac cone surface states."
+  },
+  {
+    "query_id": "Q_140",
+    "query": "Novel experimental methodology regarding herzenbergite.",
+    "evidence_passage_id": "P_140",
+    "canonical_entity": "ENTITY_036",
+    "ground_truth_answer": "SnSe exhibits ultra-low lattice thermal conductivity due to strong lattice anharmonicity, record thermoelectric figure of merit ZT of 2.6 at 923 K."
+  },
+  {
+    "query_id": "Q_141",
+    "query": "Synthesis and Physical Properties of CoSb3 CoSb3 CoSb3",
+    "evidence_passage_id": "P_141",
+    "canonical_entity": "ENTITY_037",
+    "ground_truth_answer": "CoSb3 exhibits skutterudite cage crystal structure, filling with rare-earth atoms (Ba, La, Ce) dramatically scatters phonons, achieving ZT > 1.5 at mid-temperatures."
+  },
+  {
+    "query_id": "Q_142",
+    "query": "Characterization and functional analysis of PbTe alloy under operational testing.",
+    "evidence_passage_id": "P_142",
+    "canonical_entity": "ENTITY_038",
+    "ground_truth_answer": "PbTe exhibits narrow bandgap semiconductor (0.3 eV), valence band convergence and endotaxial nanostructuring yield ZT up to 2.2 for space power generation."
+  },
+  {
+    "query_id": "Q_143",
+    "query": "Novel experimental methodology regarding rhombohedral telluride.",
+    "evidence_passage_id": "P_143",
+    "canonical_entity": "ENTITY_039",
+    "ground_truth_answer": "GeTe exhibits giant Rashba spin splitting, non-centrosymmetric ferroelectric phase, ZT exceeding 2.0 via vacancy engineering and bismuth/indium doping."
+  },
+  {
+    "query_id": "Q_144",
+    "query": "Advanced Characterization and Defect Engineering in Cu2Se Cu2Se Cu2Se",
+    "evidence_passage_id": "P_144",
+    "canonical_entity": "ENTITY_040",
+    "ground_truth_answer": "Cu2Se exhibits electron-crystal phonon-liquid concept, superionic copper ion hopping creates extreme phonon scattering, ZT > 1.5 at high temperature."
+  },
+  {
+    "query_id": "Q_145",
+    "query": "Characterization and functional analysis of titania under operational testing.",
+    "evidence_passage_id": "P_145",
+    "canonical_entity": "ENTITY_041",
+    "ground_truth_answer": "TiO2 exhibits bandgap of 3.2 eV (anatase) / 3.0 eV (rutile), benchmark solar photocatalyst for overall water splitting and organic pollutant degradation."
+  },
+  {
+    "query_id": "Q_146",
+    "query": "Novel experimental methodology regarding cobalt spinel.",
+    "evidence_passage_id": "P_146",
+    "canonical_entity": "ENTITY_042",
+    "ground_truth_answer": "Co3O4 exhibits efficient earth-abundant electrocatalyst for oxygen evolution reaction (OER) in alkaline water electrolyzers, mixed Co2+/Co3+ active sites."
+  },
+  {
+    "query_id": "Q_147",
+    "query": "Electrochemical and Optoelectronic Performance of CeO2 CeO2 CeO2",
+    "evidence_passage_id": "P_147",
+    "canonical_entity": "ENTITY_043",
+    "ground_truth_answer": "CeO2 exhibits high oxygen storage capacity via reversible Ce4+/Ce3+ redox cycling and oxygen vacancies, three-way catalytic converters and SOFC anodes."
+  },
+  {
+    "query_id": "Q_148",
+    "query": "Characterization and functional analysis of g-C3N4 under operational testing.",
+    "evidence_passage_id": "P_148",
+    "canonical_entity": "ENTITY_044",
+    "ground_truth_answer": "g-C3N4 exhibits metal-free semiconductor with 2.7 eV bandgap, tri-s-triazine ring building blocks, active for visible-light photocatalytic hydrogen production."
+  },
+  {
+    "query_id": "Q_149",
+    "query": "Novel experimental methodology regarding tungstite.",
+    "evidence_passage_id": "P_149",
+    "canonical_entity": "ENTITY_045",
+    "ground_truth_answer": "WO3 exhibits n-type semiconductor with moderate bandgap of 2.6 eV, excellent hole mobility, widely used in photoelectrochemical water oxidation."
+  },
+  {
+    "query_id": "Q_150",
+    "query": "Microstructural and Functional Evolution of Pt/C Pt/C Pt/C",
+    "evidence_passage_id": "P_150",
+    "canonical_entity": "ENTITY_046",
+    "ground_truth_answer": "Pt/C exhibits benchmark electrocatalyst for hydrogen evolution reaction (HER) and oxygen reduction reaction (ORR) in proton-exchange membrane fuel cells."
+  },
+  {
+    "query_id": "Q_151",
+    "query": "Characterization and functional analysis of MOF-5 under operational testing.",
+    "evidence_passage_id": "P_151",
+    "canonical_entity": "ENTITY_047",
+    "ground_truth_answer": "MOF-5 exhibits BET surface area exceeding 3800 m2/g, cubic topology with pore diameter of 1.2 nm, hydrogen and methane gas storage."
+  },
+  {
+    "query_id": "Q_152",
+    "query": "Novel experimental methodology regarding paddlewheel copper MOF.",
+    "evidence_passage_id": "P_152",
+    "canonical_entity": "ENTITY_048",
+    "ground_truth_answer": "HKUST-1 exhibits open Cu2+ Lewis acid sites in paddlewheel secondary building units, high methane uptake capacity and CO2/N2 separation selectivity."
+  },
+  {
+    "query_id": "Q_153",
+    "query": "Synthesis and Physical Properties of UiO-66 UiO-66 Zr6O4(OH)4(BDC)6",
+    "evidence_passage_id": "P_153",
+    "canonical_entity": "ENTITY_049",
+    "ground_truth_answer": "UiO-66 exhibits exceptional hydrothermal, chemical, and acid stability due to strong Zr(IV)-O coordination bonds, used in toxic gas adsorption and water remediation."
+  },
+  {
+    "query_id": "Q_154",
+    "query": "Characterization and functional analysis of ZIF-8 under operational testing.",
+    "evidence_passage_id": "P_154",
+    "canonical_entity": "ENTITY_050",
+    "ground_truth_answer": "ZIF-8 exhibits zeolitic sodalite framework with 3.4 A pore aperture and 11.6 A cavity, gate-opening flexibility, high propane/propylene kinetic separation."
+  },
+  {
+    "query_id": "Q_155",
+    "query": "Novel experimental methodology regarding MFI topology zeolite.",
+    "evidence_passage_id": "P_155",
+    "canonical_entity": "ENTITY_051",
+    "ground_truth_answer": "ZSM-5 exhibits 10-membered ring intersecting 3D pore channels (5.5 A), strong Bronsted acid sites for methanol-to-gasoline (MTG) conversion and hydrocarbon cracking."
+  },
+  {
+    "query_id": "Q_156",
+    "query": "Advanced Characterization and Defect Engineering in CrMnFeCoNi CrMnFeCoNi CrMnFeCoNi",
+    "evidence_passage_id": "P_156",
+    "canonical_entity": "ENTITY_052",
+    "ground_truth_answer": "CrMnFeCoNi exhibits single-phase FCC solid solution exhibiting remarkable cryogenic damage tolerance and fracture toughness exceeding 200 MPa m^(1/2) at 77 K."
+  },
+  {
+    "query_id": "Q_157",
+    "query": "Characterization and functional analysis of 8YSZ under operational testing.",
+    "evidence_passage_id": "P_157",
+    "canonical_entity": "ENTITY_053",
+    "ground_truth_answer": "Zr0.84Y0.16O1.92 exhibits oxygen-vacancy-mediated O2- conduction at 700-1000 C for solid oxide fuel cells (SOFCs), high fracture toughness and thermal barrier coating in jet engines."
+  },
+  {
+    "query_id": "Q_158",
+    "query": "Novel experimental methodology regarding moissanite.",
+    "evidence_passage_id": "P_158",
+    "canonical_entity": "ENTITY_054",
+    "ground_truth_answer": "SiC exhibits wide bandgap of 3.26 eV (4H-SiC), critical electric breakdown field 10x higher than silicon, high thermal conductivity (4.9 W/cm K) for power electronics."
+  },
+  {
+    "query_id": "Q_159",
+    "query": "Electrochemical and Optoelectronic Performance of GaN GaN GaN",
+    "evidence_passage_id": "P_159",
+    "canonical_entity": "ENTITY_055",
+    "ground_truth_answer": "GaN exhibits direct bandgap of 3.4 eV, high electron saturation velocity, foundation of blue/UV LEDs and high-frequency high-power RF transistors."
+  },
+  {
+    "query_id": "Q_160",
+    "query": "Characterization and functional analysis of AlN ceramic substrate under operational testing.",
+    "evidence_passage_id": "P_160",
+    "canonical_entity": "ENTITY_056",
+    "ground_truth_answer": "AlN exhibits ultra-wide direct bandgap of 6.2 eV, exceptionally high thermal conductivity (up to 320 W/m K), excellent dielectric breakdown strength."
+  },
+  {
+    "query_id": "Q_161",
+    "query": "Novel experimental methodology regarding nafepo4 crystal.",
+    "evidence_passage_id": "P_161",
+    "canonical_entity": "ENTITY_057",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_162",
+    "query": "Microstructural and Functional Evolution of SnO2 SnO2 SnO2",
+    "evidence_passage_id": "P_162",
+    "canonical_entity": "ENTITY_058",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_163",
+    "query": "Characterization and functional analysis of ZnO-alloy under operational testing.",
+    "evidence_passage_id": "P_163",
+    "canonical_entity": "ENTITY_059",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_164",
+    "query": "Novel experimental methodology regarding lasrmno3 crystal.",
+    "evidence_passage_id": "P_164",
+    "canonical_entity": "ENTITY_060",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_165",
+    "query": "Synthesis and Physical Properties of NdFeB NdFeB NdFeB",
+    "evidence_passage_id": "P_165",
+    "canonical_entity": "ENTITY_061",
+    "ground_truth_answer": "NdFeB exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_166",
+    "query": "Characterization and functional analysis of SmCo5-alloy under operational testing.",
+    "evidence_passage_id": "P_166",
+    "canonical_entity": "ENTITY_062",
+    "ground_truth_answer": "SmCo5 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_167",
+    "query": "Novel experimental methodology regarding cuingase2 crystal.",
+    "evidence_passage_id": "P_167",
+    "canonical_entity": "ENTITY_063",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_168",
+    "query": "Advanced Characterization and Defect Engineering in CdTe CdTe CdTe",
+    "evidence_passage_id": "P_168",
+    "canonical_entity": "ENTITY_064",
+    "ground_truth_answer": "CdTe exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_169",
+    "query": "Characterization and functional analysis of GaAs-alloy under operational testing.",
+    "evidence_passage_id": "P_169",
+    "canonical_entity": "ENTITY_065",
+    "ground_truth_answer": "GaAs exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_170",
+    "query": "Novel experimental methodology regarding inp crystal.",
+    "evidence_passage_id": "P_170",
+    "canonical_entity": "ENTITY_066",
+    "ground_truth_answer": "InP exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_171",
+    "query": "Electrochemical and Optoelectronic Performance of VO2 VO2 VO2",
+    "evidence_passage_id": "P_171",
+    "canonical_entity": "ENTITY_067",
+    "ground_truth_answer": "VO2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_172",
+    "query": "Characterization and functional analysis of LiNiO2-alloy under operational testing.",
+    "evidence_passage_id": "P_172",
+    "canonical_entity": "ENTITY_068",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_173",
+    "query": "Novel experimental methodology regarding nafepo4 crystal.",
+    "evidence_passage_id": "P_173",
+    "canonical_entity": "ENTITY_069",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_174",
+    "query": "Microstructural and Functional Evolution of SnO2 SnO2 SnO2",
+    "evidence_passage_id": "P_174",
+    "canonical_entity": "ENTITY_070",
+    "ground_truth_answer": "SnO2 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_175",
+    "query": "Characterization and functional analysis of ZnO-alloy under operational testing.",
+    "evidence_passage_id": "P_175",
+    "canonical_entity": "ENTITY_071",
+    "ground_truth_answer": "ZnO exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_176",
+    "query": "Novel experimental methodology regarding lasrmno3 crystal.",
+    "evidence_passage_id": "P_176",
+    "canonical_entity": "ENTITY_072",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_177",
+    "query": "Synthesis and Physical Properties of NdFeB NdFeB NdFeB",
+    "evidence_passage_id": "P_177",
+    "canonical_entity": "ENTITY_073",
+    "ground_truth_answer": "NdFeB exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_178",
+    "query": "Characterization and functional analysis of SmCo5-alloy under operational testing.",
+    "evidence_passage_id": "P_178",
+    "canonical_entity": "ENTITY_074",
+    "ground_truth_answer": "SmCo5 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_179",
+    "query": "Novel experimental methodology regarding cuingase2 crystal.",
+    "evidence_passage_id": "P_179",
+    "canonical_entity": "ENTITY_075",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_180",
+    "query": "Advanced Characterization and Defect Engineering in CdTe CdTe CdTe",
+    "evidence_passage_id": "P_180",
+    "canonical_entity": "ENTITY_076",
+    "ground_truth_answer": "CdTe exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_181",
+    "query": "Characterization and functional analysis of GaAs-alloy under operational testing.",
+    "evidence_passage_id": "P_181",
+    "canonical_entity": "ENTITY_077",
+    "ground_truth_answer": "GaAs exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_182",
+    "query": "Novel experimental methodology regarding inp crystal.",
+    "evidence_passage_id": "P_182",
+    "canonical_entity": "ENTITY_078",
+    "ground_truth_answer": "InP exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_183",
+    "query": "Electrochemical and Optoelectronic Performance of VO2 VO2 VO2",
+    "evidence_passage_id": "P_183",
+    "canonical_entity": "ENTITY_079",
+    "ground_truth_answer": "VO2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_184",
+    "query": "Characterization and functional analysis of LiNiO2-alloy under operational testing.",
+    "evidence_passage_id": "P_184",
+    "canonical_entity": "ENTITY_080",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_185",
+    "query": "Novel experimental methodology regarding nafepo4 crystal.",
+    "evidence_passage_id": "P_185",
+    "canonical_entity": "ENTITY_081",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_186",
+    "query": "Microstructural and Functional Evolution of SnO2 SnO2 SnO2",
+    "evidence_passage_id": "P_186",
+    "canonical_entity": "ENTITY_082",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_187",
+    "query": "Characterization and functional analysis of ZnO-alloy under operational testing.",
+    "evidence_passage_id": "P_187",
+    "canonical_entity": "ENTITY_083",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_188",
+    "query": "Novel experimental methodology regarding lasrmno3 crystal.",
+    "evidence_passage_id": "P_188",
+    "canonical_entity": "ENTITY_084",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_189",
+    "query": "Synthesis and Physical Properties of NdFeB NdFeB NdFeB",
+    "evidence_passage_id": "P_189",
+    "canonical_entity": "ENTITY_085",
+    "ground_truth_answer": "NdFeB exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_190",
+    "query": "Characterization and functional analysis of SmCo5-alloy under operational testing.",
+    "evidence_passage_id": "P_190",
+    "canonical_entity": "ENTITY_086",
+    "ground_truth_answer": "SmCo5 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_191",
+    "query": "Novel experimental methodology regarding cuingase2 crystal.",
+    "evidence_passage_id": "P_191",
+    "canonical_entity": "ENTITY_087",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_192",
+    "query": "Advanced Characterization and Defect Engineering in CdTe CdTe CdTe",
+    "evidence_passage_id": "P_192",
+    "canonical_entity": "ENTITY_088",
+    "ground_truth_answer": "CdTe exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_193",
+    "query": "Characterization and functional analysis of GaAs-alloy under operational testing.",
+    "evidence_passage_id": "P_193",
+    "canonical_entity": "ENTITY_089",
+    "ground_truth_answer": "GaAs exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_194",
+    "query": "Novel experimental methodology regarding inp crystal.",
+    "evidence_passage_id": "P_194",
+    "canonical_entity": "ENTITY_090",
+    "ground_truth_answer": "InP exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_195",
+    "query": "Electrochemical and Optoelectronic Performance of VO2 VO2 VO2",
+    "evidence_passage_id": "P_195",
+    "canonical_entity": "ENTITY_091",
+    "ground_truth_answer": "VO2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_196",
+    "query": "Characterization and functional analysis of LiNiO2-alloy under operational testing.",
+    "evidence_passage_id": "P_196",
+    "canonical_entity": "ENTITY_092",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_197",
+    "query": "Novel experimental methodology regarding nafepo4 crystal.",
+    "evidence_passage_id": "P_197",
+    "canonical_entity": "ENTITY_093",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_198",
+    "query": "Microstructural and Functional Evolution of SnO2 SnO2 SnO2",
+    "evidence_passage_id": "P_198",
+    "canonical_entity": "ENTITY_094",
+    "ground_truth_answer": "SnO2 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_199",
+    "query": "Characterization and functional analysis of ZnO-alloy under operational testing.",
+    "evidence_passage_id": "P_199",
+    "canonical_entity": "ENTITY_095",
+    "ground_truth_answer": "ZnO exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_200",
+    "query": "Novel experimental methodology regarding lasrmno3 crystal.",
+    "evidence_passage_id": "P_200",
+    "canonical_entity": "ENTITY_096",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_201",
+    "query": "Synthesis and Physical Properties of NdFeB NdFeB NdFeB",
+    "evidence_passage_id": "P_201",
+    "canonical_entity": "ENTITY_097",
+    "ground_truth_answer": "NdFeB exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_202",
+    "query": "Characterization and functional analysis of SmCo5-alloy under operational testing.",
+    "evidence_passage_id": "P_202",
+    "canonical_entity": "ENTITY_098",
+    "ground_truth_answer": "SmCo5 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_203",
+    "query": "Novel experimental methodology regarding cuingase2 crystal.",
+    "evidence_passage_id": "P_203",
+    "canonical_entity": "ENTITY_099",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_204",
+    "query": "Advanced Characterization and Defect Engineering in CdTe CdTe CdTe",
+    "evidence_passage_id": "P_204",
+    "canonical_entity": "ENTITY_100",
+    "ground_truth_answer": "CdTe exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_205",
+    "query": "Characterization and functional analysis of GaAs-alloy under operational testing.",
+    "evidence_passage_id": "P_205",
+    "canonical_entity": "ENTITY_101",
+    "ground_truth_answer": "GaAs exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_206",
+    "query": "Novel experimental methodology regarding inp crystal.",
+    "evidence_passage_id": "P_206",
+    "canonical_entity": "ENTITY_102",
+    "ground_truth_answer": "InP exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_207",
+    "query": "Electrochemical and Optoelectronic Performance of VO2 VO2 VO2",
+    "evidence_passage_id": "P_207",
+    "canonical_entity": "ENTITY_103",
+    "ground_truth_answer": "VO2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_208",
+    "query": "Characterization and functional analysis of LiNiO2-alloy under operational testing.",
+    "evidence_passage_id": "P_208",
+    "canonical_entity": "ENTITY_104",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_209",
+    "query": "Novel experimental methodology regarding 123 cuprate.",
+    "evidence_passage_id": "P_209",
+    "canonical_entity": "ENTITY_001",
+    "ground_truth_answer": "YBa2Cu3O7 exhibits critical transition temperature Tc of 92 K, orthorhombic perovskite-like structure, Pmmm space group, strong flux pinning and high critical current density Jc."
+  },
+  {
+    "query_id": "Q_210",
+    "query": "Microstructural and Functional Evolution of Bi2Sr2CaCu2O8 Bi2Sr2CaCu2O8 Bi2Sr2CaCu2O8",
+    "evidence_passage_id": "P_210",
+    "canonical_entity": "ENTITY_002",
+    "ground_truth_answer": "Bi2Sr2CaCu2O8 exhibits superconducting transition at 85 K, highly anisotropic layered structure, pancake vortices in c-axis transport."
+  },
+  {
+    "query_id": "Q_211",
+    "query": "Characterization and functional analysis of BSCCO-2223 under operational testing.",
+    "evidence_passage_id": "P_211",
+    "canonical_entity": "ENTITY_003",
+    "ground_truth_answer": "Bi2Sr2Ca2Cu3O10 exhibits Tc of 110 K, multi-filamentary tape fabrication, powder-in-tube processing for high-field superconducting magnets."
+  },
+  {
+    "query_id": "Q_212",
+    "query": "Novel experimental methodology regarding AlB2-type diboride.",
+    "evidence_passage_id": "P_212",
+    "canonical_entity": "ENTITY_004",
+    "ground_truth_answer": "MgB2 exhibits BCS-type phonon-mediated superconductivity with Tc of 39 K, two-band superconducting gap structure in sigma and pi bands."
+  },
+  {
+    "query_id": "Q_213",
+    "query": "Synthesis and Physical Properties of BaFe2As2 BaFe2As2 BaFe2As2",
+    "evidence_passage_id": "P_213",
+    "canonical_entity": "ENTITY_005",
+    "ground_truth_answer": "BaFe2As2 exhibits spin density wave transition at 140 K, potassium or cobalt doping suppresses magnetic order inducing superconductivity up to 38 K."
+  },
+  {
+    "query_id": "Q_214",
+    "query": "Characterization and functional analysis of FeSe-11 under operational testing.",
+    "evidence_passage_id": "P_214",
+    "canonical_entity": "ENTITY_006",
+    "ground_truth_answer": "FeSe exhibits nematic electronic phase transition at 90 K, bulk Tc of 8 K rising above 65 K in monolayer films on SrTiO3 substrates."
+  },
+  {
+    "query_id": "Q_215",
+    "query": "Novel experimental methodology regarding A15 superconductor.",
+    "evidence_passage_id": "P_215",
+    "canonical_entity": "ENTITY_007",
+    "ground_truth_answer": "Nb3Sn exhibits A15 crystal structure, critical temperature Tc of 18.3 K, upper critical field Hc2 exceeding 30 T at 4.2 K."
+  },
+  {
+    "query_id": "Q_216",
+    "query": "Advanced Characterization and Defect Engineering in LaH10 LaH10 LaH10",
+    "evidence_passage_id": "P_216",
+    "canonical_entity": "ENTITY_008",
+    "ground_truth_answer": "LaH10 exhibits near-room-temperature superconductivity with Tc of 250-260 K under megabar pressures of 170-200 GPa in diamond anvil cells."
+  },
+  {
+    "query_id": "Q_217",
+    "query": "Characterization and functional analysis of LFP under operational testing.",
+    "evidence_passage_id": "P_217",
+    "canonical_entity": "ENTITY_009",
+    "ground_truth_answer": "LiFePO4 exhibits theoretical specific capacity of 170 mAh/g, flat discharge plateau at 3.45 V vs Li/Li+, exceptional thermal stability and long cycle life."
+  },
+  {
+    "query_id": "Q_218",
+    "query": "Novel experimental methodology regarding alpha-NaFeO2 structure.",
+    "evidence_passage_id": "P_218",
+    "canonical_entity": "ENTITY_010",
+    "ground_truth_answer": "LiCoO2 exhibits high volumetric energy density, working voltage of 3.9 V vs Li/Li+, practical reversible capacity of 140-160 mAh/g at 4.2 V cut-off."
+  },
+  {
+    "query_id": "Q_219",
+    "query": "Electrochemical and Optoelectronic Performance of LiNi0.8Mn0.1Co0.1O2 LiNi0.8Mn0.1Co0.1O2 LiNi0.8Mn0.1Co0.1O2",
+    "evidence_passage_id": "P_219",
+    "canonical_entity": "ENTITY_011",
+    "ground_truth_answer": "LiNi0.8Mn0.1Co0.1O2 exhibits specific discharge capacity exceeding 200 mAh/g at 4.3 V, high energy density for electric vehicles, requires surface coating against microcracking."
+  },
+  {
+    "query_id": "Q_220",
+    "query": "Characterization and functional analysis of LTO under operational testing.",
+    "evidence_passage_id": "P_220",
+    "canonical_entity": "ENTITY_012",
+    "ground_truth_answer": "Li4Ti5O12 exhibits zero-strain insertion mechanism with flat voltage plateau at 1.55 V vs Li/Li+, eliminates lithium dendrite formation, ultra-fast charging."
+  },
+  {
+    "query_id": "Q_221",
+    "query": "Novel experimental methodology regarding cubic garnet electrolyte.",
+    "evidence_passage_id": "P_221",
+    "canonical_entity": "ENTITY_013",
+    "ground_truth_answer": "Li7La3Zr2O12 exhibits solid-state lithium ion conductor with room temperature bulk conductivity exceeding 1 mS/cm, wide electrochemical stability window up to 6 V."
+  },
+  {
+    "query_id": "Q_222",
+    "query": "Microstructural and Functional Evolution of Na3V2(PO4)3 Na3V2(PO4)3 Na3V2(PO4)3",
+    "evidence_passage_id": "P_222",
+    "canonical_entity": "ENTITY_014",
+    "ground_truth_answer": "Na3V2(PO4)3 exhibits sodium superionic conductor framework for sodium-ion batteries, theoretical capacity of 117.6 mAh/g with high rate capability at 3.4 V vs Na/Na+."
+  },
+  {
+    "query_id": "Q_223",
+    "query": "Characterization and functional analysis of LGPS under operational testing.",
+    "evidence_passage_id": "P_223",
+    "canonical_entity": "ENTITY_015",
+    "ground_truth_answer": "Li10GeP2S12 exhibits record ionic conductivity of 12 mS/cm at room temperature, one-dimensional lithium diffusion channels, solid-state battery electrolyte."
+  },
+  {
+    "query_id": "Q_224",
+    "query": "Novel experimental methodology regarding alpha-Li3N hexagonal phase.",
+    "evidence_passage_id": "P_224",
+    "canonical_entity": "ENTITY_016",
+    "ground_truth_answer": "Li3N exhibits hexagonal crystal structure with anisotropic fast Li+ conduction parallel to Li2N layers, used as artificial SEI layer on lithium metal anodes."
+  },
+  {
+    "query_id": "Q_225",
+    "query": "Synthesis and Physical Properties of MoS2 MoS2 MoS2",
+    "evidence_passage_id": "P_225",
+    "canonical_entity": "ENTITY_017",
+    "ground_truth_answer": "MoS2 exhibits direct bandgap of 1.85 eV in monolayer compared to 1.2 eV indirect in bulk, high ON/OFF ratio exceeding 10^8 in field-effect transistors."
+  },
+  {
+    "query_id": "Q_226",
+    "query": "Characterization and functional analysis of WS2 monolayer under operational testing.",
+    "evidence_passage_id": "P_226",
+    "canonical_entity": "ENTITY_018",
+    "ground_truth_answer": "WS2 exhibits direct optical bandgap of 2.0 eV in monolayer, large spin-orbit splitting of 430 meV in valence band, valleytronic and optoelectronic applications."
+  },
+  {
+    "query_id": "Q_227",
+    "query": "Novel experimental methodology regarding drysdallite.",
+    "evidence_passage_id": "P_227",
+    "canonical_entity": "ENTITY_019",
+    "ground_truth_answer": "MoSe2 exhibits direct bandgap of 1.57 eV in monolayer, close match to the solar spectrum, high photoluminescence quantum yield."
+  },
+  {
+    "query_id": "Q_228",
+    "query": "Advanced Characterization and Defect Engineering in WSe2 WSe2 WSe2",
+    "evidence_passage_id": "P_228",
+    "canonical_entity": "ENTITY_020",
+    "ground_truth_answer": "WSe2 exhibits ambipolar charge transport, direct bandgap of 1.65 eV in single-layer, ideal for p-n heterojunction photovoltaic cells."
+  },
+  {
+    "query_id": "Q_229",
+    "query": "Characterization and functional analysis of hBN under operational testing.",
+    "evidence_passage_id": "P_229",
+    "canonical_entity": "ENTITY_021",
+    "ground_truth_answer": "BN exhibits wide bandgap of ~5.9 eV, atomic flatness, absence of dangling bonds, premier dielectric substrate for graphene and TMD heterostructures."
+  },
+  {
+    "query_id": "Q_230",
+    "query": "Novel experimental methodology regarding MAX phase derivative MXene.",
+    "evidence_passage_id": "P_230",
+    "canonical_entity": "ENTITY_022",
+    "ground_truth_answer": "Ti3C2Tx exhibits metallic electrical conductivity over 10000 S/cm, hydrophilic surface functional groups, volumetric capacitance exceeding 1500 F/cm3."
+  },
+  {
+    "query_id": "Q_231",
+    "query": "Electrochemical and Optoelectronic Performance of CrI3 CrI3 CrI3",
+    "evidence_passage_id": "P_231",
+    "canonical_entity": "ENTITY_023",
+    "ground_truth_answer": "CrI3 exhibits 2D Ising ferromagnet with Curie temperature Tc of 45 K in monolayer, layer-dependent antiferromagnetic coupling in bilayer CrI3."
+  },
+  {
+    "query_id": "Q_232",
+    "query": "Characterization and functional analysis of PtSe2 thin film under operational testing.",
+    "evidence_passage_id": "P_232",
+    "canonical_entity": "ENTITY_024",
+    "ground_truth_answer": "PtSe2 exhibits semiconductor-to-semimetal transition with thickness, high carrier mobility, room-temperature mid-infrared photodetector response."
+  },
+  {
+    "query_id": "Q_233",
+    "query": "Novel experimental methodology regarding hybrid organic-inorganic perovskite.",
+    "evidence_passage_id": "P_233",
+    "canonical_entity": "ENTITY_025",
+    "ground_truth_answer": "CH3NH3PbI3 exhibits optical bandgap of 1.55 eV, carrier diffusion lengths exceeding 1 micrometer, certified solar cell power conversion efficiency over 25%."
+  },
+  {
+    "query_id": "Q_234",
+    "query": "Microstructural and Functional Evolution of HC(NH2)2PbI3 HC(NH2)2PbI3 HC(NH2)2PbI3",
+    "evidence_passage_id": "P_234",
+    "canonical_entity": "ENTITY_026",
+    "ground_truth_answer": "HC(NH2)2PbI3 exhibits ideal bandgap of 1.48 eV closer to Shockley-Queisser limit, enhanced thermal tolerance compared to MAPbI3, stabilized by cation mixing."
+  },
+  {
+    "query_id": "Q_235",
+    "query": "Characterization and functional analysis of CsPbI3 under operational testing.",
+    "evidence_passage_id": "P_235",
+    "canonical_entity": "ENTITY_027",
+    "ground_truth_answer": "CsPbI3 exhibits all-inorganic composition eliminating volatile organics, bandgap of 1.73 eV, tandem solar cell top-cell candidate."
+  },
+  {
+    "query_id": "Q_236",
+    "query": "Novel experimental methodology regarding all-inorganic bromide perovskite.",
+    "evidence_passage_id": "P_236",
+    "canonical_entity": "ENTITY_028",
+    "ground_truth_answer": "CsPbBr3 exhibits bandgap of 2.3 eV, ultra-pure green emission (FWHM < 20 nm) with photoluminescence quantum yield approaching 100% in colloidal nanocrystals."
+  },
+  {
+    "query_id": "Q_237",
+    "query": "Synthesis and Physical Properties of Cs2AgBiBr6 Cs2AgBiBr6 Cs2AgBiBr6",
+    "evidence_passage_id": "P_237",
+    "canonical_entity": "ENTITY_029",
+    "ground_truth_answer": "Cs2AgBiBr6 exhibits lead-free environmentally benign double perovskite, indirect bandgap of 2.05 eV, long carrier recombination lifetime, high moisture stability."
+  },
+  {
+    "query_id": "Q_238",
+    "query": "Characterization and functional analysis of BTO under operational testing.",
+    "evidence_passage_id": "P_238",
+    "canonical_entity": "ENTITY_030",
+    "ground_truth_answer": "BaTiO3 exhibits ferroelectric Curie temperature at 120 C, dielectric constant over 5000, lead-free piezoelectric and multilayer ceramic capacitor dielectric."
+  },
+  {
+    "query_id": "Q_239",
+    "query": "Novel experimental methodology regarding tausonite.",
+    "evidence_passage_id": "P_239",
+    "canonical_entity": "ENTITY_031",
+    "ground_truth_answer": "SrTiO3 exhibits quantum paraelectric, lattice constant 3.905 A, forms 2D electron gas (2DEG) at LaAlO3/SrTiO3 interface with high electron mobility."
+  },
+  {
+    "query_id": "Q_240",
+    "query": "Advanced Characterization and Defect Engineering in PbZr0.52Ti0.48O3 PbZr0.52Ti0.48O3 PbZr0.52Ti0.48O3",
+    "evidence_passage_id": "P_240",
+    "canonical_entity": "ENTITY_032",
+    "ground_truth_answer": "PbZr0.52Ti0.48O3 exhibits high piezoelectric coefficient d33 exceeding 600 pC/N at morphotropic phase boundary (MPB), actuator and transducer applications."
+  },
+  {
+    "query_id": "Q_241",
+    "query": "Characterization and functional analysis of Bi2Te3 alloy under operational testing.",
+    "evidence_passage_id": "P_241",
+    "canonical_entity": "ENTITY_033",
+    "ground_truth_answer": "Bi2Te3 exhibits room temperature thermoelectric figure of merit ZT ~ 1.0, 3D topological insulator with gapless Dirac surface states in quintuple layers."
+  },
+  {
+    "query_id": "Q_242",
+    "query": "Novel experimental methodology regarding telluroantimony.",
+    "evidence_passage_id": "P_242",
+    "canonical_entity": "ENTITY_034",
+    "ground_truth_answer": "Sb2Te3 exhibits p-type thermoelectric with large Seebeck coefficient, topological insulator with single Dirac cone at the Gamma point."
+  },
+  {
+    "query_id": "Q_243",
+    "query": "Electrochemical and Optoelectronic Performance of Bi2Se3 Bi2Se3 Bi2Se3",
+    "evidence_passage_id": "P_243",
+    "canonical_entity": "ENTITY_035",
+    "ground_truth_answer": "Bi2Se3 exhibits prototypical 3D topological insulator with large bulk bandgap of 0.3 eV and robust spin-polarized Dirac cone surface states."
+  },
+  {
+    "query_id": "Q_244",
+    "query": "Characterization and functional analysis of SnSe single crystal under operational testing.",
+    "evidence_passage_id": "P_244",
+    "canonical_entity": "ENTITY_036",
+    "ground_truth_answer": "SnSe exhibits ultra-low lattice thermal conductivity due to strong lattice anharmonicity, record thermoelectric figure of merit ZT of 2.6 at 923 K."
+  },
+  {
+    "query_id": "Q_245",
+    "query": "Novel experimental methodology regarding skutterudite.",
+    "evidence_passage_id": "P_245",
+    "canonical_entity": "ENTITY_037",
+    "ground_truth_answer": "CoSb3 exhibits skutterudite cage crystal structure, filling with rare-earth atoms (Ba, La, Ce) dramatically scatters phonons, achieving ZT > 1.5 at mid-temperatures."
+  },
+  {
+    "query_id": "Q_246",
+    "query": "Microstructural and Functional Evolution of PbTe PbTe PbTe",
+    "evidence_passage_id": "P_246",
+    "canonical_entity": "ENTITY_038",
+    "ground_truth_answer": "PbTe exhibits narrow bandgap semiconductor (0.3 eV), valence band convergence and endotaxial nanostructuring yield ZT up to 2.2 for space power generation."
+  },
+  {
+    "query_id": "Q_247",
+    "query": "Characterization and functional analysis of GeTe phase change under operational testing.",
+    "evidence_passage_id": "P_247",
+    "canonical_entity": "ENTITY_039",
+    "ground_truth_answer": "GeTe exhibits giant Rashba spin splitting, non-centrosymmetric ferroelectric phase, ZT exceeding 2.0 via vacancy engineering and bismuth/indium doping."
+  },
+  {
+    "query_id": "Q_248",
+    "query": "Novel experimental methodology regarding berzelianite.",
+    "evidence_passage_id": "P_248",
+    "canonical_entity": "ENTITY_040",
+    "ground_truth_answer": "Cu2Se exhibits electron-crystal phonon-liquid concept, superionic copper ion hopping creates extreme phonon scattering, ZT > 1.5 at high temperature."
+  },
+  {
+    "query_id": "Q_249",
+    "query": "Synthesis and Physical Properties of TiO2 TiO2 TiO2",
+    "evidence_passage_id": "P_249",
+    "canonical_entity": "ENTITY_041",
+    "ground_truth_answer": "TiO2 exhibits bandgap of 3.2 eV (anatase) / 3.0 eV (rutile), benchmark solar photocatalyst for overall water splitting and organic pollutant degradation."
+  },
+  {
+    "query_id": "Q_250",
+    "query": "Characterization and functional analysis of Co3O4 spinel under operational testing.",
+    "evidence_passage_id": "P_250",
+    "canonical_entity": "ENTITY_042",
+    "ground_truth_answer": "Co3O4 exhibits efficient earth-abundant electrocatalyst for oxygen evolution reaction (OER) in alkaline water electrolyzers, mixed Co2+/Co3+ active sites."
+  },
+  {
+    "query_id": "Q_251",
+    "query": "Novel experimental methodology regarding cerianite.",
+    "evidence_passage_id": "P_251",
+    "canonical_entity": "ENTITY_043",
+    "ground_truth_answer": "CeO2 exhibits high oxygen storage capacity via reversible Ce4+/Ce3+ redox cycling and oxygen vacancies, three-way catalytic converters and SOFC anodes."
+  },
+  {
+    "query_id": "Q_252",
+    "query": "Advanced Characterization and Defect Engineering in g-C3N4 g-C3N4 g-C3N4",
+    "evidence_passage_id": "P_252",
+    "canonical_entity": "ENTITY_044",
+    "ground_truth_answer": "g-C3N4 exhibits metal-free semiconductor with 2.7 eV bandgap, tri-s-triazine ring building blocks, active for visible-light photocatalytic hydrogen production."
+  },
+  {
+    "query_id": "Q_253",
+    "query": "Characterization and functional analysis of WO3 photoanode under operational testing.",
+    "evidence_passage_id": "P_253",
+    "canonical_entity": "ENTITY_045",
+    "ground_truth_answer": "WO3 exhibits n-type semiconductor with moderate bandgap of 2.6 eV, excellent hole mobility, widely used in photoelectrochemical water oxidation."
+  },
+  {
+    "query_id": "Q_254",
+    "query": "Novel experimental methodology regarding native platinum on Vulcan carbon.",
+    "evidence_passage_id": "P_254",
+    "canonical_entity": "ENTITY_046",
+    "ground_truth_answer": "Pt/C exhibits benchmark electrocatalyst for hydrogen evolution reaction (HER) and oxygen reduction reaction (ORR) in proton-exchange membrane fuel cells."
+  },
+  {
+    "query_id": "Q_255",
+    "query": "Electrochemical and Optoelectronic Performance of MOF-5 MOF-5 Zn4O(BDC)3",
+    "evidence_passage_id": "P_255",
+    "canonical_entity": "ENTITY_047",
+    "ground_truth_answer": "MOF-5 exhibits BET surface area exceeding 3800 m2/g, cubic topology with pore diameter of 1.2 nm, hydrogen and methane gas storage."
+  },
+  {
+    "query_id": "Q_256",
+    "query": "Characterization and functional analysis of HKUST-1 under operational testing.",
+    "evidence_passage_id": "P_256",
+    "canonical_entity": "ENTITY_048",
+    "ground_truth_answer": "HKUST-1 exhibits open Cu2+ Lewis acid sites in paddlewheel secondary building units, high methane uptake capacity and CO2/N2 separation selectivity."
+  },
+  {
+    "query_id": "Q_257",
+    "query": "Novel experimental methodology regarding fcu topology zirconium framework.",
+    "evidence_passage_id": "P_257",
+    "canonical_entity": "ENTITY_049",
+    "ground_truth_answer": "UiO-66 exhibits exceptional hydrothermal, chemical, and acid stability due to strong Zr(IV)-O coordination bonds, used in toxic gas adsorption and water remediation."
+  },
+  {
+    "query_id": "Q_258",
+    "query": "Microstructural and Functional Evolution of ZIF-8 ZIF-8 Zn(MeIM)2",
+    "evidence_passage_id": "P_258",
+    "canonical_entity": "ENTITY_050",
+    "ground_truth_answer": "ZIF-8 exhibits zeolitic sodalite framework with 3.4 A pore aperture and 11.6 A cavity, gate-opening flexibility, high propane/propylene kinetic separation."
+  },
+  {
+    "query_id": "Q_259",
+    "query": "Characterization and functional analysis of ZSM-5 under operational testing.",
+    "evidence_passage_id": "P_259",
+    "canonical_entity": "ENTITY_051",
+    "ground_truth_answer": "ZSM-5 exhibits 10-membered ring intersecting 3D pore channels (5.5 A), strong Bronsted acid sites for methanol-to-gasoline (MTG) conversion and hydrocarbon cracking."
+  },
+  {
+    "query_id": "Q_260",
+    "query": "Novel experimental methodology regarding fcc high-entropy alloy solid solution.",
+    "evidence_passage_id": "P_260",
+    "canonical_entity": "ENTITY_052",
+    "ground_truth_answer": "CrMnFeCoNi exhibits single-phase FCC solid solution exhibiting remarkable cryogenic damage tolerance and fracture toughness exceeding 200 MPa m^(1/2) at 77 K."
+  },
+  {
+    "query_id": "Q_261",
+    "query": "Synthesis and Physical Properties of Zr0.84Y0.16O1.92 Zr0.84Y0.16O1.92 Zr0.84Y0.16O1.92",
+    "evidence_passage_id": "P_261",
+    "canonical_entity": "ENTITY_053",
+    "ground_truth_answer": "Zr0.84Y0.16O1.92 exhibits oxygen-vacancy-mediated O2- conduction at 700-1000 C for solid oxide fuel cells (SOFCs), high fracture toughness and thermal barrier coating in jet engines."
+  },
+  {
+    "query_id": "Q_262",
+    "query": "Characterization and functional analysis of carborundum under operational testing.",
+    "evidence_passage_id": "P_262",
+    "canonical_entity": "ENTITY_054",
+    "ground_truth_answer": "SiC exhibits wide bandgap of 3.26 eV (4H-SiC), critical electric breakdown field 10x higher than silicon, high thermal conductivity (4.9 W/cm K) for power electronics."
+  },
+  {
+    "query_id": "Q_263",
+    "query": "Novel experimental methodology regarding wurtzite gallium nitride.",
+    "evidence_passage_id": "P_263",
+    "canonical_entity": "ENTITY_055",
+    "ground_truth_answer": "GaN exhibits direct bandgap of 3.4 eV, high electron saturation velocity, foundation of blue/UV LEDs and high-frequency high-power RF transistors."
+  },
+  {
+    "query_id": "Q_264",
+    "query": "Advanced Characterization and Defect Engineering in AlN AlN AlN",
+    "evidence_passage_id": "P_264",
+    "canonical_entity": "ENTITY_056",
+    "ground_truth_answer": "AlN exhibits ultra-wide direct bandgap of 6.2 eV, exceptionally high thermal conductivity (up to 320 W/m K), excellent dielectric breakdown strength."
+  },
+  {
+    "query_id": "Q_265",
+    "query": "Characterization and functional analysis of NaFePO4-alloy under operational testing.",
+    "evidence_passage_id": "P_265",
+    "canonical_entity": "ENTITY_057",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_266",
+    "query": "Novel experimental methodology regarding sno2 crystal.",
+    "evidence_passage_id": "P_266",
+    "canonical_entity": "ENTITY_058",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_267",
+    "query": "Electrochemical and Optoelectronic Performance of ZnO ZnO ZnO",
+    "evidence_passage_id": "P_267",
+    "canonical_entity": "ENTITY_059",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_268",
+    "query": "Characterization and functional analysis of LaSrMnO3-alloy under operational testing.",
+    "evidence_passage_id": "P_268",
+    "canonical_entity": "ENTITY_060",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_269",
+    "query": "Novel experimental methodology regarding ndfeb crystal.",
+    "evidence_passage_id": "P_269",
+    "canonical_entity": "ENTITY_061",
+    "ground_truth_answer": "NdFeB exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_270",
+    "query": "Microstructural and Functional Evolution of SmCo5 SmCo5 SmCo5",
+    "evidence_passage_id": "P_270",
+    "canonical_entity": "ENTITY_062",
+    "ground_truth_answer": "SmCo5 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_271",
+    "query": "Characterization and functional analysis of CuInGaSe2-alloy under operational testing.",
+    "evidence_passage_id": "P_271",
+    "canonical_entity": "ENTITY_063",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_272",
+    "query": "Novel experimental methodology regarding cdte crystal.",
+    "evidence_passage_id": "P_272",
+    "canonical_entity": "ENTITY_064",
+    "ground_truth_answer": "CdTe exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_273",
+    "query": "Synthesis and Physical Properties of GaAs GaAs GaAs",
+    "evidence_passage_id": "P_273",
+    "canonical_entity": "ENTITY_065",
+    "ground_truth_answer": "GaAs exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_274",
+    "query": "Characterization and functional analysis of InP-alloy under operational testing.",
+    "evidence_passage_id": "P_274",
+    "canonical_entity": "ENTITY_066",
+    "ground_truth_answer": "InP exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_275",
+    "query": "Novel experimental methodology regarding vo2 crystal.",
+    "evidence_passage_id": "P_275",
+    "canonical_entity": "ENTITY_067",
+    "ground_truth_answer": "VO2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_276",
+    "query": "Advanced Characterization and Defect Engineering in LiNiO2 LiNiO2 LiNiO2",
+    "evidence_passage_id": "P_276",
+    "canonical_entity": "ENTITY_068",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_277",
+    "query": "Characterization and functional analysis of NaFePO4-alloy under operational testing.",
+    "evidence_passage_id": "P_277",
+    "canonical_entity": "ENTITY_069",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_278",
+    "query": "Novel experimental methodology regarding sno2 crystal.",
+    "evidence_passage_id": "P_278",
+    "canonical_entity": "ENTITY_070",
+    "ground_truth_answer": "SnO2 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_279",
+    "query": "Electrochemical and Optoelectronic Performance of ZnO ZnO ZnO",
+    "evidence_passage_id": "P_279",
+    "canonical_entity": "ENTITY_071",
+    "ground_truth_answer": "ZnO exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_280",
+    "query": "Characterization and functional analysis of LaSrMnO3-alloy under operational testing.",
+    "evidence_passage_id": "P_280",
+    "canonical_entity": "ENTITY_072",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_281",
+    "query": "Novel experimental methodology regarding ndfeb crystal.",
+    "evidence_passage_id": "P_281",
+    "canonical_entity": "ENTITY_073",
+    "ground_truth_answer": "NdFeB exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_282",
+    "query": "Microstructural and Functional Evolution of SmCo5 SmCo5 SmCo5",
+    "evidence_passage_id": "P_282",
+    "canonical_entity": "ENTITY_074",
+    "ground_truth_answer": "SmCo5 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_283",
+    "query": "Characterization and functional analysis of CuInGaSe2-alloy under operational testing.",
+    "evidence_passage_id": "P_283",
+    "canonical_entity": "ENTITY_075",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_284",
+    "query": "Novel experimental methodology regarding cdte crystal.",
+    "evidence_passage_id": "P_284",
+    "canonical_entity": "ENTITY_076",
+    "ground_truth_answer": "CdTe exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_285",
+    "query": "Synthesis and Physical Properties of GaAs GaAs GaAs",
+    "evidence_passage_id": "P_285",
+    "canonical_entity": "ENTITY_077",
+    "ground_truth_answer": "GaAs exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_286",
+    "query": "Characterization and functional analysis of InP-alloy under operational testing.",
+    "evidence_passage_id": "P_286",
+    "canonical_entity": "ENTITY_078",
+    "ground_truth_answer": "InP exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_287",
+    "query": "Novel experimental methodology regarding vo2 crystal.",
+    "evidence_passage_id": "P_287",
+    "canonical_entity": "ENTITY_079",
+    "ground_truth_answer": "VO2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_288",
+    "query": "Advanced Characterization and Defect Engineering in LiNiO2 LiNiO2 LiNiO2",
+    "evidence_passage_id": "P_288",
+    "canonical_entity": "ENTITY_080",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_289",
+    "query": "Characterization and functional analysis of NaFePO4-alloy under operational testing.",
+    "evidence_passage_id": "P_289",
+    "canonical_entity": "ENTITY_081",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_290",
+    "query": "Novel experimental methodology regarding sno2 crystal.",
+    "evidence_passage_id": "P_290",
+    "canonical_entity": "ENTITY_082",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_291",
+    "query": "Electrochemical and Optoelectronic Performance of ZnO ZnO ZnO",
+    "evidence_passage_id": "P_291",
+    "canonical_entity": "ENTITY_083",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_292",
+    "query": "Characterization and functional analysis of LaSrMnO3-alloy under operational testing.",
+    "evidence_passage_id": "P_292",
+    "canonical_entity": "ENTITY_084",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_293",
+    "query": "Novel experimental methodology regarding ndfeb crystal.",
+    "evidence_passage_id": "P_293",
+    "canonical_entity": "ENTITY_085",
+    "ground_truth_answer": "NdFeB exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_294",
+    "query": "Microstructural and Functional Evolution of SmCo5 SmCo5 SmCo5",
+    "evidence_passage_id": "P_294",
+    "canonical_entity": "ENTITY_086",
+    "ground_truth_answer": "SmCo5 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_295",
+    "query": "Characterization and functional analysis of CuInGaSe2-alloy under operational testing.",
+    "evidence_passage_id": "P_295",
+    "canonical_entity": "ENTITY_087",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_296",
+    "query": "Novel experimental methodology regarding cdte crystal.",
+    "evidence_passage_id": "P_296",
+    "canonical_entity": "ENTITY_088",
+    "ground_truth_answer": "CdTe exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_297",
+    "query": "Synthesis and Physical Properties of GaAs GaAs GaAs",
+    "evidence_passage_id": "P_297",
+    "canonical_entity": "ENTITY_089",
+    "ground_truth_answer": "GaAs exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_298",
+    "query": "Characterization and functional analysis of InP-alloy under operational testing.",
+    "evidence_passage_id": "P_298",
+    "canonical_entity": "ENTITY_090",
+    "ground_truth_answer": "InP exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_299",
+    "query": "Novel experimental methodology regarding vo2 crystal.",
+    "evidence_passage_id": "P_299",
+    "canonical_entity": "ENTITY_091",
+    "ground_truth_answer": "VO2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_300",
+    "query": "Advanced Characterization and Defect Engineering in LiNiO2 LiNiO2 LiNiO2",
+    "evidence_passage_id": "P_300",
+    "canonical_entity": "ENTITY_092",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_301",
+    "query": "Characterization and functional analysis of NaFePO4-alloy under operational testing.",
+    "evidence_passage_id": "P_301",
+    "canonical_entity": "ENTITY_093",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_302",
+    "query": "Novel experimental methodology regarding sno2 crystal.",
+    "evidence_passage_id": "P_302",
+    "canonical_entity": "ENTITY_094",
+    "ground_truth_answer": "SnO2 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_303",
+    "query": "Electrochemical and Optoelectronic Performance of ZnO ZnO ZnO",
+    "evidence_passage_id": "P_303",
+    "canonical_entity": "ENTITY_095",
+    "ground_truth_answer": "ZnO exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_304",
+    "query": "Characterization and functional analysis of LaSrMnO3-alloy under operational testing.",
+    "evidence_passage_id": "P_304",
+    "canonical_entity": "ENTITY_096",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_305",
+    "query": "Novel experimental methodology regarding ndfeb crystal.",
+    "evidence_passage_id": "P_305",
+    "canonical_entity": "ENTITY_097",
+    "ground_truth_answer": "NdFeB exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_306",
+    "query": "Microstructural and Functional Evolution of SmCo5 SmCo5 SmCo5",
+    "evidence_passage_id": "P_306",
+    "canonical_entity": "ENTITY_098",
+    "ground_truth_answer": "SmCo5 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_307",
+    "query": "Characterization and functional analysis of CuInGaSe2-alloy under operational testing.",
+    "evidence_passage_id": "P_307",
+    "canonical_entity": "ENTITY_099",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_308",
+    "query": "Novel experimental methodology regarding cdte crystal.",
+    "evidence_passage_id": "P_308",
+    "canonical_entity": "ENTITY_100",
+    "ground_truth_answer": "CdTe exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_309",
+    "query": "Synthesis and Physical Properties of GaAs GaAs GaAs",
+    "evidence_passage_id": "P_309",
+    "canonical_entity": "ENTITY_101",
+    "ground_truth_answer": "GaAs exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_310",
+    "query": "Characterization and functional analysis of InP-alloy under operational testing.",
+    "evidence_passage_id": "P_310",
+    "canonical_entity": "ENTITY_102",
+    "ground_truth_answer": "InP exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_311",
+    "query": "Novel experimental methodology regarding vo2 crystal.",
+    "evidence_passage_id": "P_311",
+    "canonical_entity": "ENTITY_103",
+    "ground_truth_answer": "VO2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_312",
+    "query": "Advanced Characterization and Defect Engineering in LiNiO2 LiNiO2 LiNiO2",
+    "evidence_passage_id": "P_312",
+    "canonical_entity": "ENTITY_104",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_313",
+    "query": "Characterization and functional analysis of YBCO under operational testing.",
+    "evidence_passage_id": "P_313",
+    "canonical_entity": "ENTITY_001",
+    "ground_truth_answer": "YBa2Cu3O7 exhibits critical transition temperature Tc of 92 K, orthorhombic perovskite-like structure, Pmmm space group, strong flux pinning and high critical current density Jc."
+  },
+  {
+    "query_id": "Q_314",
+    "query": "Novel experimental methodology regarding 2212 cuprate.",
+    "evidence_passage_id": "P_314",
+    "canonical_entity": "ENTITY_002",
+    "ground_truth_answer": "Bi2Sr2CaCu2O8 exhibits superconducting transition at 85 K, highly anisotropic layered structure, pancake vortices in c-axis transport."
+  },
+  {
+    "query_id": "Q_315",
+    "query": "Electrochemical and Optoelectronic Performance of Bi2Sr2Ca2Cu3O10 Bi2Sr2Ca2Cu3O10 Bi2Sr2Ca2Cu3O10",
+    "evidence_passage_id": "P_315",
+    "canonical_entity": "ENTITY_003",
+    "ground_truth_answer": "Bi2Sr2Ca2Cu3O10 exhibits Tc of 110 K, multi-filamentary tape fabrication, powder-in-tube processing for high-field superconducting magnets."
+  },
+  {
+    "query_id": "Q_316",
+    "query": "Characterization and functional analysis of MgB2 superconductor under operational testing.",
+    "evidence_passage_id": "P_316",
+    "canonical_entity": "ENTITY_004",
+    "ground_truth_answer": "MgB2 exhibits BCS-type phonon-mediated superconductivity with Tc of 39 K, two-band superconducting gap structure in sigma and pi bands."
+  },
+  {
+    "query_id": "Q_317",
+    "query": "Novel experimental methodology regarding 122 pnictide.",
+    "evidence_passage_id": "P_317",
+    "canonical_entity": "ENTITY_005",
+    "ground_truth_answer": "BaFe2As2 exhibits spin density wave transition at 140 K, potassium or cobalt doping suppresses magnetic order inducing superconductivity up to 38 K."
+  },
+  {
+    "query_id": "Q_318",
+    "query": "Microstructural and Functional Evolution of FeSe FeSe FeSe",
+    "evidence_passage_id": "P_318",
+    "canonical_entity": "ENTITY_006",
+    "ground_truth_answer": "FeSe exhibits nematic electronic phase transition at 90 K, bulk Tc of 8 K rising above 65 K in monolayer films on SrTiO3 substrates."
+  },
+  {
+    "query_id": "Q_319",
+    "query": "Characterization and functional analysis of Nb3Sn bronze under operational testing.",
+    "evidence_passage_id": "P_319",
+    "canonical_entity": "ENTITY_007",
+    "ground_truth_answer": "Nb3Sn exhibits A15 crystal structure, critical temperature Tc of 18.3 K, upper critical field Hc2 exceeding 30 T at 4.2 K."
+  },
+  {
+    "query_id": "Q_320",
+    "query": "Novel experimental methodology regarding clathrate superhydride.",
+    "evidence_passage_id": "P_320",
+    "canonical_entity": "ENTITY_008",
+    "ground_truth_answer": "LaH10 exhibits near-room-temperature superconductivity with Tc of 250-260 K under megabar pressures of 170-200 GPa in diamond anvil cells."
+  },
+  {
+    "query_id": "Q_321",
+    "query": "Synthesis and Physical Properties of LiFePO4 LiFePO4 LiFePO4",
+    "evidence_passage_id": "P_321",
+    "canonical_entity": "ENTITY_009",
+    "ground_truth_answer": "LiFePO4 exhibits theoretical specific capacity of 170 mAh/g, flat discharge plateau at 3.45 V vs Li/Li+, exceptional thermal stability and long cycle life."
+  },
+  {
+    "query_id": "Q_322",
+    "query": "Characterization and functional analysis of LCO under operational testing.",
+    "evidence_passage_id": "P_322",
+    "canonical_entity": "ENTITY_010",
+    "ground_truth_answer": "LiCoO2 exhibits high volumetric energy density, working voltage of 3.9 V vs Li/Li+, practical reversible capacity of 140-160 mAh/g at 4.2 V cut-off."
+  },
+  {
+    "query_id": "Q_323",
+    "query": "Novel experimental methodology regarding nickel-rich NMC.",
+    "evidence_passage_id": "P_323",
+    "canonical_entity": "ENTITY_011",
+    "ground_truth_answer": "LiNi0.8Mn0.1Co0.1O2 exhibits specific discharge capacity exceeding 200 mAh/g at 4.3 V, high energy density for electric vehicles, requires surface coating against microcracking."
+  },
+  {
+    "query_id": "Q_324",
+    "query": "Advanced Characterization and Defect Engineering in Li4Ti5O12 Li4Ti5O12 Li4Ti5O12",
+    "evidence_passage_id": "P_324",
+    "canonical_entity": "ENTITY_012",
+    "ground_truth_answer": "Li4Ti5O12 exhibits zero-strain insertion mechanism with flat voltage plateau at 1.55 V vs Li/Li+, eliminates lithium dendrite formation, ultra-fast charging."
+  },
+  {
+    "query_id": "Q_325",
+    "query": "Characterization and functional analysis of LLZO under operational testing.",
+    "evidence_passage_id": "P_325",
+    "canonical_entity": "ENTITY_013",
+    "ground_truth_answer": "Li7La3Zr2O12 exhibits solid-state lithium ion conductor with room temperature bulk conductivity exceeding 1 mS/cm, wide electrochemical stability window up to 6 V."
+  },
+  {
+    "query_id": "Q_326",
+    "query": "Novel experimental methodology regarding NASICON cathode.",
+    "evidence_passage_id": "P_326",
+    "canonical_entity": "ENTITY_014",
+    "ground_truth_answer": "Na3V2(PO4)3 exhibits sodium superionic conductor framework for sodium-ion batteries, theoretical capacity of 117.6 mAh/g with high rate capability at 3.4 V vs Na/Na+."
+  },
+  {
+    "query_id": "Q_327",
+    "query": "Electrochemical and Optoelectronic Performance of Li10GeP2S12 Li10GeP2S12 Li10GeP2S12",
+    "evidence_passage_id": "P_327",
+    "canonical_entity": "ENTITY_015",
+    "ground_truth_answer": "Li10GeP2S12 exhibits record ionic conductivity of 12 mS/cm at room temperature, one-dimensional lithium diffusion channels, solid-state battery electrolyte."
+  },
+  {
+    "query_id": "Q_328",
+    "query": "Characterization and functional analysis of Li3N electrolyte under operational testing.",
+    "evidence_passage_id": "P_328",
+    "canonical_entity": "ENTITY_016",
+    "ground_truth_answer": "Li3N exhibits hexagonal crystal structure with anisotropic fast Li+ conduction parallel to Li2N layers, used as artificial SEI layer on lithium metal anodes."
+  },
+  {
+    "query_id": "Q_329",
+    "query": "Novel experimental methodology regarding molybdenite.",
+    "evidence_passage_id": "P_329",
+    "canonical_entity": "ENTITY_017",
+    "ground_truth_answer": "MoS2 exhibits direct bandgap of 1.85 eV in monolayer compared to 1.2 eV indirect in bulk, high ON/OFF ratio exceeding 10^8 in field-effect transistors."
+  },
+  {
+    "query_id": "Q_330",
+    "query": "Microstructural and Functional Evolution of WS2 WS2 WS2",
+    "evidence_passage_id": "P_330",
+    "canonical_entity": "ENTITY_018",
+    "ground_truth_answer": "WS2 exhibits direct optical bandgap of 2.0 eV in monolayer, large spin-orbit splitting of 430 meV in valence band, valleytronic and optoelectronic applications."
+  },
+  {
+    "query_id": "Q_331",
+    "query": "Characterization and functional analysis of MoSe2 monolayer under operational testing.",
+    "evidence_passage_id": "P_331",
+    "canonical_entity": "ENTITY_019",
+    "ground_truth_answer": "MoSe2 exhibits direct bandgap of 1.57 eV in monolayer, close match to the solar spectrum, high photoluminescence quantum yield."
+  },
+  {
+    "query_id": "Q_332",
+    "query": "Novel experimental methodology regarding 2H-WSe2 hexagonal phase.",
+    "evidence_passage_id": "P_332",
+    "canonical_entity": "ENTITY_020",
+    "ground_truth_answer": "WSe2 exhibits ambipolar charge transport, direct bandgap of 1.65 eV in single-layer, ideal for p-n heterojunction photovoltaic cells."
+  },
+  {
+    "query_id": "Q_333",
+    "query": "Synthesis and Physical Properties of BN BN BN",
+    "evidence_passage_id": "P_333",
+    "canonical_entity": "ENTITY_021",
+    "ground_truth_answer": "BN exhibits wide bandgap of ~5.9 eV, atomic flatness, absence of dangling bonds, premier dielectric substrate for graphene and TMD heterostructures."
+  },
+  {
+    "query_id": "Q_334",
+    "query": "Characterization and functional analysis of Ti3C2 MXene under operational testing.",
+    "evidence_passage_id": "P_334",
+    "canonical_entity": "ENTITY_022",
+    "ground_truth_answer": "Ti3C2Tx exhibits metallic electrical conductivity over 10000 S/cm, hydrophilic surface functional groups, volumetric capacitance exceeding 1500 F/cm3."
+  },
+  {
+    "query_id": "Q_335",
+    "query": "Novel experimental methodology regarding van der Waals ferromagnet.",
+    "evidence_passage_id": "P_335",
+    "canonical_entity": "ENTITY_023",
+    "ground_truth_answer": "CrI3 exhibits 2D Ising ferromagnet with Curie temperature Tc of 45 K in monolayer, layer-dependent antiferromagnetic coupling in bilayer CrI3."
+  },
+  {
+    "query_id": "Q_336",
+    "query": "Advanced Characterization and Defect Engineering in PtSe2 PtSe2 PtSe2",
+    "evidence_passage_id": "P_336",
+    "canonical_entity": "ENTITY_024",
+    "ground_truth_answer": "PtSe2 exhibits semiconductor-to-semimetal transition with thickness, high carrier mobility, room-temperature mid-infrared photodetector response."
+  },
+  {
+    "query_id": "Q_337",
+    "query": "Characterization and functional analysis of MAPbI3 under operational testing.",
+    "evidence_passage_id": "P_337",
+    "canonical_entity": "ENTITY_025",
+    "ground_truth_answer": "CH3NH3PbI3 exhibits optical bandgap of 1.55 eV, carrier diffusion lengths exceeding 1 micrometer, certified solar cell power conversion efficiency over 25%."
+  },
+  {
+    "query_id": "Q_338",
+    "query": "Novel experimental methodology regarding black alpha-phase perovskite.",
+    "evidence_passage_id": "P_338",
+    "canonical_entity": "ENTITY_026",
+    "ground_truth_answer": "HC(NH2)2PbI3 exhibits ideal bandgap of 1.48 eV closer to Shockley-Queisser limit, enhanced thermal tolerance compared to MAPbI3, stabilized by cation mixing."
+  },
+  {
+    "query_id": "Q_339",
+    "query": "Electrochemical and Optoelectronic Performance of CsPbI3 CsPbI3 CsPbI3",
+    "evidence_passage_id": "P_339",
+    "canonical_entity": "ENTITY_027",
+    "ground_truth_answer": "CsPbI3 exhibits all-inorganic composition eliminating volatile organics, bandgap of 1.73 eV, tandem solar cell top-cell candidate."
+  },
+  {
+    "query_id": "Q_340",
+    "query": "Characterization and functional analysis of CsPbBr3 under operational testing.",
+    "evidence_passage_id": "P_340",
+    "canonical_entity": "ENTITY_028",
+    "ground_truth_answer": "CsPbBr3 exhibits bandgap of 2.3 eV, ultra-pure green emission (FWHM < 20 nm) with photoluminescence quantum yield approaching 100% in colloidal nanocrystals."
+  },
+  {
+    "query_id": "Q_341",
+    "query": "Novel experimental methodology regarding elpasolite halide double perovskite.",
+    "evidence_passage_id": "P_341",
+    "canonical_entity": "ENTITY_029",
+    "ground_truth_answer": "Cs2AgBiBr6 exhibits lead-free environmentally benign double perovskite, indirect bandgap of 2.05 eV, long carrier recombination lifetime, high moisture stability."
+  },
+  {
+    "query_id": "Q_342",
+    "query": "Microstructural and Functional Evolution of BaTiO3 BaTiO3 BaTiO3",
+    "evidence_passage_id": "P_342",
+    "canonical_entity": "ENTITY_030",
+    "ground_truth_answer": "BaTiO3 exhibits ferroelectric Curie temperature at 120 C, dielectric constant over 5000, lead-free piezoelectric and multilayer ceramic capacitor dielectric."
+  },
+  {
+    "query_id": "Q_343",
+    "query": "Characterization and functional analysis of STO under operational testing.",
+    "evidence_passage_id": "P_343",
+    "canonical_entity": "ENTITY_031",
+    "ground_truth_answer": "SrTiO3 exhibits quantum paraelectric, lattice constant 3.905 A, forms 2D electron gas (2DEG) at LaAlO3/SrTiO3 interface with high electron mobility."
+  },
+  {
+    "query_id": "Q_344",
+    "query": "Novel experimental methodology regarding morphotropic phase boundary PZT.",
+    "evidence_passage_id": "P_344",
+    "canonical_entity": "ENTITY_032",
+    "ground_truth_answer": "PbZr0.52Ti0.48O3 exhibits high piezoelectric coefficient d33 exceeding 600 pC/N at morphotropic phase boundary (MPB), actuator and transducer applications."
+  },
+  {
+    "query_id": "Q_345",
+    "query": "Synthesis and Physical Properties of Bi2Te3 Bi2Te3 Bi2Te3",
+    "evidence_passage_id": "P_345",
+    "canonical_entity": "ENTITY_033",
+    "ground_truth_answer": "Bi2Te3 exhibits room temperature thermoelectric figure of merit ZT ~ 1.0, 3D topological insulator with gapless Dirac surface states in quintuple layers."
+  },
+  {
+    "query_id": "Q_346",
+    "query": "Characterization and functional analysis of p-type Sb2Te3 under operational testing.",
+    "evidence_passage_id": "P_346",
+    "canonical_entity": "ENTITY_034",
+    "ground_truth_answer": "Sb2Te3 exhibits p-type thermoelectric with large Seebeck coefficient, topological insulator with single Dirac cone at the Gamma point."
+  },
+  {
+    "query_id": "Q_347",
+    "query": "Novel experimental methodology regarding guanajuatite.",
+    "evidence_passage_id": "P_347",
+    "canonical_entity": "ENTITY_035",
+    "ground_truth_answer": "Bi2Se3 exhibits prototypical 3D topological insulator with large bulk bandgap of 0.3 eV and robust spin-polarized Dirac cone surface states."
+  },
+  {
+    "query_id": "Q_348",
+    "query": "Advanced Characterization and Defect Engineering in SnSe SnSe SnSe",
+    "evidence_passage_id": "P_348",
+    "canonical_entity": "ENTITY_036",
+    "ground_truth_answer": "SnSe exhibits ultra-low lattice thermal conductivity due to strong lattice anharmonicity, record thermoelectric figure of merit ZT of 2.6 at 923 K."
+  },
+  {
+    "query_id": "Q_349",
+    "query": "Characterization and functional analysis of CoSb3 under operational testing.",
+    "evidence_passage_id": "P_349",
+    "canonical_entity": "ENTITY_037",
+    "ground_truth_answer": "CoSb3 exhibits skutterudite cage crystal structure, filling with rare-earth atoms (Ba, La, Ce) dramatically scatters phonons, achieving ZT > 1.5 at mid-temperatures."
+  },
+  {
+    "query_id": "Q_350",
+    "query": "Novel experimental methodology regarding altaite.",
+    "evidence_passage_id": "P_350",
+    "canonical_entity": "ENTITY_038",
+    "ground_truth_answer": "PbTe exhibits narrow bandgap semiconductor (0.3 eV), valence band convergence and endotaxial nanostructuring yield ZT up to 2.2 for space power generation."
+  },
+  {
+    "query_id": "Q_351",
+    "query": "Electrochemical and Optoelectronic Performance of GeTe GeTe GeTe",
+    "evidence_passage_id": "P_351",
+    "canonical_entity": "ENTITY_039",
+    "ground_truth_answer": "GeTe exhibits giant Rashba spin splitting, non-centrosymmetric ferroelectric phase, ZT exceeding 2.0 via vacancy engineering and bismuth/indium doping."
+  },
+  {
+    "query_id": "Q_352",
+    "query": "Characterization and functional analysis of Cu2Se under operational testing.",
+    "evidence_passage_id": "P_352",
+    "canonical_entity": "ENTITY_040",
+    "ground_truth_answer": "Cu2Se exhibits electron-crystal phonon-liquid concept, superionic copper ion hopping creates extreme phonon scattering, ZT > 1.5 at high temperature."
+  },
+  {
+    "query_id": "Q_353",
+    "query": "Novel experimental methodology regarding anatase.",
+    "evidence_passage_id": "P_353",
+    "canonical_entity": "ENTITY_041",
+    "ground_truth_answer": "TiO2 exhibits bandgap of 3.2 eV (anatase) / 3.0 eV (rutile), benchmark solar photocatalyst for overall water splitting and organic pollutant degradation."
+  },
+  {
+    "query_id": "Q_354",
+    "query": "Microstructural and Functional Evolution of Co3O4 Co3O4 Co3O4",
+    "evidence_passage_id": "P_354",
+    "canonical_entity": "ENTITY_042",
+    "ground_truth_answer": "Co3O4 exhibits efficient earth-abundant electrocatalyst for oxygen evolution reaction (OER) in alkaline water electrolyzers, mixed Co2+/Co3+ active sites."
+  },
+  {
+    "query_id": "Q_355",
+    "query": "Characterization and functional analysis of ceria under operational testing.",
+    "evidence_passage_id": "P_355",
+    "canonical_entity": "ENTITY_043",
+    "ground_truth_answer": "CeO2 exhibits high oxygen storage capacity via reversible Ce4+/Ce3+ redox cycling and oxygen vacancies, three-way catalytic converters and SOFC anodes."
+  },
+  {
+    "query_id": "Q_356",
+    "query": "Novel experimental methodology regarding metal-free 2D polymeric photocatalyst.",
+    "evidence_passage_id": "P_356",
+    "canonical_entity": "ENTITY_044",
+    "ground_truth_answer": "g-C3N4 exhibits metal-free semiconductor with 2.7 eV bandgap, tri-s-triazine ring building blocks, active for visible-light photocatalytic hydrogen production."
+  },
+  {
+    "query_id": "Q_357",
+    "query": "Synthesis and Physical Properties of WO3 WO3 WO3",
+    "evidence_passage_id": "P_357",
+    "canonical_entity": "ENTITY_045",
+    "ground_truth_answer": "WO3 exhibits n-type semiconductor with moderate bandgap of 2.6 eV, excellent hole mobility, widely used in photoelectrochemical water oxidation."
+  },
+  {
+    "query_id": "Q_358",
+    "query": "Characterization and functional analysis of 20% Pt/C under operational testing.",
+    "evidence_passage_id": "P_358",
+    "canonical_entity": "ENTITY_046",
+    "ground_truth_answer": "Pt/C exhibits benchmark electrocatalyst for hydrogen evolution reaction (HER) and oxygen reduction reaction (ORR) in proton-exchange membrane fuel cells."
+  },
+  {
+    "query_id": "Q_359",
+    "query": "Novel experimental methodology regarding isoreticular metal-organic framework 1.",
+    "evidence_passage_id": "P_359",
+    "canonical_entity": "ENTITY_047",
+    "ground_truth_answer": "MOF-5 exhibits BET surface area exceeding 3800 m2/g, cubic topology with pore diameter of 1.2 nm, hydrogen and methane gas storage."
+  },
+  {
+    "query_id": "Q_360",
+    "query": "Advanced Characterization and Defect Engineering in HKUST-1 HKUST-1 Cu3(BTC)2",
+    "evidence_passage_id": "P_360",
+    "canonical_entity": "ENTITY_048",
+    "ground_truth_answer": "HKUST-1 exhibits open Cu2+ Lewis acid sites in paddlewheel secondary building units, high methane uptake capacity and CO2/N2 separation selectivity."
+  },
+  {
+    "query_id": "Q_361",
+    "query": "Characterization and functional analysis of UiO-66 under operational testing.",
+    "evidence_passage_id": "P_361",
+    "canonical_entity": "ENTITY_049",
+    "ground_truth_answer": "UiO-66 exhibits exceptional hydrothermal, chemical, and acid stability due to strong Zr(IV)-O coordination bonds, used in toxic gas adsorption and water remediation."
+  },
+  {
+    "query_id": "Q_362",
+    "query": "Novel experimental methodology regarding sodalite-type zeolitic imidazolate framework.",
+    "evidence_passage_id": "P_362",
+    "canonical_entity": "ENTITY_050",
+    "ground_truth_answer": "ZIF-8 exhibits zeolitic sodalite framework with 3.4 A pore aperture and 11.6 A cavity, gate-opening flexibility, high propane/propylene kinetic separation."
+  },
+  {
+    "query_id": "Q_363",
+    "query": "Electrochemical and Optoelectronic Performance of ZSM-5 ZSM-5 NanAlnSi96-nO192",
+    "evidence_passage_id": "P_363",
+    "canonical_entity": "ENTITY_051",
+    "ground_truth_answer": "ZSM-5 exhibits 10-membered ring intersecting 3D pore channels (5.5 A), strong Bronsted acid sites for methanol-to-gasoline (MTG) conversion and hydrocarbon cracking."
+  },
+  {
+    "query_id": "Q_364",
+    "query": "Characterization and functional analysis of Cantor alloy under operational testing.",
+    "evidence_passage_id": "P_364",
+    "canonical_entity": "ENTITY_052",
+    "ground_truth_answer": "CrMnFeCoNi exhibits single-phase FCC solid solution exhibiting remarkable cryogenic damage tolerance and fracture toughness exceeding 200 MPa m^(1/2) at 77 K."
+  },
+  {
+    "query_id": "Q_365",
+    "query": "Novel experimental methodology regarding cubic stabilized zirconia.",
+    "evidence_passage_id": "P_365",
+    "canonical_entity": "ENTITY_053",
+    "ground_truth_answer": "Zr0.84Y0.16O1.92 exhibits oxygen-vacancy-mediated O2- conduction at 700-1000 C for solid oxide fuel cells (SOFCs), high fracture toughness and thermal barrier coating in jet engines."
+  },
+  {
+    "query_id": "Q_366",
+    "query": "Microstructural and Functional Evolution of SiC SiC SiC",
+    "evidence_passage_id": "P_366",
+    "canonical_entity": "ENTITY_054",
+    "ground_truth_answer": "SiC exhibits wide bandgap of 3.26 eV (4H-SiC), critical electric breakdown field 10x higher than silicon, high thermal conductivity (4.9 W/cm K) for power electronics."
+  },
+  {
+    "query_id": "Q_367",
+    "query": "Characterization and functional analysis of GaN HEMT under operational testing.",
+    "evidence_passage_id": "P_367",
+    "canonical_entity": "ENTITY_055",
+    "ground_truth_answer": "GaN exhibits direct bandgap of 3.4 eV, high electron saturation velocity, foundation of blue/UV LEDs and high-frequency high-power RF transistors."
+  },
+  {
+    "query_id": "Q_368",
+    "query": "Novel experimental methodology regarding wurtzite aluminium nitride.",
+    "evidence_passage_id": "P_368",
+    "canonical_entity": "ENTITY_056",
+    "ground_truth_answer": "AlN exhibits ultra-wide direct bandgap of 6.2 eV, exceptionally high thermal conductivity (up to 320 W/m K), excellent dielectric breakdown strength."
+  },
+  {
+    "query_id": "Q_369",
+    "query": "Synthesis and Physical Properties of NaFePO4 NaFePO4 NaFePO4",
+    "evidence_passage_id": "P_369",
+    "canonical_entity": "ENTITY_057",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_370",
+    "query": "Characterization and functional analysis of SnO2-alloy under operational testing.",
+    "evidence_passage_id": "P_370",
+    "canonical_entity": "ENTITY_058",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_371",
+    "query": "Novel experimental methodology regarding zno crystal.",
+    "evidence_passage_id": "P_371",
+    "canonical_entity": "ENTITY_059",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_372",
+    "query": "Advanced Characterization and Defect Engineering in LaSrMnO3 LaSrMnO3 LaSrMnO3",
+    "evidence_passage_id": "P_372",
+    "canonical_entity": "ENTITY_060",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_373",
+    "query": "Characterization and functional analysis of NdFeB-alloy under operational testing.",
+    "evidence_passage_id": "P_373",
+    "canonical_entity": "ENTITY_061",
+    "ground_truth_answer": "NdFeB exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_374",
+    "query": "Novel experimental methodology regarding smco5 crystal.",
+    "evidence_passage_id": "P_374",
+    "canonical_entity": "ENTITY_062",
+    "ground_truth_answer": "SmCo5 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_375",
+    "query": "Electrochemical and Optoelectronic Performance of CuInGaSe2 CuInGaSe2 CuInGaSe2",
+    "evidence_passage_id": "P_375",
+    "canonical_entity": "ENTITY_063",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_376",
+    "query": "Characterization and functional analysis of CdTe-alloy under operational testing.",
+    "evidence_passage_id": "P_376",
+    "canonical_entity": "ENTITY_064",
+    "ground_truth_answer": "CdTe exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_377",
+    "query": "Novel experimental methodology regarding gaas crystal.",
+    "evidence_passage_id": "P_377",
+    "canonical_entity": "ENTITY_065",
+    "ground_truth_answer": "GaAs exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_378",
+    "query": "Microstructural and Functional Evolution of InP InP InP",
+    "evidence_passage_id": "P_378",
+    "canonical_entity": "ENTITY_066",
+    "ground_truth_answer": "InP exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_379",
+    "query": "Characterization and functional analysis of VO2-alloy under operational testing.",
+    "evidence_passage_id": "P_379",
+    "canonical_entity": "ENTITY_067",
+    "ground_truth_answer": "VO2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_380",
+    "query": "Novel experimental methodology regarding linio2 crystal.",
+    "evidence_passage_id": "P_380",
+    "canonical_entity": "ENTITY_068",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_381",
+    "query": "Synthesis and Physical Properties of NaFePO4 NaFePO4 NaFePO4",
+    "evidence_passage_id": "P_381",
+    "canonical_entity": "ENTITY_069",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_382",
+    "query": "Characterization and functional analysis of SnO2-alloy under operational testing.",
+    "evidence_passage_id": "P_382",
+    "canonical_entity": "ENTITY_070",
+    "ground_truth_answer": "SnO2 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_383",
+    "query": "Novel experimental methodology regarding zno crystal.",
+    "evidence_passage_id": "P_383",
+    "canonical_entity": "ENTITY_071",
+    "ground_truth_answer": "ZnO exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_384",
+    "query": "Advanced Characterization and Defect Engineering in LaSrMnO3 LaSrMnO3 LaSrMnO3",
+    "evidence_passage_id": "P_384",
+    "canonical_entity": "ENTITY_072",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_385",
+    "query": "Characterization and functional analysis of NdFeB-alloy under operational testing.",
+    "evidence_passage_id": "P_385",
+    "canonical_entity": "ENTITY_073",
+    "ground_truth_answer": "NdFeB exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_386",
+    "query": "Novel experimental methodology regarding smco5 crystal.",
+    "evidence_passage_id": "P_386",
+    "canonical_entity": "ENTITY_074",
+    "ground_truth_answer": "SmCo5 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_387",
+    "query": "Electrochemical and Optoelectronic Performance of CuInGaSe2 CuInGaSe2 CuInGaSe2",
+    "evidence_passage_id": "P_387",
+    "canonical_entity": "ENTITY_075",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_388",
+    "query": "Characterization and functional analysis of CdTe-alloy under operational testing.",
+    "evidence_passage_id": "P_388",
+    "canonical_entity": "ENTITY_076",
+    "ground_truth_answer": "CdTe exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_389",
+    "query": "Novel experimental methodology regarding gaas crystal.",
+    "evidence_passage_id": "P_389",
+    "canonical_entity": "ENTITY_077",
+    "ground_truth_answer": "GaAs exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_390",
+    "query": "Microstructural and Functional Evolution of InP InP InP",
+    "evidence_passage_id": "P_390",
+    "canonical_entity": "ENTITY_078",
+    "ground_truth_answer": "InP exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_391",
+    "query": "Characterization and functional analysis of VO2-alloy under operational testing.",
+    "evidence_passage_id": "P_391",
+    "canonical_entity": "ENTITY_079",
+    "ground_truth_answer": "VO2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_392",
+    "query": "Novel experimental methodology regarding linio2 crystal.",
+    "evidence_passage_id": "P_392",
+    "canonical_entity": "ENTITY_080",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_393",
+    "query": "Synthesis and Physical Properties of NaFePO4 NaFePO4 NaFePO4",
+    "evidence_passage_id": "P_393",
+    "canonical_entity": "ENTITY_081",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_394",
+    "query": "Characterization and functional analysis of SnO2-alloy under operational testing.",
+    "evidence_passage_id": "P_394",
+    "canonical_entity": "ENTITY_082",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_395",
+    "query": "Novel experimental methodology regarding zno crystal.",
+    "evidence_passage_id": "P_395",
+    "canonical_entity": "ENTITY_083",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_396",
+    "query": "Advanced Characterization and Defect Engineering in LaSrMnO3 LaSrMnO3 LaSrMnO3",
+    "evidence_passage_id": "P_396",
+    "canonical_entity": "ENTITY_084",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_397",
+    "query": "Characterization and functional analysis of NdFeB-alloy under operational testing.",
+    "evidence_passage_id": "P_397",
+    "canonical_entity": "ENTITY_085",
+    "ground_truth_answer": "NdFeB exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_398",
+    "query": "Novel experimental methodology regarding smco5 crystal.",
+    "evidence_passage_id": "P_398",
+    "canonical_entity": "ENTITY_086",
+    "ground_truth_answer": "SmCo5 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_399",
+    "query": "Electrochemical and Optoelectronic Performance of CuInGaSe2 CuInGaSe2 CuInGaSe2",
+    "evidence_passage_id": "P_399",
+    "canonical_entity": "ENTITY_087",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_400",
+    "query": "Characterization and functional analysis of CdTe-alloy under operational testing.",
+    "evidence_passage_id": "P_400",
+    "canonical_entity": "ENTITY_088",
+    "ground_truth_answer": "CdTe exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_401",
+    "query": "Novel experimental methodology regarding gaas crystal.",
+    "evidence_passage_id": "P_401",
+    "canonical_entity": "ENTITY_089",
+    "ground_truth_answer": "GaAs exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_402",
+    "query": "Microstructural and Functional Evolution of InP InP InP",
+    "evidence_passage_id": "P_402",
+    "canonical_entity": "ENTITY_090",
+    "ground_truth_answer": "InP exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_403",
+    "query": "Characterization and functional analysis of VO2-alloy under operational testing.",
+    "evidence_passage_id": "P_403",
+    "canonical_entity": "ENTITY_091",
+    "ground_truth_answer": "VO2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_404",
+    "query": "Novel experimental methodology regarding linio2 crystal.",
+    "evidence_passage_id": "P_404",
+    "canonical_entity": "ENTITY_092",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_405",
+    "query": "Synthesis and Physical Properties of NaFePO4 NaFePO4 NaFePO4",
+    "evidence_passage_id": "P_405",
+    "canonical_entity": "ENTITY_093",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_406",
+    "query": "Characterization and functional analysis of SnO2-alloy under operational testing.",
+    "evidence_passage_id": "P_406",
+    "canonical_entity": "ENTITY_094",
+    "ground_truth_answer": "SnO2 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_407",
+    "query": "Novel experimental methodology regarding zno crystal.",
+    "evidence_passage_id": "P_407",
+    "canonical_entity": "ENTITY_095",
+    "ground_truth_answer": "ZnO exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_408",
+    "query": "Advanced Characterization and Defect Engineering in LaSrMnO3 LaSrMnO3 LaSrMnO3",
+    "evidence_passage_id": "P_408",
+    "canonical_entity": "ENTITY_096",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_409",
+    "query": "Characterization and functional analysis of NdFeB-alloy under operational testing.",
+    "evidence_passage_id": "P_409",
+    "canonical_entity": "ENTITY_097",
+    "ground_truth_answer": "NdFeB exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_410",
+    "query": "Novel experimental methodology regarding smco5 crystal.",
+    "evidence_passage_id": "P_410",
+    "canonical_entity": "ENTITY_098",
+    "ground_truth_answer": "SmCo5 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_411",
+    "query": "Electrochemical and Optoelectronic Performance of CuInGaSe2 CuInGaSe2 CuInGaSe2",
+    "evidence_passage_id": "P_411",
+    "canonical_entity": "ENTITY_099",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_412",
+    "query": "Characterization and functional analysis of CdTe-alloy under operational testing.",
+    "evidence_passage_id": "P_412",
+    "canonical_entity": "ENTITY_100",
+    "ground_truth_answer": "CdTe exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_413",
+    "query": "Novel experimental methodology regarding gaas crystal.",
+    "evidence_passage_id": "P_413",
+    "canonical_entity": "ENTITY_101",
+    "ground_truth_answer": "GaAs exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_414",
+    "query": "Microstructural and Functional Evolution of InP InP InP",
+    "evidence_passage_id": "P_414",
+    "canonical_entity": "ENTITY_102",
+    "ground_truth_answer": "InP exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_415",
+    "query": "Characterization and functional analysis of VO2-alloy under operational testing.",
+    "evidence_passage_id": "P_415",
+    "canonical_entity": "ENTITY_103",
+    "ground_truth_answer": "VO2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_416",
+    "query": "Novel experimental methodology regarding linio2 crystal.",
+    "evidence_passage_id": "P_416",
+    "canonical_entity": "ENTITY_104",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_417",
+    "query": "Synthesis and Physical Properties of YBa2Cu3O7 YBa2Cu3O7 YBa2Cu3O7",
+    "evidence_passage_id": "P_417",
+    "canonical_entity": "ENTITY_001",
+    "ground_truth_answer": "YBa2Cu3O7 exhibits critical transition temperature Tc of 92 K, orthorhombic perovskite-like structure, Pmmm space group, strong flux pinning and high critical current density Jc."
+  },
+  {
+    "query_id": "Q_418",
+    "query": "Characterization and functional analysis of BSCCO-2212 under operational testing.",
+    "evidence_passage_id": "P_418",
+    "canonical_entity": "ENTITY_002",
+    "ground_truth_answer": "Bi2Sr2CaCu2O8 exhibits superconducting transition at 85 K, highly anisotropic layered structure, pancake vortices in c-axis transport."
+  },
+  {
+    "query_id": "Q_419",
+    "query": "Novel experimental methodology regarding 2223 cuprate.",
+    "evidence_passage_id": "P_419",
+    "canonical_entity": "ENTITY_003",
+    "ground_truth_answer": "Bi2Sr2Ca2Cu3O10 exhibits Tc of 110 K, multi-filamentary tape fabrication, powder-in-tube processing for high-field superconducting magnets."
+  },
+  {
+    "query_id": "Q_420",
+    "query": "Advanced Characterization and Defect Engineering in MgB2 MgB2 MgB2",
+    "evidence_passage_id": "P_420",
+    "canonical_entity": "ENTITY_004",
+    "ground_truth_answer": "MgB2 exhibits BCS-type phonon-mediated superconductivity with Tc of 39 K, two-band superconducting gap structure in sigma and pi bands."
+  },
+  {
+    "query_id": "Q_421",
+    "query": "Characterization and functional analysis of Ba-122 under operational testing.",
+    "evidence_passage_id": "P_421",
+    "canonical_entity": "ENTITY_005",
+    "ground_truth_answer": "BaFe2As2 exhibits spin density wave transition at 140 K, potassium or cobalt doping suppresses magnetic order inducing superconductivity up to 38 K."
+  },
+  {
+    "query_id": "Q_422",
+    "query": "Novel experimental methodology regarding achavalite.",
+    "evidence_passage_id": "P_422",
+    "canonical_entity": "ENTITY_006",
+    "ground_truth_answer": "FeSe exhibits nematic electronic phase transition at 90 K, bulk Tc of 8 K rising above 65 K in monolayer films on SrTiO3 substrates."
+  },
+  {
+    "query_id": "Q_423",
+    "query": "Electrochemical and Optoelectronic Performance of Nb3Sn Nb3Sn Nb3Sn",
+    "evidence_passage_id": "P_423",
+    "canonical_entity": "ENTITY_007",
+    "ground_truth_answer": "Nb3Sn exhibits A15 crystal structure, critical temperature Tc of 18.3 K, upper critical field Hc2 exceeding 30 T at 4.2 K."
+  },
+  {
+    "query_id": "Q_424",
+    "query": "Characterization and functional analysis of LaH10 megabar phase under operational testing.",
+    "evidence_passage_id": "P_424",
+    "canonical_entity": "ENTITY_008",
+    "ground_truth_answer": "LaH10 exhibits near-room-temperature superconductivity with Tc of 250-260 K under megabar pressures of 170-200 GPa in diamond anvil cells."
+  },
+  {
+    "query_id": "Q_425",
+    "query": "Novel experimental methodology regarding triphylite.",
+    "evidence_passage_id": "P_425",
+    "canonical_entity": "ENTITY_009",
+    "ground_truth_answer": "LiFePO4 exhibits theoretical specific capacity of 170 mAh/g, flat discharge plateau at 3.45 V vs Li/Li+, exceptional thermal stability and long cycle life."
+  },
+  {
+    "query_id": "Q_426",
+    "query": "Microstructural and Functional Evolution of LiCoO2 LiCoO2 LiCoO2",
+    "evidence_passage_id": "P_426",
+    "canonical_entity": "ENTITY_010",
+    "ground_truth_answer": "LiCoO2 exhibits high volumetric energy density, working voltage of 3.9 V vs Li/Li+, practical reversible capacity of 140-160 mAh/g at 4.2 V cut-off."
+  },
+  {
+    "query_id": "Q_427",
+    "query": "Characterization and functional analysis of NMC811 under operational testing.",
+    "evidence_passage_id": "P_427",
+    "canonical_entity": "ENTITY_011",
+    "ground_truth_answer": "LiNi0.8Mn0.1Co0.1O2 exhibits specific discharge capacity exceeding 200 mAh/g at 4.3 V, high energy density for electric vehicles, requires surface coating against microcracking."
+  },
+  {
+    "query_id": "Q_428",
+    "query": "Novel experimental methodology regarding spinel titanate.",
+    "evidence_passage_id": "P_428",
+    "canonical_entity": "ENTITY_012",
+    "ground_truth_answer": "Li4Ti5O12 exhibits zero-strain insertion mechanism with flat voltage plateau at 1.55 V vs Li/Li+, eliminates lithium dendrite formation, ultra-fast charging."
+  },
+  {
+    "query_id": "Q_429",
+    "query": "Synthesis and Physical Properties of Li7La3Zr2O12 Li7La3Zr2O12 Li7La3Zr2O12",
+    "evidence_passage_id": "P_429",
+    "canonical_entity": "ENTITY_013",
+    "ground_truth_answer": "Li7La3Zr2O12 exhibits solid-state lithium ion conductor with room temperature bulk conductivity exceeding 1 mS/cm, wide electrochemical stability window up to 6 V."
+  },
+  {
+    "query_id": "Q_430",
+    "query": "Characterization and functional analysis of NVP under operational testing.",
+    "evidence_passage_id": "P_430",
+    "canonical_entity": "ENTITY_014",
+    "ground_truth_answer": "Na3V2(PO4)3 exhibits sodium superionic conductor framework for sodium-ion batteries, theoretical capacity of 117.6 mAh/g with high rate capability at 3.4 V vs Na/Na+."
+  },
+  {
+    "query_id": "Q_431",
+    "query": "Novel experimental methodology regarding LGPS superionic phase.",
+    "evidence_passage_id": "P_431",
+    "canonical_entity": "ENTITY_015",
+    "ground_truth_answer": "Li10GeP2S12 exhibits record ionic conductivity of 12 mS/cm at room temperature, one-dimensional lithium diffusion channels, solid-state battery electrolyte."
+  },
+  {
+    "query_id": "Q_432",
+    "query": "Advanced Characterization and Defect Engineering in Li3N Li3N Li3N",
+    "evidence_passage_id": "P_432",
+    "canonical_entity": "ENTITY_016",
+    "ground_truth_answer": "Li3N exhibits hexagonal crystal structure with anisotropic fast Li+ conduction parallel to Li2N layers, used as artificial SEI layer on lithium metal anodes."
+  },
+  {
+    "query_id": "Q_433",
+    "query": "Characterization and functional analysis of MoS2 monolayer under operational testing.",
+    "evidence_passage_id": "P_433",
+    "canonical_entity": "ENTITY_017",
+    "ground_truth_answer": "MoS2 exhibits direct bandgap of 1.85 eV in monolayer compared to 1.2 eV indirect in bulk, high ON/OFF ratio exceeding 10^8 in field-effect transistors."
+  },
+  {
+    "query_id": "Q_434",
+    "query": "Novel experimental methodology regarding tungstenite.",
+    "evidence_passage_id": "P_434",
+    "canonical_entity": "ENTITY_018",
+    "ground_truth_answer": "WS2 exhibits direct optical bandgap of 2.0 eV in monolayer, large spin-orbit splitting of 430 meV in valence band, valleytronic and optoelectronic applications."
+  },
+  {
+    "query_id": "Q_435",
+    "query": "Electrochemical and Optoelectronic Performance of MoSe2 MoSe2 MoSe2",
+    "evidence_passage_id": "P_435",
+    "canonical_entity": "ENTITY_019",
+    "ground_truth_answer": "MoSe2 exhibits direct bandgap of 1.57 eV in monolayer, close match to the solar spectrum, high photoluminescence quantum yield."
+  },
+  {
+    "query_id": "Q_436",
+    "query": "Characterization and functional analysis of WSe2 monolayer under operational testing.",
+    "evidence_passage_id": "P_436",
+    "canonical_entity": "ENTITY_020",
+    "ground_truth_answer": "WSe2 exhibits ambipolar charge transport, direct bandgap of 1.65 eV in single-layer, ideal for p-n heterojunction photovoltaic cells."
+  },
+  {
+    "query_id": "Q_437",
+    "query": "Novel experimental methodology regarding white graphene.",
+    "evidence_passage_id": "P_437",
+    "canonical_entity": "ENTITY_021",
+    "ground_truth_answer": "BN exhibits wide bandgap of ~5.9 eV, atomic flatness, absence of dangling bonds, premier dielectric substrate for graphene and TMD heterostructures."
+  },
+  {
+    "query_id": "Q_438",
+    "query": "Microstructural and Functional Evolution of Ti3C2Tx Ti3C2Tx Ti3C2Tx",
+    "evidence_passage_id": "P_438",
+    "canonical_entity": "ENTITY_022",
+    "ground_truth_answer": "Ti3C2Tx exhibits metallic electrical conductivity over 10000 S/cm, hydrophilic surface functional groups, volumetric capacitance exceeding 1500 F/cm3."
+  },
+  {
+    "query_id": "Q_439",
+    "query": "Characterization and functional analysis of CrI3 monolayer under operational testing.",
+    "evidence_passage_id": "P_439",
+    "canonical_entity": "ENTITY_023",
+    "ground_truth_answer": "CrI3 exhibits 2D Ising ferromagnet with Curie temperature Tc of 45 K in monolayer, layer-dependent antiferromagnetic coupling in bilayer CrI3."
+  },
+  {
+    "query_id": "Q_440",
+    "query": "Novel experimental methodology regarding sudovikovite.",
+    "evidence_passage_id": "P_440",
+    "canonical_entity": "ENTITY_024",
+    "ground_truth_answer": "PtSe2 exhibits semiconductor-to-semimetal transition with thickness, high carrier mobility, room-temperature mid-infrared photodetector response."
+  },
+  {
+    "query_id": "Q_441",
+    "query": "Synthesis and Physical Properties of CH3NH3PbI3 CH3NH3PbI3 CH3NH3PbI3",
+    "evidence_passage_id": "P_441",
+    "canonical_entity": "ENTITY_025",
+    "ground_truth_answer": "CH3NH3PbI3 exhibits optical bandgap of 1.55 eV, carrier diffusion lengths exceeding 1 micrometer, certified solar cell power conversion efficiency over 25%."
+  },
+  {
+    "query_id": "Q_442",
+    "query": "Characterization and functional analysis of FAPbI3 under operational testing.",
+    "evidence_passage_id": "P_442",
+    "canonical_entity": "ENTITY_026",
+    "ground_truth_answer": "HC(NH2)2PbI3 exhibits ideal bandgap of 1.48 eV closer to Shockley-Queisser limit, enhanced thermal tolerance compared to MAPbI3, stabilized by cation mixing."
+  },
+  {
+    "query_id": "Q_443",
+    "query": "Novel experimental methodology regarding all-inorganic perovskite.",
+    "evidence_passage_id": "P_443",
+    "canonical_entity": "ENTITY_027",
+    "ground_truth_answer": "CsPbI3 exhibits all-inorganic composition eliminating volatile organics, bandgap of 1.73 eV, tandem solar cell top-cell candidate."
+  },
+  {
+    "query_id": "Q_444",
+    "query": "Advanced Characterization and Defect Engineering in CsPbBr3 CsPbBr3 CsPbBr3",
+    "evidence_passage_id": "P_444",
+    "canonical_entity": "ENTITY_028",
+    "ground_truth_answer": "CsPbBr3 exhibits bandgap of 2.3 eV, ultra-pure green emission (FWHM < 20 nm) with photoluminescence quantum yield approaching 100% in colloidal nanocrystals."
+  },
+  {
+    "query_id": "Q_445",
+    "query": "Characterization and functional analysis of Cs2AgBiBr6 under operational testing.",
+    "evidence_passage_id": "P_445",
+    "canonical_entity": "ENTITY_029",
+    "ground_truth_answer": "Cs2AgBiBr6 exhibits lead-free environmentally benign double perovskite, indirect bandgap of 2.05 eV, long carrier recombination lifetime, high moisture stability."
+  },
+  {
+    "query_id": "Q_446",
+    "query": "Novel experimental methodology regarding barium titanate mineral.",
+    "evidence_passage_id": "P_446",
+    "canonical_entity": "ENTITY_030",
+    "ground_truth_answer": "BaTiO3 exhibits ferroelectric Curie temperature at 120 C, dielectric constant over 5000, lead-free piezoelectric and multilayer ceramic capacitor dielectric."
+  },
+  {
+    "query_id": "Q_447",
+    "query": "Electrochemical and Optoelectronic Performance of SrTiO3 SrTiO3 SrTiO3",
+    "evidence_passage_id": "P_447",
+    "canonical_entity": "ENTITY_031",
+    "ground_truth_answer": "SrTiO3 exhibits quantum paraelectric, lattice constant 3.905 A, forms 2D electron gas (2DEG) at LaAlO3/SrTiO3 interface with high electron mobility."
+  },
+  {
+    "query_id": "Q_448",
+    "query": "Characterization and functional analysis of PZT under operational testing.",
+    "evidence_passage_id": "P_448",
+    "canonical_entity": "ENTITY_032",
+    "ground_truth_answer": "PbZr0.52Ti0.48O3 exhibits high piezoelectric coefficient d33 exceeding 600 pC/N at morphotropic phase boundary (MPB), actuator and transducer applications."
+  },
+  {
+    "query_id": "Q_449",
+    "query": "Novel experimental methodology regarding tellurobismuthite.",
+    "evidence_passage_id": "P_449",
+    "canonical_entity": "ENTITY_033",
+    "ground_truth_answer": "Bi2Te3 exhibits room temperature thermoelectric figure of merit ZT ~ 1.0, 3D topological insulator with gapless Dirac surface states in quintuple layers."
+  },
+  {
+    "query_id": "Q_450",
+    "query": "Microstructural and Functional Evolution of Sb2Te3 Sb2Te3 Sb2Te3",
+    "evidence_passage_id": "P_450",
+    "canonical_entity": "ENTITY_034",
+    "ground_truth_answer": "Sb2Te3 exhibits p-type thermoelectric with large Seebeck coefficient, topological insulator with single Dirac cone at the Gamma point."
+  },
+  {
+    "query_id": "Q_451",
+    "query": "Characterization and functional analysis of Bi2Se3 crystal under operational testing.",
+    "evidence_passage_id": "P_451",
+    "canonical_entity": "ENTITY_035",
+    "ground_truth_answer": "Bi2Se3 exhibits prototypical 3D topological insulator with large bulk bandgap of 0.3 eV and robust spin-polarized Dirac cone surface states."
+  },
+  {
+    "query_id": "Q_452",
+    "query": "Novel experimental methodology regarding herzenbergite.",
+    "evidence_passage_id": "P_452",
+    "canonical_entity": "ENTITY_036",
+    "ground_truth_answer": "SnSe exhibits ultra-low lattice thermal conductivity due to strong lattice anharmonicity, record thermoelectric figure of merit ZT of 2.6 at 923 K."
+  },
+  {
+    "query_id": "Q_453",
+    "query": "Synthesis and Physical Properties of CoSb3 CoSb3 CoSb3",
+    "evidence_passage_id": "P_453",
+    "canonical_entity": "ENTITY_037",
+    "ground_truth_answer": "CoSb3 exhibits skutterudite cage crystal structure, filling with rare-earth atoms (Ba, La, Ce) dramatically scatters phonons, achieving ZT > 1.5 at mid-temperatures."
+  },
+  {
+    "query_id": "Q_454",
+    "query": "Characterization and functional analysis of PbTe alloy under operational testing.",
+    "evidence_passage_id": "P_454",
+    "canonical_entity": "ENTITY_038",
+    "ground_truth_answer": "PbTe exhibits narrow bandgap semiconductor (0.3 eV), valence band convergence and endotaxial nanostructuring yield ZT up to 2.2 for space power generation."
+  },
+  {
+    "query_id": "Q_455",
+    "query": "Novel experimental methodology regarding rhombohedral telluride.",
+    "evidence_passage_id": "P_455",
+    "canonical_entity": "ENTITY_039",
+    "ground_truth_answer": "GeTe exhibits giant Rashba spin splitting, non-centrosymmetric ferroelectric phase, ZT exceeding 2.0 via vacancy engineering and bismuth/indium doping."
+  },
+  {
+    "query_id": "Q_456",
+    "query": "Advanced Characterization and Defect Engineering in Cu2Se Cu2Se Cu2Se",
+    "evidence_passage_id": "P_456",
+    "canonical_entity": "ENTITY_040",
+    "ground_truth_answer": "Cu2Se exhibits electron-crystal phonon-liquid concept, superionic copper ion hopping creates extreme phonon scattering, ZT > 1.5 at high temperature."
+  },
+  {
+    "query_id": "Q_457",
+    "query": "Characterization and functional analysis of titania under operational testing.",
+    "evidence_passage_id": "P_457",
+    "canonical_entity": "ENTITY_041",
+    "ground_truth_answer": "TiO2 exhibits bandgap of 3.2 eV (anatase) / 3.0 eV (rutile), benchmark solar photocatalyst for overall water splitting and organic pollutant degradation."
+  },
+  {
+    "query_id": "Q_458",
+    "query": "Novel experimental methodology regarding cobalt spinel.",
+    "evidence_passage_id": "P_458",
+    "canonical_entity": "ENTITY_042",
+    "ground_truth_answer": "Co3O4 exhibits efficient earth-abundant electrocatalyst for oxygen evolution reaction (OER) in alkaline water electrolyzers, mixed Co2+/Co3+ active sites."
+  },
+  {
+    "query_id": "Q_459",
+    "query": "Electrochemical and Optoelectronic Performance of CeO2 CeO2 CeO2",
+    "evidence_passage_id": "P_459",
+    "canonical_entity": "ENTITY_043",
+    "ground_truth_answer": "CeO2 exhibits high oxygen storage capacity via reversible Ce4+/Ce3+ redox cycling and oxygen vacancies, three-way catalytic converters and SOFC anodes."
+  },
+  {
+    "query_id": "Q_460",
+    "query": "Characterization and functional analysis of g-C3N4 under operational testing.",
+    "evidence_passage_id": "P_460",
+    "canonical_entity": "ENTITY_044",
+    "ground_truth_answer": "g-C3N4 exhibits metal-free semiconductor with 2.7 eV bandgap, tri-s-triazine ring building blocks, active for visible-light photocatalytic hydrogen production."
+  },
+  {
+    "query_id": "Q_461",
+    "query": "Novel experimental methodology regarding tungstite.",
+    "evidence_passage_id": "P_461",
+    "canonical_entity": "ENTITY_045",
+    "ground_truth_answer": "WO3 exhibits n-type semiconductor with moderate bandgap of 2.6 eV, excellent hole mobility, widely used in photoelectrochemical water oxidation."
+  },
+  {
+    "query_id": "Q_462",
+    "query": "Microstructural and Functional Evolution of Pt/C Pt/C Pt/C",
+    "evidence_passage_id": "P_462",
+    "canonical_entity": "ENTITY_046",
+    "ground_truth_answer": "Pt/C exhibits benchmark electrocatalyst for hydrogen evolution reaction (HER) and oxygen reduction reaction (ORR) in proton-exchange membrane fuel cells."
+  },
+  {
+    "query_id": "Q_463",
+    "query": "Characterization and functional analysis of MOF-5 under operational testing.",
+    "evidence_passage_id": "P_463",
+    "canonical_entity": "ENTITY_047",
+    "ground_truth_answer": "MOF-5 exhibits BET surface area exceeding 3800 m2/g, cubic topology with pore diameter of 1.2 nm, hydrogen and methane gas storage."
+  },
+  {
+    "query_id": "Q_464",
+    "query": "Novel experimental methodology regarding paddlewheel copper MOF.",
+    "evidence_passage_id": "P_464",
+    "canonical_entity": "ENTITY_048",
+    "ground_truth_answer": "HKUST-1 exhibits open Cu2+ Lewis acid sites in paddlewheel secondary building units, high methane uptake capacity and CO2/N2 separation selectivity."
+  },
+  {
+    "query_id": "Q_465",
+    "query": "Synthesis and Physical Properties of UiO-66 UiO-66 Zr6O4(OH)4(BDC)6",
+    "evidence_passage_id": "P_465",
+    "canonical_entity": "ENTITY_049",
+    "ground_truth_answer": "UiO-66 exhibits exceptional hydrothermal, chemical, and acid stability due to strong Zr(IV)-O coordination bonds, used in toxic gas adsorption and water remediation."
+  },
+  {
+    "query_id": "Q_466",
+    "query": "Characterization and functional analysis of ZIF-8 under operational testing.",
+    "evidence_passage_id": "P_466",
+    "canonical_entity": "ENTITY_050",
+    "ground_truth_answer": "ZIF-8 exhibits zeolitic sodalite framework with 3.4 A pore aperture and 11.6 A cavity, gate-opening flexibility, high propane/propylene kinetic separation."
+  },
+  {
+    "query_id": "Q_467",
+    "query": "Novel experimental methodology regarding MFI topology zeolite.",
+    "evidence_passage_id": "P_467",
+    "canonical_entity": "ENTITY_051",
+    "ground_truth_answer": "ZSM-5 exhibits 10-membered ring intersecting 3D pore channels (5.5 A), strong Bronsted acid sites for methanol-to-gasoline (MTG) conversion and hydrocarbon cracking."
+  },
+  {
+    "query_id": "Q_468",
+    "query": "Advanced Characterization and Defect Engineering in CrMnFeCoNi CrMnFeCoNi CrMnFeCoNi",
+    "evidence_passage_id": "P_468",
+    "canonical_entity": "ENTITY_052",
+    "ground_truth_answer": "CrMnFeCoNi exhibits single-phase FCC solid solution exhibiting remarkable cryogenic damage tolerance and fracture toughness exceeding 200 MPa m^(1/2) at 77 K."
+  },
+  {
+    "query_id": "Q_469",
+    "query": "Characterization and functional analysis of 8YSZ under operational testing.",
+    "evidence_passage_id": "P_469",
+    "canonical_entity": "ENTITY_053",
+    "ground_truth_answer": "Zr0.84Y0.16O1.92 exhibits oxygen-vacancy-mediated O2- conduction at 700-1000 C for solid oxide fuel cells (SOFCs), high fracture toughness and thermal barrier coating in jet engines."
+  },
+  {
+    "query_id": "Q_470",
+    "query": "Novel experimental methodology regarding moissanite.",
+    "evidence_passage_id": "P_470",
+    "canonical_entity": "ENTITY_054",
+    "ground_truth_answer": "SiC exhibits wide bandgap of 3.26 eV (4H-SiC), critical electric breakdown field 10x higher than silicon, high thermal conductivity (4.9 W/cm K) for power electronics."
+  },
+  {
+    "query_id": "Q_471",
+    "query": "Electrochemical and Optoelectronic Performance of GaN GaN GaN",
+    "evidence_passage_id": "P_471",
+    "canonical_entity": "ENTITY_055",
+    "ground_truth_answer": "GaN exhibits direct bandgap of 3.4 eV, high electron saturation velocity, foundation of blue/UV LEDs and high-frequency high-power RF transistors."
+  },
+  {
+    "query_id": "Q_472",
+    "query": "Characterization and functional analysis of AlN ceramic substrate under operational testing.",
+    "evidence_passage_id": "P_472",
+    "canonical_entity": "ENTITY_056",
+    "ground_truth_answer": "AlN exhibits ultra-wide direct bandgap of 6.2 eV, exceptionally high thermal conductivity (up to 320 W/m K), excellent dielectric breakdown strength."
+  },
+  {
+    "query_id": "Q_473",
+    "query": "Novel experimental methodology regarding nafepo4 crystal.",
+    "evidence_passage_id": "P_473",
+    "canonical_entity": "ENTITY_057",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_474",
+    "query": "Microstructural and Functional Evolution of SnO2 SnO2 SnO2",
+    "evidence_passage_id": "P_474",
+    "canonical_entity": "ENTITY_058",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_475",
+    "query": "Characterization and functional analysis of ZnO-alloy under operational testing.",
+    "evidence_passage_id": "P_475",
+    "canonical_entity": "ENTITY_059",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_476",
+    "query": "Novel experimental methodology regarding lasrmno3 crystal.",
+    "evidence_passage_id": "P_476",
+    "canonical_entity": "ENTITY_060",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_477",
+    "query": "Synthesis and Physical Properties of NdFeB NdFeB NdFeB",
+    "evidence_passage_id": "P_477",
+    "canonical_entity": "ENTITY_061",
+    "ground_truth_answer": "NdFeB exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_478",
+    "query": "Characterization and functional analysis of SmCo5-alloy under operational testing.",
+    "evidence_passage_id": "P_478",
+    "canonical_entity": "ENTITY_062",
+    "ground_truth_answer": "SmCo5 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_479",
+    "query": "Novel experimental methodology regarding cuingase2 crystal.",
+    "evidence_passage_id": "P_479",
+    "canonical_entity": "ENTITY_063",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_480",
+    "query": "Advanced Characterization and Defect Engineering in CdTe CdTe CdTe",
+    "evidence_passage_id": "P_480",
+    "canonical_entity": "ENTITY_064",
+    "ground_truth_answer": "CdTe exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_481",
+    "query": "Characterization and functional analysis of GaAs-alloy under operational testing.",
+    "evidence_passage_id": "P_481",
+    "canonical_entity": "ENTITY_065",
+    "ground_truth_answer": "GaAs exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_482",
+    "query": "Novel experimental methodology regarding inp crystal.",
+    "evidence_passage_id": "P_482",
+    "canonical_entity": "ENTITY_066",
+    "ground_truth_answer": "InP exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_483",
+    "query": "Electrochemical and Optoelectronic Performance of VO2 VO2 VO2",
+    "evidence_passage_id": "P_483",
+    "canonical_entity": "ENTITY_067",
+    "ground_truth_answer": "VO2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_484",
+    "query": "Characterization and functional analysis of LiNiO2-alloy under operational testing.",
+    "evidence_passage_id": "P_484",
+    "canonical_entity": "ENTITY_068",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_485",
+    "query": "Novel experimental methodology regarding nafepo4 crystal.",
+    "evidence_passage_id": "P_485",
+    "canonical_entity": "ENTITY_069",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_486",
+    "query": "Microstructural and Functional Evolution of SnO2 SnO2 SnO2",
+    "evidence_passage_id": "P_486",
+    "canonical_entity": "ENTITY_070",
+    "ground_truth_answer": "SnO2 exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_487",
+    "query": "Characterization and functional analysis of ZnO-alloy under operational testing.",
+    "evidence_passage_id": "P_487",
+    "canonical_entity": "ENTITY_071",
+    "ground_truth_answer": "ZnO exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_488",
+    "query": "Novel experimental methodology regarding lasrmno3 crystal.",
+    "evidence_passage_id": "P_488",
+    "canonical_entity": "ENTITY_072",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_489",
+    "query": "Synthesis and Physical Properties of NdFeB NdFeB NdFeB",
+    "evidence_passage_id": "P_489",
+    "canonical_entity": "ENTITY_073",
+    "ground_truth_answer": "NdFeB exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_490",
+    "query": "Characterization and functional analysis of SmCo5-alloy under operational testing.",
+    "evidence_passage_id": "P_490",
+    "canonical_entity": "ENTITY_074",
+    "ground_truth_answer": "SmCo5 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_491",
+    "query": "Novel experimental methodology regarding cuingase2 crystal.",
+    "evidence_passage_id": "P_491",
+    "canonical_entity": "ENTITY_075",
+    "ground_truth_answer": "CuInGaSe2 exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_492",
+    "query": "Advanced Characterization and Defect Engineering in CdTe CdTe CdTe",
+    "evidence_passage_id": "P_492",
+    "canonical_entity": "ENTITY_076",
+    "ground_truth_answer": "CdTe exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_493",
+    "query": "Characterization and functional analysis of GaAs-alloy under operational testing.",
+    "evidence_passage_id": "P_493",
+    "canonical_entity": "ENTITY_077",
+    "ground_truth_answer": "GaAs exhibits Advanced Catalysts material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_494",
+    "query": "Novel experimental methodology regarding inp crystal.",
+    "evidence_passage_id": "P_494",
+    "canonical_entity": "ENTITY_078",
+    "ground_truth_answer": "InP exhibits Advanced Porous Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_495",
+    "query": "Electrochemical and Optoelectronic Performance of VO2 VO2 VO2",
+    "evidence_passage_id": "P_495",
+    "canonical_entity": "ENTITY_079",
+    "ground_truth_answer": "VO2 exhibits Advanced Structural Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_496",
+    "query": "Characterization and functional analysis of LiNiO2-alloy under operational testing.",
+    "evidence_passage_id": "P_496",
+    "canonical_entity": "ENTITY_080",
+    "ground_truth_answer": "LiNiO2 exhibits Advanced Superconductors material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_497",
+    "query": "Novel experimental methodology regarding nafepo4 crystal.",
+    "evidence_passage_id": "P_497",
+    "canonical_entity": "ENTITY_081",
+    "ground_truth_answer": "NaFePO4 exhibits Advanced Batteries material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_498",
+    "query": "Microstructural and Functional Evolution of SnO2 SnO2 SnO2",
+    "evidence_passage_id": "P_498",
+    "canonical_entity": "ENTITY_082",
+    "ground_truth_answer": "SnO2 exhibits Advanced 2D Materials material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_499",
+    "query": "Characterization and functional analysis of ZnO-alloy under operational testing.",
+    "evidence_passage_id": "P_499",
+    "canonical_entity": "ENTITY_083",
+    "ground_truth_answer": "ZnO exhibits Advanced Perovskites material phase exhibiting distinct electronic band structure and high functional performance."
+  },
+  {
+    "query_id": "Q_500",
+    "query": "Novel experimental methodology regarding lasrmno3 crystal.",
+    "evidence_passage_id": "P_500",
+    "canonical_entity": "ENTITY_084",
+    "ground_truth_answer": "LaSrMnO3 exhibits Advanced Thermoelectrics material phase exhibiting distinct electronic band structure and high functional performance."
+  }
+]
