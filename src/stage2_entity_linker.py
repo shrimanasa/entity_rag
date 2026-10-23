@@ -17,7 +17,8 @@ class EntityLinker:
     def __init__(self, alias_dict_path: str = "data/alias_dictionary.json",
                  corpus_path: str = "data/corpus.json",
                  embedder: Optional[SharedSemanticEmbedder] = None,
-                 alpha: float = 0.40, beta: float = 0.35, gamma: float = 0.25, tau: float = 0.50):
+                 alpha: float = 0.40, beta: float = 0.35, gamma: float = 0.25, tau: float = 0.50,
+                 include_corpus_passages: bool = False):
         self.alias_dict = load_alias_dictionary(alias_dict_path)
         self.corpus_path = corpus_path
         self.embedder = embedder
@@ -25,6 +26,7 @@ class EntityLinker:
         self.beta = beta
         self.gamma = gamma
         self.tau = tau
+        self.include_corpus_passages = include_corpus_passages
         
         self.entity_centroids: Dict[str, np.ndarray] = {}
         self.entity_context_profiles: Dict[str, str] = {}
@@ -32,9 +34,9 @@ class EntityLinker:
         self._initialize_profiles()
 
     def _initialize_profiles(self):
-        # 1. Aggregate authentic corpus passages per entity
+        # 1. Optionally aggregate authentic corpus passages per entity
         entity_corpus_texts: Dict[str, List[str]] = {ent_id: [] for ent_id in self.alias_dict.keys()}
-        if os.path.exists(self.corpus_path):
+        if self.include_corpus_passages and os.path.exists(self.corpus_path):
             try:
                 with open(self.corpus_path, "r", encoding="utf-8") as f:
                     corpus = json.load(f)
@@ -46,14 +48,14 @@ class EntityLinker:
             except Exception:
                 pass
 
-        # 2. Construct authentic, distinctive profile per entity
+        # 2. Construct authentic, distinctive profile per entity from dictionary + optional passages
         corpus_texts = []
         for ent_id, info in self.alias_dict.items():
             all_aliases = []
             for cat, aliases in info.get("categories", {}).items():
                 all_aliases.extend(aliases)
                 
-            passages_str = " ".join(entity_corpus_texts.get(ent_id, []))
+            passages_str = " ".join(entity_corpus_texts.get(ent_id, [])) if self.include_corpus_passages else ""
             profile_text = f"{info.get('primary_name','')} {' '.join(all_aliases)} {passages_str}".strip()
             
             self.entity_context_profiles[ent_id] = profile_text

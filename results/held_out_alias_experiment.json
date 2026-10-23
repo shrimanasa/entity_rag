@@ -1,0 +1,102 @@
+{
+  "summary": {
+    "total_queries": 500,
+    "queries_in_dict": 125,
+    "queries_held_out": 375,
+    "full_mismatch_held_out_count": 52,
+    "full_mismatch_in_dict_count": 13,
+    "aliases_withheld_count": 612,
+    "total_aliases_count": 1180,
+    "alias_withhold_fraction": 0.5186
+  },
+  "linking_evaluation": {
+    "queries_with_in_dict_aliases": {
+      "full_dict": {
+        "total": 125,
+        "accuracy": 1.0,
+        "nil_rate": 0.0,
+        "wrong_rate": 0.0
+      },
+      "held_out_dict": {
+        "total": 125,
+        "accuracy": 1.0,
+        "nil_rate": 0.0,
+        "wrong_rate": 0.0
+      }
+    },
+    "queries_with_held_out_aliases": {
+      "full_dict": {
+        "total": 375,
+        "accuracy": 0.568,
+        "nil_rate": 0.0,
+        "wrong_rate": 0.432
+      },
+      "held_out_dict": {
+        "total": 375,
+        "accuracy": 0.368,
+        "nil_rate": 0.1867,
+        "wrong_rate": 0.4453
+      }
+    }
+  },
+  "retrieval_evaluation": {
+    "full_mismatch_held_out_queries": {
+      "count": 52,
+      "cond1_dense_lsa": {
+        "MRR": 0.1123,
+        "Recall@10": 0.4231
+      },
+      "cond3_baseline": {
+        "MRR": 0.0778,
+        "Recall@10": 0.3654
+      },
+      "cond4_entity_only_full_dict": {
+        "MRR": 0.2414,
+        "Recall@10": 0.6731
+      },
+      "cond4_entity_only_held_dict": {
+        "MRR": 0.0673,
+        "Recall@10": 0.3077
+      },
+      "cond5_fusion_full_dict": {
+        "MRR": 0.0821,
+        "Recall@10": 0.3654
+      },
+      "cond5_fusion_held_dict": {
+        "MRR": 0.073,
+        "Recall@10": 0.3269
+      },
+      "bootstrap_c5_vs_c3_mrr": {
+        "mean_delta": -0.0051,
+        "ci_lower": -0.0179,
+        "ci_upper": 0.0064,
+        "significant": false
+      },
+      "bootstrap_c5_vs_c1_mrr": {
+        "mean_delta": -0.0394,
+        "ci_lower": -0.07,
+        "ci_upper": -0.0126,
+        "significant": true
+      }
+    },
+    "full_mismatch_in_dict_control_queries": {
+      "count": 13,
+      "cond1_dense_lsa": {
+        "MRR": 0.4436,
+        "Recall@10": 1.0
+      },
+      "cond3_baseline": {
+        "MRR": 0.2346,
+        "Recall@10": 0.8462
+      },
+      "cond4_entity_only_held_dict": {
+        "MRR": 0.4167,
+        "Recall@10": 1.0
+      },
+      "cond5_fusion_held_dict": {
+        "MRR": 0.2321,
+        "Recall@10": 0.8462
+      }
+    }
+  }
+}

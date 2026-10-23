@@ -2,26 +2,26 @@
   "summary": {
     "No-mismatch": {
       "count": 201,
-      "baseline_f1": 0.2896,
-      "full_system_f1": 0.2877,
-      "f1_delta": -0.002,
+      "baseline_f1": 0.3099,
+      "full_system_f1": 0.3155,
+      "f1_delta": 0.0056,
       "f1_ci_95": [
-        -0.0047,
-        0.0007
+        -0.0019,
+        0.0165
       ],
       "significant": false,
       "baseline_fidelity": 0.092,
-      "full_system_fidelity": 0.092,
-      "fidelity_delta": 0.0
+      "full_system_fidelity": 0.102,
+      "fidelity_delta": 0.01
     },
     "Partial-mismatch": {
       "count": 234,
-      "baseline_f1": 0.4227,
-      "full_system_f1": 0.4223,
-      "f1_delta": -0.0004,
+      "baseline_f1": 0.4209,
+      "full_system_f1": 0.4219,
+      "f1_delta": 0.001,
       "f1_ci_95": [
-        -0.0035,
-        0.0022
+        -0.0022,
+        0.0038
       ],
       "significant": false,
       "baseline_fidelity": 0.1581,
@@ -30,12 +30,12 @@
     },
     "Full alias-mismatch": {
       "count": 65,
-      "baseline_f1": 0.6176,
-      "full_system_f1": 0.6192,
-      "f1_delta": 0.0016,
+      "baseline_f1": 0.6206,
+      "full_system_f1": 0.6193,
+      "f1_delta": -0.0013,
       "f1_ci_95": [
-        -0.0048,
-        0.0077
+        -0.0087,
+        0.0063
       ],
       "significant": false,
       "baseline_fidelity": 0.1385,
@@ -79,7 +79,7 @@
       "query": "Characterization and functional analysis of MgB2 superconductor under operational testing.",
       "bucket": "Partial-mismatch",
       "ground_truth": "MgB2 exhibits BCS-type phonon-mediated superconductivity with Tc of 39 K, two-band superconducting gap structure in sigma and pi bands.",
-      "condition_3_answer": "X-ray absorption near-edge structure (XANES) and EXAFS at the cation edge in MgB2 superconductor confirm the oxidation state in magnesium boride.",
+      "condition_3_answer": "X-ray absorption near-edge structure (XANES) and EXAFS at the cation edge in MgB2 superconductor confirm the oxidation state in magnesium diboride.",
       "condition_5_answer": "X-ray absorption near-edge structure (XANES) and EXAFS at the cation edge in MgB2 superconductor confirm the oxidation state in magnesium diboride.",
       "c3_f1": 0.2339,
       "c5_f1": 0.2339

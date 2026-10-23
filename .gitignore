@@ -31,10 +31,10 @@ ENV/
 .DS_Store
 .AppleDouble
 .LSOverride
+__MACOSX/
 
-# Matplotlib cache
-scratch/matplotlib/
-scratch/fontlist*.json
+# Scratch / runtime cache (matplotlib font cache, temp files)
+scratch/
 
 # Logs
 *.log

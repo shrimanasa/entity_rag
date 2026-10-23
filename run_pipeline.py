@@ -13,84 +13,16 @@ from src.stage5_retriever import RetrievalPipeline
 from src.stage6_evaluator import run_stage6_evaluation
 from src.stage7_evaluator import Stage7Evaluator
 
-def format_qa_results_markdown(qa_results: Dict) -> str:
-    md = "## Stage 7: Downstream End-to-End QA Answer Evaluation\n\n"
-    md += "| Divergence Bucket | Count | Baseline RAG F1 (Cond 3) | Entity-Aware RAG F1 (Cond 5) | F1 Δ | 95% Confidence Interval | Significant (p < 0.05) |\n"
-    md += "|---|---|---|---|---|---|---|\n"
-    for b, stats in qa_results["summary"].items():
-        sig_str = "YES" if stats["significant"] else "NO"
-        md += f"| **{b}** | {stats['count']} | {stats['baseline_f1']:.4f} | {stats['full_system_f1']:.4f} | {stats['f1_delta']:+.4f} | [{stats['f1_ci_95'][0]:+.4f}, {stats['f1_ci_95'][1]:+.4f}] | **{sig_str}** |\n"
-    
-    md += "\n### Qualitative Answer Generation Samples\n\n"
-    for sample in qa_results.get("samples", [])[:6]:
-        md += f"**Query [{sample['bucket']}]**: `{sample['query']}`\n"
-        md += f"- **Ground Truth**: {sample['ground_truth']}\n"
-        md += f"- **Condition 3 (Baseline)** (F1={sample['c3_f1']:.4f}): {sample['condition_3_answer']}\n"
-        md += f"- **Condition 5 (Entity-Aware)** (F1={sample['c5_f1']:.4f}): {sample['condition_5_answer']}\n\n"
-    return md
+import argparse
 
-def format_results_markdown(table_results: Dict, bootstrap_results: Dict, coverage_report: Dict, grid_params: Dict, qa_results: Dict = None) -> str:
-    md = "# Research Findings: When Does Entity-Aware Retrieval Earn Its Keep?\n\n"
-    md += "## Executive Summary\n\n"
-    md += f"This study evaluates **H1**: whether adding a canonical entity-linking layer on top of a standard materials-science RAG pipeline specifically recovers retrieval failures when queries and evidence passages use different aliases for the same material.\n\n"
-    
-    full_mismatch_bs = bootstrap_results.get("Full alias-mismatch", {}).get("MRR", {})
-    
-    if full_mismatch_bs.get("significant", False) and full_mismatch_bs.get("mean_delta", 0) > 0:
-        md += "### **Outcome: POSITIVE**\n"
-        md += f"Condition 5 (Full System) statistically significantly outperforms Condition 3 (BM25+Dense Baseline) in MRR rank quality specifically in the **Full Alias-Mismatch** bucket (MRR Δ = {full_mismatch_bs['mean_delta']:+.4f}, 95% CI: [{full_mismatch_bs['ci_lower']:+.4f}, {full_mismatch_bs['ci_upper']:+.4f}]).\n"
-        md += "Identity resolution successfully recovers evidence ranking quality that standard lexical (BM25) and semantic (Dense) retrieval fail to prioritize.\n\n"
-    else:
-        md += "### **Outcome: NULL / MIXED**\n"
-        md += f"Conditions 5 and 3 in the Full Alias-Mismatch bucket (MRR Δ = {full_mismatch_bs.get('mean_delta', 0):+.4f}, 95% CI includes 0).\n\n"
+from src.report_generator import (
+    format_findings_report_md,
+    generate_metrics_table_md,
+    format_qa_results_markdown,
+    sync_readme,
+)
 
-    md += "## Stage 0: Ground Truth & Coverage Audit\n\n"
-    md += f"- **Cohen's κ Inter-Annotator Agreement**: {coverage_report['cohens_kappa']:.4f} (Target ≥ 0.70 - PASSED)\n"
-    md += f"- **Overall Alias Coverage Rate**: {coverage_report['coverage_rate'] * 100:.1f}%\n"
-    md += f"  - Hill Notation Canonicalization: {coverage_report['auto_hill_canonicalized']}\n"
-    md += f"  - Curated Dictionary Matches: {coverage_report['dictionary_matched']}\n"
-    md += f"  - Co-occurrence / Co-reference: {coverage_report['cooccurrence_matched']}\n"
-    md += f"  - Missed (NIL): {coverage_report['missed_nil']}\n\n"
-
-    md += "## Stage 2: Entity Linker Grid Search Results\n\n"
-    md += f"- **Optimal Weights**: $\\alpha={grid_params['alpha']}$ (lexical), $\\beta={grid_params['beta']}$ (embedding), $\\gamma={grid_params['gamma']}$ (context)\n"
-    md += f"- **Linking Threshold ($\\tau$)**: {grid_params['tau']}\n"
-    md += f"- **Max Linking F1 Score**: {grid_params['f1'] * 100:.2f}% (Precision: {grid_params['precision']*100:.1f}%, Recall: {grid_params['recall']*100:.1f}%)\n\n"
-
-    md += "## Stage 5–6: Full Evaluation Table\n\n"
-    md += "| Bucket | Condition | Recall@10 | MRR | nDCG@10 |\n"
-    md += "|---|---|---|---|---|\n"
-
-    cond_names = {
-        0: "0: Random",
-        1: "1: Dense only",
-        2: "2: BM25 only",
-        3: "3: BM25 + Dense (Baseline)",
-        4: "4: Entity-linked only",
-        5: "5: Full System"
-    }
-
-    for b, conds in table_results.items():
-        for c, m in conds.items():
-            md += f"| **{b}** | {cond_names[c]} | {m['Recall@10']:.4f} | {m['MRR']:.4f} | {m['nDCG@10']:.4f} |\n"
-
-    md += "\n## Bootstrap Significance Tests (1000 Resamples, Δ = Cond 5 - Cond 3)\n\n"
-    md += "| Bucket | Metric | Mean Δ | 95% Confidence Interval | Significant (p < 0.05) |\n"
-    md += "|---|---|---|---|---|\n"
-    for b, metrics in bootstrap_results.items():
-        for metric_name, bs in metrics.items():
-            sig_str = "YES" if bs["significant"] else "NO"
-            md += f"| **{b}** | {metric_name} | {bs['mean_delta']:+.4f} | [{bs['ci_lower']:+.4f}, {bs['ci_upper']:+.4f}] | **{sig_str}** |\n"
-
-    md += "\n## Decisive Plot\n\n"
-    md += "![Decisive Plot](decisive_plot.png)\n\n"
-
-    if qa_results:
-        md += format_qa_results_markdown(qa_results)
-
-    return md
-
-def run_end_to_end_pipeline():
+def run_end_to_end_pipeline(skip_neural: bool = False):
     os.makedirs("results", exist_ok=True)
     print("================================================================================")
     print("      RESEARCH SYSTEM: WHEN DOES ENTITY-AWARE RETRIEVAL EARN ITS KEEP?         ")
@@ -116,7 +48,8 @@ def run_end_to_end_pipeline():
                 "canonical_id": row["canonical_id"]
             })
 
-    # 2. Fit Shared Semantic Embedder (TruncatedSVD / LSA) ONCE on Unified Universe
+    # 2. Fit Shared Semantic Embedder (TruncatedSVD / LSA) Inductively on Corpus & Profiles
+    # (Strictly zero evaluation query text to eliminate transductive leakage)
     print("=== Initializing Shared Semantic Embedder (LSA / TruncatedSVD) ===")
     training_texts = []
     for p in corpus:
@@ -126,12 +59,10 @@ def run_end_to_end_pipeline():
         for cat, names in info.get("categories", {}).items():
             all_aliases.extend(names)
         training_texts.append(f"{info.get('primary_name','')} {' '.join(all_aliases)} synthesis property crystal bandgap superconductor cathode catalyst")
-    for q in qa_dataset:
-        training_texts.append(q["query"])
 
     shared_embedder = SharedSemanticEmbedder(n_components=128, random_state=42)
     shared_embedder.fit(training_texts)
-    print(f"--> Fitted SharedSemanticEmbedder (n_components=128, random_state=42) on {len(training_texts)} text units.\n")
+    print(f"--> Fitted SharedSemanticEmbedder (n_components=128, random_state=42) on {len(training_texts)} text units (inductive).\n")
 
     # 3. Stage 0 Coverage Audit & Cohen's Kappa
     cov_report = run_stage0_audit(
@@ -159,17 +90,79 @@ def run_end_to_end_pipeline():
         alpha=best_grid_params["alpha"],
         beta=best_grid_params["beta"],
         gamma=best_grid_params["gamma"],
-        tau=best_grid_params["tau"]
+        tau=best_grid_params["tau"],
+        include_corpus_passages=False,  # Leak-free: no evaluation evidence text in entity profiles
     )
+
+    # Optional real neural dense embedder (SentenceTransformer all-MiniLM-L6-v2)
+    neural_model = None
+    if not skip_neural:
+        try:
+            from sentence_transformers import SentenceTransformer
+            print("\n=== Initializing Neural Dense Embedder (SentenceTransformer all-MiniLM-L6-v2) ===")
+            neural_model = SentenceTransformer("all-MiniLM-L6-v2", revision="1110a243fdf4706b3f48f1d95db1a4f5529b4d41")
+            print("--> Loaded all-MiniLM-L6-v2 neural embedder successfully.\n")
+        except Exception as e:
+            raise RuntimeError(
+                f"Failed to load SentenceTransformer('all-MiniLM-L6-v2'): {e}.\n"
+                "To run the pipeline strictly offline or without neural dependencies, pass --skip-neural."
+            ) from e
+    else:
+        print("\n--> --skip-neural flag passed: skipping Neural Dense conditions (6, 7, 8).\n")
+
+    # Held-Out Weight Selection:
+    # Full alias-mismatch dev split = even indices (N=33)
+    # Full alias-mismatch test split = odd indices (N=32)
+    # Overall dev split = even indices (N=250)
+    full_bucket_qa = [qa for qa in labeled_qa if qa["bucket"] == "Full alias-mismatch"]
+    weight_dev_idx  = [i for i in range(len(full_bucket_qa)) if i % 2 == 0]
+    weight_test_idx = [i for i in range(len(full_bucket_qa)) if i % 2 == 1]
+    sweep_weights   = [0.5, 1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 10.0]
+
     pipeline = RetrievalPipeline(
         tagged_corpus=tagged_corpus,
         entity_linker=linker,
         graph_builder=builder,
-        embedder=shared_embedder
+        embedder=shared_embedder,
+        neural_embedder=neural_model,
+        entity_weight=1.0,
     )
 
+    from src.stage6_evaluator import sweep_entity_weight, sweep_gate_threshold
+    print("\n=== Held-Out Entity Weight Selection ===")
+    weight_sweep_data = sweep_entity_weight(labeled_qa, pipeline, sweep_weights, split_indices=weight_dev_idx, test_indices=weight_test_idx)
+    dev_sweep_full = weight_sweep_data["full_mismatch_dev"]
+    dev_sweep_overall = weight_sweep_data["overall_dev"]
+
+    # Select entity weight on Overall Dev MRR, since bucket is unknown at query time
+    best_weight = max(dev_sweep_overall, key=dev_sweep_overall.get)
+    pipeline.entity_weight = best_weight
+    print(f"--> Candidate weights swept: {sweep_weights}")
+    print(f"--> Dev Full-mismatch MRR: {dev_sweep_full}")
+    print(f"--> Dev Overall MRR:       {dev_sweep_overall}")
+    print(f"--> Selected entity_weight = {best_weight} (Dev Overall MRR = {dev_sweep_overall[best_weight]:.4f}, Dev Full MRR = {dev_sweep_full[best_weight]:.4f})\n")
+
+    # Mismatch Gate Calibration (Stage 5b)
+    print("\n=== Stage 5b: Mismatch Gate Calibration ===")
+    sweep_thresholds = [6.0, 7.0, 8.0, 9.0, 10.0, 12.0]
+    gate_sweep_data = sweep_gate_threshold(
+        labeled_qa, pipeline, sweep_thresholds, dev_indices=weight_dev_idx, test_indices=weight_test_idx
+    )
+    best_gate_th = gate_sweep_data["best_threshold"]
+    pipeline.gate_threshold = best_gate_th
+    print(f"--> Candidate gate thresholds swept: {sweep_thresholds}")
+    print(f"--> Dev Gate Sweep: {gate_sweep_data['dev_sweep']}")
+    print(f"--> Selected gate_threshold = {best_gate_th}\n")
+
     # 8. Stage 6 Evaluation & Significance Testing
-    table_results, bootstrap_results = run_stage6_evaluation(labeled_qa, pipeline)
+    table_results, bootstrap_results, linking_accuracy, weight_sweep, gate_sweep = run_stage6_evaluation(
+        labeled_qa,
+        pipeline,
+        weight_sweep=weight_sweep_data,
+        gate_sweep=gate_sweep_data,
+        weight_dev_indices=weight_dev_idx,
+        weight_test_indices=weight_test_idx,
+    )
 
     # 9. Stage 7 Downstream QA Answer Evaluation
     print("\n=== Stage 7: Downstream QA Generation & Answer Evaluation ===")
@@ -183,12 +176,27 @@ def run_end_to_end_pipeline():
         sig_str = "YES (p < 0.05)" if stats["significant"] else "NO"
         print(f"{b:<25} | {stats['count']:<6} | {stats['baseline_f1']:<12.4f} | {stats['full_system_f1']:<14.4f} | {stats['f1_delta']:<+8.4f} | {sig_str}")
 
-    # 10. Save Artifacts & Reports
+    # 10. Stage 8 Held-Out Alias Split Experiment (Open-World Evaluation)
+    print("\n=== Stage 8: Held-Out Alias Split Experiment (Open-World Evaluation) ===")
+    from scripts.held_out_alias_experiment import run_held_out_alias_experiment
+    held_out_report = run_held_out_alias_experiment()
+
+    # 11. Save Artifacts & Reports
     with open("results/coverage_report.json", "w", encoding="utf-8") as f:
         json.dump(cov_report, f, indent=2)
 
     with open("results/grid_search_results.json", "w", encoding="utf-8") as f:
         json.dump(best_grid_params, f, indent=2)
+
+    with open("results/linking_accuracy.json", "w", encoding="utf-8") as f:
+        json.dump(linking_accuracy, f, indent=2)
+
+    with open("results/weight_sweep.json", "w", encoding="utf-8") as f:
+        # Convert float keys to strings for JSON compatibility
+        json.dump({str(k): v for k, v in weight_sweep.items()}, f, indent=2)
+
+    with open("results/gate_sweep.json", "w", encoding="utf-8") as f:
+        json.dump(gate_sweep_data, f, indent=2)
 
     with open("results/results_table.json", "w", encoding="utf-8") as f:
         json.dump(table_results, f, indent=2)
@@ -196,12 +204,36 @@ def run_end_to_end_pipeline():
     with open("results/qa_results.json", "w", encoding="utf-8") as f:
         json.dump(qa_results, f, indent=2)
 
-    markdown_report = format_results_markdown(table_results, bootstrap_results, cov_report, best_grid_params, qa_results)
+    markdown_report = format_findings_report_md(
+        table_results=table_results,
+        bootstrap_results=bootstrap_results,
+        coverage_report=cov_report,
+        grid_params=best_grid_params,
+        linking_accuracy=linking_accuracy,
+        weight_sweep=weight_sweep,
+        gate_sweep=gate_sweep_data,
+        held_out_alias_report=held_out_report,
+        qa_results=qa_results,
+    )
     with open("results/findings_report.md", "w", encoding="utf-8") as f:
         f.write(markdown_report)
 
+    # Synchronize README.md dynamically with exact numbers
+    sync_readme(
+        readme_path="README.md",
+        table_results=table_results,
+        bootstrap_results=bootstrap_results,
+        weight_sweep=weight_sweep,
+        gate_sweep=gate_sweep_data,
+        held_out_alias_report=held_out_report,
+        linking_accuracy=linking_accuracy,
+        qa_results=qa_results,
+    )
+
+    # results_table.md: metrics table only (findings_report.md has the full write-up)
+    table_only_md = "# Stage 5–6: Retrieval Metrics Table\n\n" + generate_metrics_table_md(table_results)
     with open("results/results_table.md", "w", encoding="utf-8") as f:
-        f.write(markdown_report)
+        f.write(table_only_md)
 
     qa_report_md = "# Stage 7: Downstream Question Answering Evaluation\n\n" + format_qa_results_markdown(qa_results)
     with open("results/qa_evaluation_report.md", "w", encoding="utf-8") as f:
@@ -210,13 +242,23 @@ def run_end_to_end_pipeline():
     print("\n================================================================================")
     print("                     PIPELINE EXECUTION COMPLETE!                              ")
     print("Deliverables generated:")
-    print("  - Stage 0 Coverage Report: results/coverage_report.json")
-    print("  - Stage 2 Grid Search:     results/grid_search_results.json")
-    print("  - Stage 5-6 Results Table: results/results_table.json & results/results_table.md")
-    print("  - Stage 7 QA Evaluation:   results/qa_results.json & results/qa_evaluation_report.md")
-    print("  - Decisive Figure:         results/decisive_plot.png")
-    print("  - Final Write-up:          results/findings_report.md")
+    print("  - Stage 0 Coverage Report:   results/coverage_report.json")
+    print("  - Stage 2 Grid Search:       results/grid_search_results.json")
+    print("  - Entity Linking Accuracy:   results/linking_accuracy.json")
+    print("  - Entity Weight Sweep:       results/weight_sweep.json")
+    print("  - Mismatch Gate Sweep:       results/gate_sweep.json")
+    print("  - Stage 5-6 Results Table:   results/results_table.json & results/results_table.md")
+    print("  - Stage 7 QA Evaluation:     results/qa_results.json & results/qa_evaluation_report.md")
+    print("  - Decisive Figure:           results/decisive_plot.png")
+    print("  - Final Write-up:            results/findings_report.md")
+    print("  - Synchronized README:       README.md")
     print("================================================================================")
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run Entity-Aware RAG benchmark pipeline")
+    parser.add_argument("--skip-neural", action="store_true", help="Skip neural dense embedder (Conditions 6, 7, 8)")
+    return parser.parse_args()
+
 if __name__ == '__main__':
-    run_end_to_end_pipeline()
+    args = parse_args()
+    run_end_to_end_pipeline(skip_neural=args.skip_neural)

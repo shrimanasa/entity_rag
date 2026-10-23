@@ -1,0 +1,42 @@
+{
+  "No-mismatch": {
+    "total": 201,
+    "linked": 201,
+    "link_rate": 1.0,
+    "accuracy_1best": 0.6318,
+    "candidate_set_recall": 1.0,
+    "ambiguous_rate": 0.5025,
+    "acc_unambiguous": 1.0,
+    "acc_ambiguous": 0.2673
+  },
+  "Partial-mismatch": {
+    "total": 234,
+    "linked": 234,
+    "link_rate": 1.0,
+    "accuracy_1best": 0.7521,
+    "candidate_set_recall": 1.0,
+    "ambiguous_rate": 0.3462,
+    "acc_unambiguous": 1.0,
+    "acc_ambiguous": 0.284
+  },
+  "Full alias-mismatch": {
+    "total": 65,
+    "linked": 65,
+    "link_rate": 1.0,
+    "accuracy_1best": 0.5385,
+    "candidate_set_recall": 1.0,
+    "ambiguous_rate": 0.5846,
+    "acc_unambiguous": 1.0,
+    "acc_ambiguous": 0.2105
+  },
+  "Overall": {
+    "total": 500,
+    "linked": 500,
+    "link_rate": 1.0,
+    "accuracy_1best": 0.676,
+    "candidate_set_recall": 1.0,
+    "ambiguous_rate": 0.44,
+    "acc_unambiguous": 1.0,
+    "acc_ambiguous": 0.2636
+  }
+}

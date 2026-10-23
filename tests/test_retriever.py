@@ -67,7 +67,7 @@ class TestRetriever(unittest.TestCase):
 
     def test_all_conditions(self):
         query = "What is the critical temperature of YBCO?"
-        for c in range(6):
+        for c in [0, 1, 2, 3, 4, 5, 9]:
             res = self.pipeline.retrieve_condition(query, condition=c, top_k=5)
             self.assertIsInstance(res, list)
             self.assertLessEqual(len(res), 5)

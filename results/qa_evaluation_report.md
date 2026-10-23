@@ -4,9 +4,9 @@
 
 | Divergence Bucket | Count | Baseline RAG F1 (Cond 3) | Entity-Aware RAG F1 (Cond 5) | F1 Δ | 95% Confidence Interval | Significant (p < 0.05) |
 |---|---|---|---|---|---|---|
-| **No-mismatch** | 201 | 0.2896 | 0.2877 | -0.0020 | [-0.0047, +0.0007] | **NO** |
-| **Partial-mismatch** | 234 | 0.4227 | 0.4223 | -0.0004 | [-0.0035, +0.0022] | **NO** |
-| **Full alias-mismatch** | 65 | 0.6176 | 0.6192 | +0.0016 | [-0.0048, +0.0077] | **NO** |
+| **No-mismatch** | 201 | 0.3099 | 0.3155 | +0.0056 | [-0.0019, +0.0165] | **NO** |
+| **Partial-mismatch** | 234 | 0.4209 | 0.4219 | +0.0010 | [-0.0022, +0.0038] | **NO** |
+| **Full alias-mismatch** | 65 | 0.6206 | 0.6193 | -0.0013 | [-0.0087, +0.0063] | **NO** |
 
 ### Qualitative Answer Generation Samples
 
@@ -27,7 +27,7 @@
 
 **Query [Partial-mismatch]**: `Characterization and functional analysis of MgB2 superconductor under operational testing.`
 - **Ground Truth**: MgB2 exhibits BCS-type phonon-mediated superconductivity with Tc of 39 K, two-band superconducting gap structure in sigma and pi bands.
-- **Condition 3 (Baseline)** (F1=0.2339): X-ray absorption near-edge structure (XANES) and EXAFS at the cation edge in MgB2 superconductor confirm the oxidation state in magnesium boride.
+- **Condition 3 (Baseline)** (F1=0.2339): X-ray absorption near-edge structure (XANES) and EXAFS at the cation edge in MgB2 superconductor confirm the oxidation state in magnesium diboride.
 - **Condition 5 (Entity-Aware)** (F1=0.2339): X-ray absorption near-edge structure (XANES) and EXAFS at the cation edge in MgB2 superconductor confirm the oxidation state in magnesium diboride.
 
 **Query [Partial-mismatch]**: `Novel experimental methodology regarding 122 pnictide.`
